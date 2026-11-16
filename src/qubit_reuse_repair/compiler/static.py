@@ -157,14 +157,14 @@ class StaticPlanMaterializer:
         # Valid chains contain only gate-active qubits; their first/last
         # instruction must exist. Adding these edges is the operational form
         # of output(a) -> input(b) from the independent checker.
-        reset_at: dict[int, int] = {}
+        # A shared first instruction can start several independent lifetimes.
+        # Each successor requires its own reset before that instruction.
+        reset_at: dict[int, list[int]] = {}
         for a, b in plan.reuse_edges:
             if a not in last or b not in first:
                 raise AssertionError("active boundary missing a source instruction")
             graph.add_edge(last[a], first[b])
-            if first[b] in reset_at:
-                raise AssertionError("multiple reset boundaries before one instruction")
-            reset_at[first[b]] = b
+            reset_at.setdefault(first[b], []).append(b)
         if not nx.is_directed_acyclic_graph(graph):
             raise AssertionError("materialization order contradicts independent DAG validity")
 
@@ -181,8 +181,7 @@ class StaticPlanMaterializer:
         count_measures = 0
         for position in schedule:
             item, qids, cids = by_position[position]
-            if position in reset_at:
-                logical = reset_at[position]
+            for logical in reset_at.get(position, ()):
                 compiled.reset(compiled.qubits[logical_to_physical[logical]])
                 count_resets += 1
             qargs = [compiled.qubits[logical_to_physical[q]] for q in qids]
@@ -201,7 +200,7 @@ class StaticPlanMaterializer:
             circuit=compiled, original_plan=plan,
             logical_to_physical=logical_to_physical,
             scheduled_operations=schedule,
-            reset_before_logical=tuple(reset_at[p] for p in schedule if p in reset_at),
+            reset_before_logical=tuple(q for p in schedule for q in reset_at.get(p, ())),
             active_width=plan.active_width,
             full_width=full_width,
             source_measurement_count=source_measurements,

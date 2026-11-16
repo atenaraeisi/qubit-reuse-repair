@@ -1,0 +1,23 @@
+{
+  "circuit": "decod24-v2_43.qasm",
+  "family_heuristic": "decod24-v2",
+  "previous_split": "unassigned",
+  "training_filename_overlap": false,
+  "reserved_final_test": false,
+  "status": "no_reuse",
+  "error": "",
+  "qasm_sha256": "95db5179b125e83677bfee10a238c35c16040ff0421990fcc6fb8c5ea122e08f",
+  "declared_qubits": 16,
+  "active_qubits": 4,
+  "caqr_elapsed_seconds": 2.207,
+  "active_width": 4,
+  "reuse_edges": 0,
+  "width_reduction_pct": 0.0,
+  "plan_sha256": "59e571bf37115cb3633844b83b762c2f368a935c3f941343451136d7d77f10e0",
+  "valid_one_step_neighbors": 0,
+  "raw_attempts": 6,
+  "qasm_path": "C:\\Users\\ASUS\\Documents\\Quantum computing\\qubit-reuse-repair\\pilot_cases\\CaQR_162\\decod24-v2_43.qasm",
+  "plan_path": "C:\\Users\\ASUS\\Documents\\Quantum computing\\qubit-reuse-repair\\pilot_cases\\CaQR_162\\decod24-v2_43.plan.json",
+  "native_chain_path": "C:\\Users\\ASUS\\Documents\\Quantum computing\\qubit-reuse-repair\\pilot_cases\\CaQR_162\\decod24-v2_43.native_caqr_chain.txt",
+  "caqr_reused_qasm_path": "C:\\Users\\ASUS\\Documents\\Quantum computing\\qubit-reuse-repair\\pilot_cases\\CaQR_162\\decod24-v2_43.native_caqr_output.qasm"
+}

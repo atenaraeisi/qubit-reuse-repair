@@ -1,0 +1,23 @@
+{
+  "circuit": "sqrt8_260.qasm",
+  "family_heuristic": "sqrt8",
+  "previous_split": "unassigned",
+  "training_filename_overlap": false,
+  "reserved_final_test": false,
+  "status": "no_reuse",
+  "error": "",
+  "qasm_sha256": "9fb0f552775c70a412b609024174925da87c0f177b8fab11553fe062e7333037",
+  "declared_qubits": 16,
+  "active_qubits": 12,
+  "caqr_elapsed_seconds": 2.852,
+  "active_width": 12,
+  "reuse_edges": 0,
+  "width_reduction_pct": 0.0,
+  "plan_sha256": "b1b1b71c576d6cf9dd6c00333ed58a96e6359163069911f70081afb1e925bd5a",
+  "valid_one_step_neighbors": 0,
+  "raw_attempts": 66,
+  "qasm_path": "C:\\Users\\ASUS\\Documents\\Quantum computing\\qubit-reuse-repair\\pilot_cases\\CaQR_162\\sqrt8_260.qasm",
+  "plan_path": "C:\\Users\\ASUS\\Documents\\Quantum computing\\qubit-reuse-repair\\pilot_cases\\CaQR_162\\sqrt8_260.plan.json",
+  "native_chain_path": "C:\\Users\\ASUS\\Documents\\Quantum computing\\qubit-reuse-repair\\pilot_cases\\CaQR_162\\sqrt8_260.native_caqr_chain.txt",
+  "caqr_reused_qasm_path": "C:\\Users\\ASUS\\Documents\\Quantum computing\\qubit-reuse-repair\\pilot_cases\\CaQR_162\\sqrt8_260.native_caqr_output.qasm"
+}

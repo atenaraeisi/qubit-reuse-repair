@@ -1,0 +1,1143 @@
+{
+  "schema": "caqr_campaign_162_roster_v1",
+  "selected": [
+    {
+      "circuit": "0410184_169.qasm",
+      "family_heuristic": "0410184",
+      "previous_split": "known_train",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "3_17_13.qasm",
+      "family_heuristic": "3_17",
+      "previous_split": "unassigned",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "4_49_16.qasm",
+      "family_heuristic": "4_49",
+      "previous_split": "unassigned",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "4gt10-v1_81.qasm",
+      "family_heuristic": "four_gt",
+      "previous_split": "known_validation",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "4gt11_82.qasm",
+      "family_heuristic": "four_gt",
+      "previous_split": "unassigned",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "4gt11_83.qasm",
+      "family_heuristic": "four_gt",
+      "previous_split": "unassigned",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "4gt11_84.qasm",
+      "family_heuristic": "four_gt",
+      "previous_split": "known_validation",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "4gt12-v0_86.qasm",
+      "family_heuristic": "four_gt",
+      "previous_split": "known_validation",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "4gt12-v0_87.qasm",
+      "family_heuristic": "four_gt",
+      "previous_split": "unassigned",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "4gt12-v0_88.qasm",
+      "family_heuristic": "four_gt",
+      "previous_split": "unassigned",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "4gt12-v1_89.qasm",
+      "family_heuristic": "four_gt",
+      "previous_split": "unassigned",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "4gt13-v1_93.qasm",
+      "family_heuristic": "four_gt",
+      "previous_split": "unassigned",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "4gt13_90.qasm",
+      "family_heuristic": "four_gt",
+      "previous_split": "unassigned",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "4gt13_91.qasm",
+      "family_heuristic": "four_gt",
+      "previous_split": "unassigned",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "4gt13_92.qasm",
+      "family_heuristic": "four_gt",
+      "previous_split": "known_validation",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "4gt4-v0_72.qasm",
+      "family_heuristic": "four_gt",
+      "previous_split": "unassigned",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "4gt4-v0_73.qasm",
+      "family_heuristic": "four_gt",
+      "previous_split": "unassigned",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "4gt4-v0_78.qasm",
+      "family_heuristic": "four_gt",
+      "previous_split": "unassigned",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "4gt4-v0_79.qasm",
+      "family_heuristic": "four_gt",
+      "previous_split": "unassigned",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "4gt4-v0_80.qasm",
+      "family_heuristic": "four_gt",
+      "previous_split": "known_validation",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "4gt4-v1_74.qasm",
+      "family_heuristic": "four_gt",
+      "previous_split": "unassigned",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "4gt5_75.qasm",
+      "family_heuristic": "four_gt",
+      "previous_split": "known_validation",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "4gt5_76.qasm",
+      "family_heuristic": "four_gt",
+      "previous_split": "unassigned",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "4gt5_77.qasm",
+      "family_heuristic": "four_gt",
+      "previous_split": "unassigned",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "4mod5-bdd_287.qasm",
+      "family_heuristic": "modular_arithmetic",
+      "previous_split": "unassigned",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "4mod5-v0_18.qasm",
+      "family_heuristic": "modular_arithmetic",
+      "previous_split": "known_validation",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "4mod5-v0_19.qasm",
+      "family_heuristic": "modular_arithmetic",
+      "previous_split": "unassigned",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "4mod5-v0_20.qasm",
+      "family_heuristic": "modular_arithmetic",
+      "previous_split": "known_validation",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "4mod5-v1_22.qasm",
+      "family_heuristic": "modular_arithmetic",
+      "previous_split": "unassigned",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "4mod5-v1_23.qasm",
+      "family_heuristic": "modular_arithmetic",
+      "previous_split": "unassigned",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "4mod5-v1_24.qasm",
+      "family_heuristic": "modular_arithmetic",
+      "previous_split": "unassigned",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "4mod7-v0_94.qasm",
+      "family_heuristic": "4mod7-v0",
+      "previous_split": "known_train",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "4mod7-v1_96.qasm",
+      "family_heuristic": "4mod7-v1",
+      "previous_split": "unassigned",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "9symml_195.qasm",
+      "family_heuristic": "symmetry",
+      "previous_split": "unassigned",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "C17_204.qasm",
+      "family_heuristic": "c17",
+      "previous_split": "known_train",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "adr4_197.qasm",
+      "family_heuristic": "adr4",
+      "previous_split": "unassigned",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "aj-e11_165.qasm",
+      "family_heuristic": "aj-e11",
+      "previous_split": "unassigned",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "alu-bdd_288.qasm",
+      "family_heuristic": "alu",
+      "previous_split": "unassigned",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "alu-v0_26.qasm",
+      "family_heuristic": "alu",
+      "previous_split": "unassigned",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "alu-v0_27.qasm",
+      "family_heuristic": "alu",
+      "previous_split": "known_train",
+      "training_filename_overlap": true,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "alu-v1_28.qasm",
+      "family_heuristic": "alu",
+      "previous_split": "unassigned",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "alu-v1_29.qasm",
+      "family_heuristic": "alu",
+      "previous_split": "unassigned",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "alu-v2_30.qasm",
+      "family_heuristic": "alu",
+      "previous_split": "known_train",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "alu-v2_31.qasm",
+      "family_heuristic": "alu",
+      "previous_split": "unassigned",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "alu-v2_32.qasm",
+      "family_heuristic": "alu",
+      "previous_split": "unassigned",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "alu-v2_33.qasm",
+      "family_heuristic": "alu",
+      "previous_split": "unassigned",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "alu-v3_34.qasm",
+      "family_heuristic": "alu",
+      "previous_split": "unassigned",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "alu-v3_35.qasm",
+      "family_heuristic": "alu",
+      "previous_split": "unassigned",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "alu-v4_36.qasm",
+      "family_heuristic": "alu",
+      "previous_split": "unassigned",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "alu-v4_37.qasm",
+      "family_heuristic": "alu",
+      "previous_split": "unassigned",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "bv_n10.qasm",
+      "family_heuristic": "bv_n10",
+      "previous_split": "known_train",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "cc_n10.qasm",
+      "family_heuristic": "cc_n10",
+      "previous_split": "known_train",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "clip_206.qasm",
+      "family_heuristic": "clip",
+      "previous_split": "unassigned",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "cm152a_212.qasm",
+      "family_heuristic": "cm",
+      "previous_split": "known_train",
+      "training_filename_overlap": true,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "cm42a_207.qasm",
+      "family_heuristic": "cm",
+      "previous_split": "known_train",
+      "training_filename_overlap": true,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "cm82a_208.qasm",
+      "family_heuristic": "cm",
+      "previous_split": "known_train",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "cm85a_209.qasm",
+      "family_heuristic": "cm",
+      "previous_split": "unassigned",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "cnt3-5_179.qasm",
+      "family_heuristic": "cnt3_5",
+      "previous_split": "known_train",
+      "training_filename_overlap": true,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "cnt3-5_180.qasm",
+      "family_heuristic": "cnt3_5",
+      "previous_split": "known_train",
+      "training_filename_overlap": true,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "co14_215.qasm",
+      "family_heuristic": "co14",
+      "previous_split": "unassigned",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "con1_216.qasm",
+      "family_heuristic": "con1",
+      "previous_split": "known_train",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "cycle10_2_110.qasm",
+      "family_heuristic": "cycle10_2",
+      "previous_split": "unassigned",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "dc1_220.qasm",
+      "family_heuristic": "dc1",
+      "previous_split": "unassigned",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "dc2_222.qasm",
+      "family_heuristic": "dc2",
+      "previous_split": "unassigned",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "decod24-bdd_294.qasm",
+      "family_heuristic": "decod24-bdd",
+      "previous_split": "unassigned",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "decod24-enable_126.qasm",
+      "family_heuristic": "decod24-enable",
+      "previous_split": "unassigned",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "decod24-v0_38.qasm",
+      "family_heuristic": "decod24-v0",
+      "previous_split": "unassigned",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "decod24-v1_41.qasm",
+      "family_heuristic": "decod24-v1",
+      "previous_split": "known_train",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "decod24-v2_43.qasm",
+      "family_heuristic": "decod24-v2",
+      "previous_split": "unassigned",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "decod24-v3_45.qasm",
+      "family_heuristic": "decod24-v3",
+      "previous_split": "unassigned",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "dist_223.qasm",
+      "family_heuristic": "dist",
+      "previous_split": "unassigned",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "ex-1_166.qasm",
+      "family_heuristic": "ex-1",
+      "previous_split": "unassigned",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "ex1_226.qasm",
+      "family_heuristic": "ex1",
+      "previous_split": "known_validation",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "ex2_227.qasm",
+      "family_heuristic": "ex2",
+      "previous_split": "unassigned",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "ex3_229.qasm",
+      "family_heuristic": "ex3",
+      "previous_split": "unassigned",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "f2_232.qasm",
+      "family_heuristic": "f2",
+      "previous_split": "unassigned",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "graycode6_47.qasm",
+      "family_heuristic": "graycode6",
+      "previous_split": "known_train",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "ground_state_estimation_10.qasm",
+      "family_heuristic": "ground_state_estimation",
+      "previous_split": "unassigned",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "ham15_107.qasm",
+      "family_heuristic": "ham15",
+      "previous_split": "unassigned",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "ham3_102.qasm",
+      "family_heuristic": "ham3",
+      "previous_split": "unassigned",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "ham7_104.qasm",
+      "family_heuristic": "ham7",
+      "previous_split": "known_train",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "hwb4_49.qasm",
+      "family_heuristic": "hwb",
+      "previous_split": "known_train",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "hwb5_53.qasm",
+      "family_heuristic": "hwb",
+      "previous_split": "known_train",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "hwb6_56.qasm",
+      "family_heuristic": "hwb",
+      "previous_split": "unassigned",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "hwb7_59.qasm",
+      "family_heuristic": "hwb",
+      "previous_split": "unassigned",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "hwb8_113.qasm",
+      "family_heuristic": "hwb",
+      "previous_split": "unassigned",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "hwb9_119.qasm",
+      "family_heuristic": "hwb",
+      "previous_split": "unassigned",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "inc_237.qasm",
+      "family_heuristic": "inc",
+      "previous_split": "unassigned",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "ising_model_10.qasm",
+      "family_heuristic": "ising_model",
+      "previous_split": "known_validation",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "ising_model_13.qasm",
+      "family_heuristic": "ising_model",
+      "previous_split": "unassigned",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "ising_model_16.qasm",
+      "family_heuristic": "ising_model",
+      "previous_split": "known_validation",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "life_238.qasm",
+      "family_heuristic": "life",
+      "previous_split": "unassigned",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "majority_239.qasm",
+      "family_heuristic": "majority",
+      "previous_split": "known_train",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "max46_240.qasm",
+      "family_heuristic": "max46",
+      "previous_split": "unassigned",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "miller_11.qasm",
+      "family_heuristic": "miller",
+      "previous_split": "unassigned",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "mini-alu_167.qasm",
+      "family_heuristic": "alu",
+      "previous_split": "known_train",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "mini_alu_305.qasm",
+      "family_heuristic": "alu",
+      "previous_split": "known_train",
+      "training_filename_overlap": true,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "misex1_241.qasm",
+      "family_heuristic": "misex1",
+      "previous_split": "unassigned",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "mlp4_245.qasm",
+      "family_heuristic": "mlp4",
+      "previous_split": "unassigned",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "mod10_171.qasm",
+      "family_heuristic": "mod10",
+      "previous_split": "unassigned",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "mod10_176.qasm",
+      "family_heuristic": "mod10",
+      "previous_split": "known_train",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "mod5adder_127.qasm",
+      "family_heuristic": "mod5adder",
+      "previous_split": "known_train",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "mod5d1_63.qasm",
+      "family_heuristic": "mod5d1",
+      "previous_split": "known_train",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "mod5d2_64.qasm",
+      "family_heuristic": "mod5d2",
+      "previous_split": "unassigned",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "mod5mils_65.qasm",
+      "family_heuristic": "modular_arithmetic",
+      "previous_split": "known_validation",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "mod8-10_177.qasm",
+      "family_heuristic": "mod8-10",
+      "previous_split": "unassigned",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "mod8-10_178.qasm",
+      "family_heuristic": "mod8-10",
+      "previous_split": "known_train",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "multiply_n13.qasm",
+      "family_heuristic": "multiplication_related",
+      "previous_split": "known_train",
+      "training_filename_overlap": true,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "one-two-three-v0_97.qasm",
+      "family_heuristic": "one-two-three-v0",
+      "previous_split": "unassigned",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "one-two-three-v0_98.qasm",
+      "family_heuristic": "one-two-three-v0",
+      "previous_split": "unassigned",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "one-two-three-v1_99.qasm",
+      "family_heuristic": "one-two-three-v1",
+      "previous_split": "unassigned",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "one-two-three-v2_100.qasm",
+      "family_heuristic": "one-two-three-v2",
+      "previous_split": "known_train",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "one-two-three-v3_101.qasm",
+      "family_heuristic": "one-two-three-v3",
+      "previous_split": "unassigned",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "plus63mod4096_163.qasm",
+      "family_heuristic": "multiplication_related",
+      "previous_split": "unassigned",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "plus63mod8192_164.qasm",
+      "family_heuristic": "multiplication_related",
+      "previous_split": "unassigned",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "pm1_249.qasm",
+      "family_heuristic": "pm1",
+      "previous_split": "unassigned",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "qft_10.qasm",
+      "family_heuristic": "qft",
+      "previous_split": "known_train",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "qft_16.qasm",
+      "family_heuristic": "qft",
+      "previous_split": "known_train",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "radd_250.qasm",
+      "family_heuristic": "radd",
+      "previous_split": "unassigned",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "rd32-v0_66.qasm",
+      "family_heuristic": "rd",
+      "previous_split": "unassigned",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "rd32-v1_68.qasm",
+      "family_heuristic": "rd",
+      "previous_split": "unassigned",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "rd32_270.qasm",
+      "family_heuristic": "rd",
+      "previous_split": "known_train",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "rd53_130.qasm",
+      "family_heuristic": "rd",
+      "previous_split": "unassigned",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "rd53_131.qasm",
+      "family_heuristic": "rd",
+      "previous_split": "unassigned",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "rd53_133.qasm",
+      "family_heuristic": "rd",
+      "previous_split": "unassigned",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "rd53_135.qasm",
+      "family_heuristic": "rd",
+      "previous_split": "unassigned",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "rd53_138.qasm",
+      "family_heuristic": "rd",
+      "previous_split": "unassigned",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "rd53_251.qasm",
+      "family_heuristic": "rd",
+      "previous_split": "unassigned",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "rd53_311.qasm",
+      "family_heuristic": "rd",
+      "previous_split": "known_train",
+      "training_filename_overlap": true,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "rd73_140.qasm",
+      "family_heuristic": "rd",
+      "previous_split": "known_train",
+      "training_filename_overlap": true,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "rd73_252.qasm",
+      "family_heuristic": "rd",
+      "previous_split": "unassigned",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "rd84_142.qasm",
+      "family_heuristic": "rd",
+      "previous_split": "known_train",
+      "training_filename_overlap": true,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "rd84_253.qasm",
+      "family_heuristic": "rd",
+      "previous_split": "unassigned",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "root_255.qasm",
+      "family_heuristic": "root",
+      "previous_split": "unassigned",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "sao2_257.qasm",
+      "family_heuristic": "sao2",
+      "previous_split": "unassigned",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "sf_274.qasm",
+      "family_heuristic": "sf",
+      "previous_split": "unassigned",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "sf_276.qasm",
+      "family_heuristic": "sf",
+      "previous_split": "known_train",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "sqn_258.qasm",
+      "family_heuristic": "sqn",
+      "previous_split": "unassigned",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "sqrt8_260.qasm",
+      "family_heuristic": "sqrt8",
+      "previous_split": "unassigned",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "squar5_261.qasm",
+      "family_heuristic": "squar5",
+      "previous_split": "final_test_reserved",
+      "training_filename_overlap": false,
+      "reserved_final_test": true
+    },
+    {
+      "circuit": "square_root_7.qasm",
+      "family_heuristic": "square_root",
+      "previous_split": "unassigned",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "sym10_262.qasm",
+      "family_heuristic": "symmetry",
+      "previous_split": "unassigned",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "sym6_145.qasm",
+      "family_heuristic": "symmetry",
+      "previous_split": "unassigned",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "sym6_316.qasm",
+      "family_heuristic": "symmetry",
+      "previous_split": "known_train",
+      "training_filename_overlap": true,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "sym9_146.qasm",
+      "family_heuristic": "symmetry",
+      "previous_split": "known_train",
+      "training_filename_overlap": true,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "sym9_148.qasm",
+      "family_heuristic": "symmetry",
+      "previous_split": "unassigned",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "sym9_193.qasm",
+      "family_heuristic": "symmetry",
+      "previous_split": "unassigned",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "sys6-v0_111.qasm",
+      "family_heuristic": "system",
+      "previous_split": "known_train",
+      "training_filename_overlap": true,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "system9.qasm",
+      "family_heuristic": "system",
+      "previous_split": "known_train",
+      "training_filename_overlap": true,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "urf1_149.qasm",
+      "family_heuristic": "urf1",
+      "previous_split": "unassigned",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "urf1_278.qasm",
+      "family_heuristic": "urf1",
+      "previous_split": "unassigned",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "urf2_152.qasm",
+      "family_heuristic": "urf2",
+      "previous_split": "unassigned",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "urf2_277.qasm",
+      "family_heuristic": "urf2",
+      "previous_split": "unassigned",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "urf3_155.qasm",
+      "family_heuristic": "urf3",
+      "previous_split": "unassigned",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "urf3_279.qasm",
+      "family_heuristic": "urf3",
+      "previous_split": "unassigned",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "urf4_187.qasm",
+      "family_heuristic": "urf4",
+      "previous_split": "unassigned",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "urf5_158.qasm",
+      "family_heuristic": "urf5",
+      "previous_split": "unassigned",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "urf5_280.qasm",
+      "family_heuristic": "urf5",
+      "previous_split": "unassigned",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "urf6_160.qasm",
+      "family_heuristic": "urf6",
+      "previous_split": "unassigned",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "wim_266.qasm",
+      "family_heuristic": "wim",
+      "previous_split": "final_test_reserved",
+      "training_filename_overlap": false,
+      "reserved_final_test": true
+    },
+    {
+      "circuit": "xor5_254.qasm",
+      "family_heuristic": "xor5",
+      "previous_split": "unassigned",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    },
+    {
+      "circuit": "z4_268.qasm",
+      "family_heuristic": "z4",
+      "previous_split": "unassigned",
+      "training_filename_overlap": false,
+      "reserved_final_test": false
+    }
+  ],
+  "exclusion_policy": "exclude five test*.qasm and alu-v0_27_example.qasm",
+  "final_test_policy": "wim_266 and squar5_261 reserved until final method freeze",
+  "note": "Known previous splits are preserved; all other circuits stay unassigned.",
+  "roster_sha256": "6285de3d2b2665a40b02275e5f71a0812a1ba12ee9212f6e3252fc6ca713f593"
+}

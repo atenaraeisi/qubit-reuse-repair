@@ -1,0 +1,10 @@
+STDOUT:
+Frozen reference plans: 77 prepared in 0.05 s
+Checkpoint: swap_count one_step TRAIN_ONLY; no retraining
+Policy random_beam original: ((0,), (1, 2, 3, 4, 5, 6, 7, 8, 9, 10), (13, 24), (14, 23), (15, 22), (16, 12), (17, 11), (18, 19, 20, 21)) proposed: ((0,), (1, 16, 12), (2, 17, 11), (3, 4, 5, 6, 7, 8, 9, 10), (13, 24), (14, 23), (15, 22), (18, 19, 20, 21))
+Scored candidates: 120 predicted gain: (4.681861289877158,) actual proposed cost (SWAP,depth): (35, 189)
+Original (SWAP,depth): (40, 204)
+Final source: repaired selected metric gain: 12.5
+Report: results_external_qasmbench_wide_v1\evaluation\cases\ex_qasmbench_medium_swap_test_n25_45649f6f4a\swap_count\seed_200\routed\routing_report.json
+
+STDERR:

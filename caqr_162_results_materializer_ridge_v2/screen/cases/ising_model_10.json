@@ -1,0 +1,23 @@
+{
+  "circuit": "ising_model_10.qasm",
+  "family_heuristic": "ising_model",
+  "previous_split": "known_validation",
+  "training_filename_overlap": false,
+  "reserved_final_test": false,
+  "status": "no_reuse",
+  "error": "",
+  "qasm_sha256": "4f764900efe0ad90edfe440045f73f69abf0a00d0fbe04be3a357c5e98c3a128",
+  "declared_qubits": 16,
+  "active_qubits": 10,
+  "caqr_elapsed_seconds": 2.243,
+  "active_width": 10,
+  "reuse_edges": 0,
+  "width_reduction_pct": 0.0,
+  "plan_sha256": "b4cee96465376f6d71a217789116600343cd9248dd821c85885a0fb0104fcb68",
+  "valid_one_step_neighbors": 0,
+  "raw_attempts": 45,
+  "qasm_path": "C:\\Users\\ASUS\\Documents\\Quantum computing\\qubit-reuse-repair\\pilot_cases\\CaQR_162\\ising_model_10.qasm",
+  "plan_path": "C:\\Users\\ASUS\\Documents\\Quantum computing\\qubit-reuse-repair\\pilot_cases\\CaQR_162\\ising_model_10.plan.json",
+  "native_chain_path": "C:\\Users\\ASUS\\Documents\\Quantum computing\\qubit-reuse-repair\\pilot_cases\\CaQR_162\\ising_model_10.native_caqr_chain.txt",
+  "caqr_reused_qasm_path": "C:\\Users\\ASUS\\Documents\\Quantum computing\\qubit-reuse-repair\\pilot_cases\\CaQR_162\\ising_model_10.native_caqr_output.qasm"
+}

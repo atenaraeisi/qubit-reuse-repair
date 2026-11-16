@@ -1,0 +1,32 @@
+{
+  "file_hashes": {
+    "scripts/fast_ridge_pilot.py": "44c0ee7125d65b173867b63aed5ba144fe016987f4c51a45d8dd258d1a679cd8",
+    "src/qubit_reuse_repair/search/beam.py": "75ecaf8edac8eecfb18cd8debcbefce11bef0bb827457e526414c8da0100a7cf",
+    "src/qubit_reuse_repair/features/structural.py": "2952be81d0f1de33303e01e6f48e7311446668f31c355b9c0a48e1d4e14cf0b9",
+    "src/qubit_reuse_repair/compiler/static.py": "1c2d141a9c56567be43fbb8cb5aa1446b6b16af25af7bf2e5c2f94e4ae203734",
+    "src/qubit_reuse_repair/features/legacy_reset.py": "fd2631e394abb1fec1225de1b197c073b19ace9bb3900d441b183fbafe9ebfc7",
+    "src/qubit_reuse_repair/routing/backend.py": "4846b0f81e6d65921342708e0eb14480071a489ad00cf2c5ba5b728622f6809b",
+    "src/qubit_reuse_repair/routing/selection.py": "b5306375c4454ab488fe9de8eee42f5571269af421718516ac7e63c90afbcfa7",
+    "src/qubit_reuse_repair/features/materializer_raw.py": "484811c75948050f3eb388c87aef9ddb0e73cf01cfdceb53b6044baa7c8836f9",
+    "src/qubit_reuse_repair/search/materializer_ridge.py": "c2b911b2ba7f0d9700ffee0ab26f3558044b1166b647f9233179bed7c5f02add",
+    "pilot_models/swap_count_one_step_MATERIALIZER.json": "6d5725e1021eb83fb349e2b4715bbbca4f838420f3908c4c1160666921b97fd0",
+    "pilot_models/routed_depth_one_step_MATERIALIZER.json": "4aad856754b433048f3662ab30ba5b90da766b91266b4b296da841ea6115a634"
+  },
+  "model_set": "materializer",
+  "policy": "random_beam",
+  "arm": "one_step",
+  "topology": "heavy_hex7",
+  "objectives": [
+    "swap_count",
+    "routed_depth"
+  ],
+  "seeds": [
+    200,
+    211,
+    223
+  ],
+  "control_seed_offset": 1000,
+  "budget": 120,
+  "max_depth": 5,
+  "reference_attempts": 150
+}

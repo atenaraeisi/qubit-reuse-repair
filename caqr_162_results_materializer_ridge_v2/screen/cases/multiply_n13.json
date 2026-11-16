@@ -1,0 +1,23 @@
+{
+  "circuit": "multiply_n13.qasm",
+  "family_heuristic": "multiplication_related",
+  "previous_split": "known_train",
+  "training_filename_overlap": true,
+  "reserved_final_test": false,
+  "status": "ready",
+  "error": "",
+  "qasm_sha256": "c46c1135755a9a3899d4ebc495f105ae12502463645e8b0e45730d39439db2c8",
+  "declared_qubits": 13,
+  "active_qubits": 13,
+  "caqr_elapsed_seconds": 3.364,
+  "active_width": 8,
+  "reuse_edges": 5,
+  "width_reduction_pct": 38.46153846153846,
+  "plan_sha256": "2bda1a0102f00607111730b4105a699207ac0f9b8864d4ca25f0a321fb12d4dc",
+  "valid_one_step_neighbors": 19,
+  "raw_attempts": 209,
+  "qasm_path": "C:\\Users\\ASUS\\Documents\\Quantum computing\\qubit-reuse-repair\\pilot_cases\\CaQR_162\\multiply_n13.qasm",
+  "plan_path": "C:\\Users\\ASUS\\Documents\\Quantum computing\\qubit-reuse-repair\\pilot_cases\\CaQR_162\\multiply_n13.plan.json",
+  "native_chain_path": "C:\\Users\\ASUS\\Documents\\Quantum computing\\qubit-reuse-repair\\pilot_cases\\CaQR_162\\multiply_n13.native_caqr_chain.txt",
+  "caqr_reused_qasm_path": "C:\\Users\\ASUS\\Documents\\Quantum computing\\qubit-reuse-repair\\pilot_cases\\CaQR_162\\multiply_n13.native_caqr_output.qasm"
+}

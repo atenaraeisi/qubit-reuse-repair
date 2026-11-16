@@ -1,0 +1,1550 @@
+{
+  "schema": "generator_neutral_materializer_ridge_pilot_v2",
+  "generator_label_user_supplied": "CaQR",
+  "source_qasm": "C:\\Users\\ASUS\\Documents\\Quantum computing\\qubit-reuse-repair\\pilot_cases\\CaQR_162\\ex_qasmbench_small_lpn_n5_4216e9b4fd.qasm",
+  "source_qasm_filename": "ex_qasmbench_small_lpn_n5_4216e9b4fd.qasm",
+  "source_sha256": "4216e9b4fdf9f22e6ae4f92a67aac8c634209093db4e3f0290f5413165b4de87",
+  "plan_sha256": "6a9ac828508908b2c8448d3755dbd6b359f14010b01fc58b94518c04254bfdb0",
+  "objective": "swap_count",
+  "checkpoint": {
+    "path": "C:\\Users\\ASUS\\Documents\\Quantum computing\\qubit-reuse-repair\\pilot_models\\swap_count_one_step_MATERIALIZER.json",
+    "sha256": "6d5725e1021eb83fb349e2b4715bbbca4f838420f3908c4c1160666921b97fd0",
+    "protocol": "materializer25_rawdelta_group_ridge_v1",
+    "arm": "one_step",
+    "training_overlap_filename": false,
+    "n_train_circuits": 14,
+    "n_train_pairs": 199,
+    "feature_definition": "23 raw structural + common materializer logical_depth and reset-lowered norm_depth",
+    "normalization": "raw plan imputation using TRAIN medians; Candidate - Original raw delta; TRAIN delta mean/sd",
+    "reference_pool_size": 6,
+    "reference_raw_attempts": 12,
+    "warning": "Feature extraction source parity with friend training dataset not yet independently verified; one-step model used in multi-step beam is distribution shift"
+  },
+  "policy": "random_beam",
+  "routing_seed": 211,
+  "topology": "heavy_hex7",
+  "physical_qubits": 115,
+  "hardware_directed_edges": [
+    [
+      0,
+      73
+    ],
+    [
+      1,
+      73
+    ],
+    [
+      73,
+      0
+    ],
+    [
+      73,
+      1
+    ],
+    [
+      1,
+      74
+    ],
+    [
+      2,
+      74
+    ],
+    [
+      74,
+      1
+    ],
+    [
+      74,
+      2
+    ],
+    [
+      2,
+      75
+    ],
+    [
+      3,
+      75
+    ],
+    [
+      75,
+      2
+    ],
+    [
+      75,
+      3
+    ],
+    [
+      3,
+      76
+    ],
+    [
+      4,
+      76
+    ],
+    [
+      76,
+      3
+    ],
+    [
+      76,
+      4
+    ],
+    [
+      4,
+      77
+    ],
+    [
+      5,
+      77
+    ],
+    [
+      77,
+      4
+    ],
+    [
+      77,
+      5
+    ],
+    [
+      5,
+      78
+    ],
+    [
+      6,
+      78
+    ],
+    [
+      78,
+      5
+    ],
+    [
+      78,
+      6
+    ],
+    [
+      7,
+      79
+    ],
+    [
+      8,
+      79
+    ],
+    [
+      79,
+      7
+    ],
+    [
+      79,
+      8
+    ],
+    [
+      8,
+      80
+    ],
+    [
+      9,
+      80
+    ],
+    [
+      80,
+      8
+    ],
+    [
+      80,
+      9
+    ],
+    [
+      9,
+      81
+    ],
+    [
+      10,
+      81
+    ],
+    [
+      81,
+      9
+    ],
+    [
+      81,
+      10
+    ],
+    [
+      10,
+      82
+    ],
+    [
+      11,
+      82
+    ],
+    [
+      82,
+      10
+    ],
+    [
+      82,
+      11
+    ],
+    [
+      11,
+      83
+    ],
+    [
+      12,
+      83
+    ],
+    [
+      83,
+      11
+    ],
+    [
+      83,
+      12
+    ],
+    [
+      12,
+      84
+    ],
+    [
+      13,
+      84
+    ],
+    [
+      84,
+      12
+    ],
+    [
+      84,
+      13
+    ],
+    [
+      14,
+      85
+    ],
+    [
+      15,
+      85
+    ],
+    [
+      85,
+      14
+    ],
+    [
+      85,
+      15
+    ],
+    [
+      15,
+      86
+    ],
+    [
+      16,
+      86
+    ],
+    [
+      86,
+      15
+    ],
+    [
+      86,
+      16
+    ],
+    [
+      16,
+      87
+    ],
+    [
+      17,
+      87
+    ],
+    [
+      87,
+      16
+    ],
+    [
+      87,
+      17
+    ],
+    [
+      17,
+      88
+    ],
+    [
+      18,
+      88
+    ],
+    [
+      88,
+      17
+    ],
+    [
+      88,
+      18
+    ],
+    [
+      18,
+      89
+    ],
+    [
+      19,
+      89
+    ],
+    [
+      89,
+      18
+    ],
+    [
+      89,
+      19
+    ],
+    [
+      19,
+      90
+    ],
+    [
+      20,
+      90
+    ],
+    [
+      90,
+      19
+    ],
+    [
+      90,
+      20
+    ],
+    [
+      21,
+      91
+    ],
+    [
+      22,
+      91
+    ],
+    [
+      91,
+      21
+    ],
+    [
+      91,
+      22
+    ],
+    [
+      22,
+      92
+    ],
+    [
+      23,
+      92
+    ],
+    [
+      92,
+      22
+    ],
+    [
+      92,
+      23
+    ],
+    [
+      23,
+      93
+    ],
+    [
+      24,
+      93
+    ],
+    [
+      93,
+      23
+    ],
+    [
+      93,
+      24
+    ],
+    [
+      24,
+      94
+    ],
+    [
+      25,
+      94
+    ],
+    [
+      94,
+      24
+    ],
+    [
+      94,
+      25
+    ],
+    [
+      25,
+      95
+    ],
+    [
+      26,
+      95
+    ],
+    [
+      95,
+      25
+    ],
+    [
+      95,
+      26
+    ],
+    [
+      26,
+      96
+    ],
+    [
+      27,
+      96
+    ],
+    [
+      96,
+      26
+    ],
+    [
+      96,
+      27
+    ],
+    [
+      28,
+      97
+    ],
+    [
+      29,
+      97
+    ],
+    [
+      97,
+      28
+    ],
+    [
+      97,
+      29
+    ],
+    [
+      29,
+      98
+    ],
+    [
+      30,
+      98
+    ],
+    [
+      98,
+      29
+    ],
+    [
+      98,
+      30
+    ],
+    [
+      30,
+      99
+    ],
+    [
+      31,
+      99
+    ],
+    [
+      99,
+      30
+    ],
+    [
+      99,
+      31
+    ],
+    [
+      31,
+      100
+    ],
+    [
+      32,
+      100
+    ],
+    [
+      100,
+      31
+    ],
+    [
+      100,
+      32
+    ],
+    [
+      32,
+      101
+    ],
+    [
+      33,
+      101
+    ],
+    [
+      101,
+      32
+    ],
+    [
+      101,
+      33
+    ],
+    [
+      33,
+      102
+    ],
+    [
+      34,
+      102
+    ],
+    [
+      102,
+      33
+    ],
+    [
+      102,
+      34
+    ],
+    [
+      35,
+      103
+    ],
+    [
+      36,
+      103
+    ],
+    [
+      103,
+      35
+    ],
+    [
+      103,
+      36
+    ],
+    [
+      36,
+      104
+    ],
+    [
+      37,
+      104
+    ],
+    [
+      104,
+      36
+    ],
+    [
+      104,
+      37
+    ],
+    [
+      37,
+      105
+    ],
+    [
+      38,
+      105
+    ],
+    [
+      105,
+      37
+    ],
+    [
+      105,
+      38
+    ],
+    [
+      38,
+      106
+    ],
+    [
+      39,
+      106
+    ],
+    [
+      106,
+      38
+    ],
+    [
+      106,
+      39
+    ],
+    [
+      39,
+      107
+    ],
+    [
+      40,
+      107
+    ],
+    [
+      107,
+      39
+    ],
+    [
+      107,
+      40
+    ],
+    [
+      40,
+      108
+    ],
+    [
+      41,
+      108
+    ],
+    [
+      108,
+      40
+    ],
+    [
+      108,
+      41
+    ],
+    [
+      42,
+      109
+    ],
+    [
+      43,
+      109
+    ],
+    [
+      109,
+      42
+    ],
+    [
+      109,
+      43
+    ],
+    [
+      43,
+      110
+    ],
+    [
+      44,
+      110
+    ],
+    [
+      110,
+      43
+    ],
+    [
+      110,
+      44
+    ],
+    [
+      44,
+      111
+    ],
+    [
+      45,
+      111
+    ],
+    [
+      111,
+      44
+    ],
+    [
+      111,
+      45
+    ],
+    [
+      45,
+      112
+    ],
+    [
+      46,
+      112
+    ],
+    [
+      112,
+      45
+    ],
+    [
+      112,
+      46
+    ],
+    [
+      46,
+      113
+    ],
+    [
+      47,
+      113
+    ],
+    [
+      113,
+      46
+    ],
+    [
+      113,
+      47
+    ],
+    [
+      47,
+      114
+    ],
+    [
+      48,
+      114
+    ],
+    [
+      114,
+      47
+    ],
+    [
+      114,
+      48
+    ],
+    [
+      0,
+      49
+    ],
+    [
+      7,
+      49
+    ],
+    [
+      49,
+      0
+    ],
+    [
+      49,
+      7
+    ],
+    [
+      13,
+      56
+    ],
+    [
+      20,
+      56
+    ],
+    [
+      56,
+      13
+    ],
+    [
+      56,
+      20
+    ],
+    [
+      14,
+      57
+    ],
+    [
+      21,
+      57
+    ],
+    [
+      57,
+      14
+    ],
+    [
+      57,
+      21
+    ],
+    [
+      27,
+      64
+    ],
+    [
+      34,
+      64
+    ],
+    [
+      64,
+      27
+    ],
+    [
+      64,
+      34
+    ],
+    [
+      28,
+      65
+    ],
+    [
+      35,
+      65
+    ],
+    [
+      65,
+      28
+    ],
+    [
+      65,
+      35
+    ],
+    [
+      41,
+      72
+    ],
+    [
+      48,
+      72
+    ],
+    [
+      72,
+      41
+    ],
+    [
+      72,
+      48
+    ],
+    [
+      50,
+      74
+    ],
+    [
+      50,
+      80
+    ],
+    [
+      74,
+      50
+    ],
+    [
+      80,
+      50
+    ],
+    [
+      51,
+      76
+    ],
+    [
+      51,
+      82
+    ],
+    [
+      76,
+      51
+    ],
+    [
+      82,
+      51
+    ],
+    [
+      52,
+      78
+    ],
+    [
+      52,
+      84
+    ],
+    [
+      78,
+      52
+    ],
+    [
+      84,
+      52
+    ],
+    [
+      53,
+      79
+    ],
+    [
+      53,
+      85
+    ],
+    [
+      79,
+      53
+    ],
+    [
+      85,
+      53
+    ],
+    [
+      54,
+      81
+    ],
+    [
+      54,
+      87
+    ],
+    [
+      81,
+      54
+    ],
+    [
+      87,
+      54
+    ],
+    [
+      55,
+      83
+    ],
+    [
+      55,
+      89
+    ],
+    [
+      83,
+      55
+    ],
+    [
+      89,
+      55
+    ],
+    [
+      58,
+      86
+    ],
+    [
+      58,
+      92
+    ],
+    [
+      86,
+      58
+    ],
+    [
+      92,
+      58
+    ],
+    [
+      59,
+      88
+    ],
+    [
+      59,
+      94
+    ],
+    [
+      88,
+      59
+    ],
+    [
+      94,
+      59
+    ],
+    [
+      60,
+      90
+    ],
+    [
+      60,
+      96
+    ],
+    [
+      90,
+      60
+    ],
+    [
+      96,
+      60
+    ],
+    [
+      61,
+      91
+    ],
+    [
+      61,
+      97
+    ],
+    [
+      91,
+      61
+    ],
+    [
+      97,
+      61
+    ],
+    [
+      62,
+      93
+    ],
+    [
+      62,
+      99
+    ],
+    [
+      93,
+      62
+    ],
+    [
+      99,
+      62
+    ],
+    [
+      63,
+      95
+    ],
+    [
+      63,
+      101
+    ],
+    [
+      95,
+      63
+    ],
+    [
+      101,
+      63
+    ],
+    [
+      66,
+      98
+    ],
+    [
+      66,
+      104
+    ],
+    [
+      98,
+      66
+    ],
+    [
+      104,
+      66
+    ],
+    [
+      67,
+      100
+    ],
+    [
+      67,
+      106
+    ],
+    [
+      100,
+      67
+    ],
+    [
+      106,
+      67
+    ],
+    [
+      68,
+      102
+    ],
+    [
+      68,
+      108
+    ],
+    [
+      102,
+      68
+    ],
+    [
+      108,
+      68
+    ],
+    [
+      69,
+      103
+    ],
+    [
+      69,
+      109
+    ],
+    [
+      103,
+      69
+    ],
+    [
+      109,
+      69
+    ],
+    [
+      70,
+      105
+    ],
+    [
+      70,
+      111
+    ],
+    [
+      105,
+      70
+    ],
+    [
+      111,
+      70
+    ],
+    [
+      71,
+      107
+    ],
+    [
+      71,
+      113
+    ],
+    [
+      107,
+      71
+    ],
+    [
+      113,
+      71
+    ]
+  ],
+  "routing_settings": {
+    "layout_method": "sabre",
+    "routing_method": "sabre",
+    "optimization_level": 1,
+    "metric_definitions": {
+      "swap_count": "int(transpiled_circuit.count_ops().get('swap', 0))",
+      "routed_depth": "int(transpiled_circuit.depth())"
+    }
+  },
+  "search": {
+    "stage": "pre_routing_search_only",
+    "objective": "swap_count",
+    "policy": "random_beam",
+    "original_plan": {
+      "schema_version": 1,
+      "chains": [
+        [
+          2
+        ],
+        [
+          3,
+          0,
+          1,
+          4
+        ]
+      ]
+    },
+    "selected_plan": {
+      "schema_version": 1,
+      "chains": [
+        [
+          1,
+          4,
+          2
+        ],
+        [
+          3,
+          0
+        ]
+      ]
+    },
+    "selected_score": [
+      3.8687978030859695
+    ],
+    "changed": true,
+    "reached_depth": 4,
+    "n_scored": 29,
+    "n_valid_accepted": 118,
+    "raw_attempts": 360,
+    "stop_reason": "no_new_candidates",
+    "rejection_counts": {
+      "attempted": 360,
+      "same_plan": 19,
+      "duplicate": 31,
+      "fast_reject_illegal_boundary": 140,
+      "fast_reject_dependency_cycle": 52,
+      "full_reject": 0,
+      "accepted": 118,
+      "global_duplicate": 89
+    },
+    "trace": [
+      {
+        "signature": "6afcc7541ddfe37135cfa1215194a4db0083b3a512294e95603d92854303a314",
+        "parent_signature": "6a9ac828508908b2c8448d3755dbd6b359f14010b01fc58b94518c04254bfdb0",
+        "depth": 1,
+        "operator": "suffix_swap",
+        "score": [
+          -0.14561151300187292
+        ]
+      },
+      {
+        "signature": "275cdc6989d15cb7b7776a7ac6c199c7dad09e1ba76b50ebdfbe9eb4f3ee0bc0",
+        "parent_signature": "6a9ac828508908b2c8448d3755dbd6b359f14010b01fc58b94518c04254bfdb0",
+        "depth": 1,
+        "operator": "chain_transfer",
+        "score": [
+          -32.944113954122166
+        ]
+      },
+      {
+        "signature": "bdd28696fffb7bbb0ba84429cf7e61c8f54183af51e8586874a20fa92d2a91bd",
+        "parent_signature": "6a9ac828508908b2c8448d3755dbd6b359f14010b01fc58b94518c04254bfdb0",
+        "depth": 1,
+        "operator": "chain_transfer",
+        "score": [
+          -32.944113954122166
+        ]
+      },
+      {
+        "signature": "1c218cea9fbbd7b15e0b74a87fe1ef0d208f47cf830d0c432ab2601a0ef391be",
+        "parent_signature": "6a9ac828508908b2c8448d3755dbd6b359f14010b01fc58b94518c04254bfdb0",
+        "depth": 1,
+        "operator": "chain_transfer",
+        "score": [
+          -28.92704862116887
+        ]
+      },
+      {
+        "signature": "d412b9a13e53c2af80b9ce79ab45fed0b19aeeee27ea43777328552cbed8eae8",
+        "parent_signature": "6a9ac828508908b2c8448d3755dbd6b359f14010b01fc58b94518c04254bfdb0",
+        "depth": 1,
+        "operator": "chain_transfer",
+        "score": [
+          -28.92704862116887
+        ]
+      },
+      {
+        "signature": "f68a124ac1344a38187dfbb451480122cf5a09647b9b26bc4421aa9beb13ed8a",
+        "parent_signature": "6afcc7541ddfe37135cfa1215194a4db0083b3a512294e95603d92854303a314",
+        "depth": 2,
+        "operator": "chain_transfer",
+        "score": [
+          -32.92719142991028
+        ]
+      },
+      {
+        "signature": "9e98f0d30a9d0209fb460bb0c921ba4955383a382d7b0e8801b0b1b75659e754",
+        "parent_signature": "6afcc7541ddfe37135cfa1215194a4db0083b3a512294e95603d92854303a314",
+        "depth": 2,
+        "operator": "chain_transfer",
+        "score": [
+          -66.8730090997529
+        ]
+      },
+      {
+        "signature": "30b348526c10e564b26ac91b4f674294d115b72ed1b39c33a13716a9ab2b27b9",
+        "parent_signature": "6afcc7541ddfe37135cfa1215194a4db0083b3a512294e95603d92854303a314",
+        "depth": 2,
+        "operator": "chain_transfer",
+        "score": [
+          -66.8730090997529
+        ]
+      },
+      {
+        "signature": "c574c0e71e47a2b2c4ad7aff4d8e17bea0ce786db1df4e6bd677972fb08e61d2",
+        "parent_signature": "6afcc7541ddfe37135cfa1215194a4db0083b3a512294e95603d92854303a314",
+        "depth": 2,
+        "operator": "chain_transfer",
+        "score": [
+          -32.92719142991028
+        ]
+      },
+      {
+        "signature": "0913e39a95abd947fe220572e6367ec4f58a99b09cfc23e32301bbd04fad170a",
+        "parent_signature": "275cdc6989d15cb7b7776a7ac6c199c7dad09e1ba76b50ebdfbe9eb4f3ee0bc0",
+        "depth": 2,
+        "operator": "chain_transfer",
+        "score": [
+          -66.8730090997529
+        ]
+      },
+      {
+        "signature": "7e1622e217677dcda39689d5bae05cb384774e822f73be9a1a0c763c74aeb891",
+        "parent_signature": "275cdc6989d15cb7b7776a7ac6c199c7dad09e1ba76b50ebdfbe9eb4f3ee0bc0",
+        "depth": 2,
+        "operator": "suffix_swap",
+        "score": [
+          -0.14561151300187292
+        ]
+      },
+      {
+        "signature": "539623921bd32e40ee0caab9be13010dd5e47c2a769cfc57b4643fac17818c34",
+        "parent_signature": "275cdc6989d15cb7b7776a7ac6c199c7dad09e1ba76b50ebdfbe9eb4f3ee0bc0",
+        "depth": 2,
+        "operator": "chain_transfer",
+        "score": [
+          -0.14561151300187292
+        ]
+      },
+      {
+        "signature": "933008507c05315e8cc183f06911dbbbd737aeade303773b3943d7f4c8d841df",
+        "parent_signature": "275cdc6989d15cb7b7776a7ac6c199c7dad09e1ba76b50ebdfbe9eb4f3ee0bc0",
+        "depth": 2,
+        "operator": "chain_transfer",
+        "score": [
+          -32.92719142991028
+        ]
+      },
+      {
+        "signature": "89b3109181af78da0daa43c3feadac55e3ecf3c69beb59b118925e70eee96370",
+        "parent_signature": "275cdc6989d15cb7b7776a7ac6c199c7dad09e1ba76b50ebdfbe9eb4f3ee0bc0",
+        "depth": 2,
+        "operator": "chain_transfer",
+        "score": [
+          -28.92704862116887
+        ]
+      },
+      {
+        "signature": "162e379093acca52f087299dc1a368a5b5651fc440158afd3b542fa438eff52d",
+        "parent_signature": "bdd28696fffb7bbb0ba84429cf7e61c8f54183af51e8586874a20fa92d2a91bd",
+        "depth": 2,
+        "operator": "chain_transfer",
+        "score": [
+          -28.92704862116887
+        ]
+      },
+      {
+        "signature": "3cfc2190bb908bf93abd8a71520f0ad5886fba53c7b6d87efccca782ad24973e",
+        "parent_signature": "bdd28696fffb7bbb0ba84429cf7e61c8f54183af51e8586874a20fa92d2a91bd",
+        "depth": 2,
+        "operator": "chain_transfer",
+        "score": [
+          -66.8730090997529
+        ]
+      },
+      {
+        "signature": "bf19ed6460aa419195538814ffcbaa8d9ad459ed6ade0328a1850fb83365e929",
+        "parent_signature": "bdd28696fffb7bbb0ba84429cf7e61c8f54183af51e8586874a20fa92d2a91bd",
+        "depth": 2,
+        "operator": "chain_transfer",
+        "score": [
+          -32.92719142991028
+        ]
+      },
+      {
+        "signature": "0d1a38a0391ff4d16349a6aa8a7e3acd1511919fe8de8ea10d5d4d4babe8191d",
+        "parent_signature": "1c218cea9fbbd7b15e0b74a87fe1ef0d208f47cf830d0c432ab2601a0ef391be",
+        "depth": 2,
+        "operator": "chain_transfer",
+        "score": [
+          3.8687978030859695
+        ]
+      },
+      {
+        "signature": "3214a1b29805d42460f56db86d7c32bf21344792de23091d5e6d9d8962290aa6",
+        "parent_signature": "1c218cea9fbbd7b15e0b74a87fe1ef0d208f47cf830d0c432ab2601a0ef391be",
+        "depth": 2,
+        "operator": "chain_transfer",
+        "score": [
+          3.8687978030859695
+        ]
+      },
+      {
+        "signature": "e6f892574d19604bea0cf622781d7071fa6788fc077cc3bdf2e2e972c208b0d5",
+        "parent_signature": "f68a124ac1344a38187dfbb451480122cf5a09647b9b26bc4421aa9beb13ed8a",
+        "depth": 3,
+        "operator": "chain_transfer",
+        "score": [
+          -0.13134500565544482
+        ]
+      },
+      {
+        "signature": "26b083c0bc83584c28b81ef7ec9be97bf42477cb61d30d44d543085d83884718",
+        "parent_signature": "f68a124ac1344a38187dfbb451480122cf5a09647b9b26bc4421aa9beb13ed8a",
+        "depth": 3,
+        "operator": "chain_transfer",
+        "score": [
+          -0.13134500565544482
+        ]
+      },
+      {
+        "signature": "8eed9dfa84ff8490fca9c810031b72ab6544267197bf4ca41fb8d678fa7c20f1",
+        "parent_signature": "f68a124ac1344a38187dfbb451480122cf5a09647b9b26bc4421aa9beb13ed8a",
+        "depth": 3,
+        "operator": "chain_transfer",
+        "score": [
+          -66.85874259240649
+        ]
+      },
+      {
+        "signature": "f76b852a387696c478883c2538112e87802c60985059c8b2c001035c51cc8950",
+        "parent_signature": "3cfc2190bb908bf93abd8a71520f0ad5886fba53c7b6d87efccca782ad24973e",
+        "depth": 3,
+        "operator": "chain_transfer",
+        "score": [
+          -62.85859978366506
+        ]
+      },
+      {
+        "signature": "e2be46eb754f7f346122cf8fdc7dda28995425aeb911f7927cf483c3df4ce108",
+        "parent_signature": "30b348526c10e564b26ac91b4f674294d115b72ed1b39c33a13716a9ab2b27b9",
+        "depth": 3,
+        "operator": "chain_transfer",
+        "score": [
+          -32.94145793725671
+        ]
+      },
+      {
+        "signature": "ddd9bcef99460ad91334cb58abe52d8d321e165f888b9d74a381072795c6ed1f",
+        "parent_signature": "30b348526c10e564b26ac91b4f674294d115b72ed1b39c33a13716a9ab2b27b9",
+        "depth": 3,
+        "operator": "chain_transfer",
+        "score": [
+          -66.85874259240649
+        ]
+      },
+      {
+        "signature": "127190a95cb3667890e2a49530ef60c9ddc13a30fe4c560d0605faf5b9c5f339",
+        "parent_signature": "30b348526c10e564b26ac91b4f674294d115b72ed1b39c33a13716a9ab2b27b9",
+        "depth": 3,
+        "operator": "chain_transfer",
+        "score": [
+          -32.94145793725671
+        ]
+      },
+      {
+        "signature": "967a1b394f7cc110a9a339416f577fd2c76348d456586872337b56eaa7e76d5d",
+        "parent_signature": "127190a95cb3667890e2a49530ef60c9ddc13a30fe4c560d0605faf5b9c5f339",
+        "depth": 4,
+        "operator": "chain_transfer",
+        "score": [
+          -62.85859978366506
+        ]
+      },
+      {
+        "signature": "2ab0f4a80823e9b47f6e749bc16efd22181cac5296205b2d4cc58fa88c98862b",
+        "parent_signature": "e6f892574d19604bea0cf622781d7071fa6788fc077cc3bdf2e2e972c208b0d5",
+        "depth": 4,
+        "operator": "chain_transfer",
+        "score": [
+          -30.257887402355077
+        ]
+      },
+      {
+        "signature": "9ae7b17ca2870fccac08134e571808797e7cf1f47efa7dabc784b790bf38142b",
+        "parent_signature": "e6f892574d19604bea0cf622781d7071fa6788fc077cc3bdf2e2e972c208b0d5",
+        "depth": 4,
+        "operator": "chain_transfer",
+        "score": [
+          -30.257887402355077
+        ]
+      }
+    ],
+    "physical_gain_measured": false
+  },
+  "selection": {
+    "schema": "physical_selection_v1",
+    "objective": "swap_count",
+    "selection_mode": "route_guarded",
+    "search_selection_was_original": false,
+    "selected_source": "original_guarded",
+    "output_is_original_plan": true,
+    "original_plan": {
+      "schema_version": 1,
+      "chains": [
+        [
+          2
+        ],
+        [
+          3,
+          0,
+          1,
+          4
+        ]
+      ]
+    },
+    "candidate_plan": {
+      "schema_version": 1,
+      "chains": [
+        [
+          1,
+          4,
+          2
+        ],
+        [
+          3,
+          0
+        ]
+      ]
+    },
+    "selected_plan": {
+      "schema_version": 1,
+      "chains": [
+        [
+          2
+        ],
+        [
+          3,
+          0,
+          1,
+          4
+        ]
+      ]
+    },
+    "routes_for_main_method": 2,
+    "additional_control_routes": 1,
+    "original_route": {
+      "seed": 211,
+      "swap_count": 0,
+      "routed_depth": 13,
+      "routing_time_sec": 0.1215118000000075,
+      "operation_counts": {
+        "barrier": 1,
+        "cx": 2,
+        "h": 5,
+        "measure": 5,
+        "reset": 3
+      }
+    },
+    "repaired_route": {
+      "seed": 211,
+      "swap_count": 0,
+      "routed_depth": 12,
+      "routing_time_sec": 0.009225199999491451,
+      "operation_counts": {
+        "barrier": 1,
+        "cx": 2,
+        "h": 5,
+        "measure": 5,
+        "reset": 3
+      }
+    },
+    "selected_route": {
+      "seed": 211,
+      "swap_count": 0,
+      "routed_depth": 13,
+      "routing_time_sec": 0.1215118000000075,
+      "operation_counts": {
+        "barrier": 1,
+        "cx": 2,
+        "h": 5,
+        "measure": 5,
+        "reset": 3
+      }
+    },
+    "actual_gain_abs": 0,
+    "actual_gain_pct": null,
+    "gain_pct_defined": false,
+    "both_metrics_are_recorded": true,
+    "zero_observed_harm_guarantee_scope": "only the measured matched-seed routes in route_guarded mode",
+    "original_best_of_two_control": {
+      "second_original": {
+        "seed": 1211,
+        "swap_count": 0,
+        "routed_depth": 13,
+        "routing_time_sec": 0.011337199999616132,
+        "operation_counts": {
+          "barrier": 1,
+          "cx": 2,
+          "h": 5,
+          "measure": 5,
+          "reset": 3
+        }
+      },
+      "best_original": {
+        "seed": 211,
+        "swap_count": 0,
+        "routed_depth": 13,
+        "routing_time_sec": 0.1215118000000075,
+        "operation_counts": {
+          "barrier": 1,
+          "cx": 2,
+          "h": 5,
+          "measure": 5,
+          "reset": 3
+        }
+      },
+      "control_gain_abs": 0,
+      "control_gain_pct": null,
+      "guard_minus_control_abs": 0
+    }
+  },
+  "timing": {
+    "search_time_sec": 0.07882150000114052,
+    "materialization_time_sec": 0.002702800000406569,
+    "physical_selection_time_sec": 0.1424537999992026
+  },
+  "independent_validation": "unseen-name pilot; not independently validated model/feature transfer",
+  "cautions": [
+    "No routing labels were read during search",
+    "Feature extraction source parity with friend training dataset not yet independently verified; one-step model used in multi-step beam is distribution shift",
+    "One observed routing seed cannot support a generalization or no-harm claim",
+    "Generator label is provenance supplied by caller; native generator parsing not yet verified",
+    "Do not mix compiler revisions or compare different router settings as matched results"
+  ]
+}

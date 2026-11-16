@@ -1,0 +1,25 @@
+{
+  "source_recommendation": "CaQR_162_campaign_English_Notebook_Full_Project.zip",
+  "phase6_is_outdated": true,
+  "new_model_protocol": "materializer25_rawdelta_group_ridge_v1",
+  "new_model_train_pairs": 199,
+  "new_model_train_circuits": 14,
+  "model_files": [
+    "pilot_models/swap_count_one_step_MATERIALIZER.json",
+    "pilot_models/routed_depth_one_step_MATERIALIZER.json"
+  ],
+  "old_models_preserved": true,
+  "new_feature_order": "same as LEGACY_RIDGE_COLUMNS; raw values, unlike historical standardized columns",
+  "friend_recorded_feature_sha256": "c1a04ff399f50cfbc7e63e0eef257491bab6888592e9764ff673be80ef9b5f59",
+  "integrated_structural_py_sha256": "2952be81d0f1de33303e01e6f48e7311446668f31c355b9c0a48e1d4e14cf0b9",
+  "friend_recorded_materializer_sha256": "49bfdf47752361bd6885e03fc8a9525833b9e3443d8a35bb8dd4410d38e170fc",
+  "integrated_materializer_sha256": "1c2d141a9c56567be43fbb8cb5aa1446b6b16af25af7bf2e5c2f94e4ae203734",
+  "materializer_patch": "shared first instruction can start multiple resets",
+  "limitations": [
+    "Feature extraction parity against training source has not been externally confirmed.",
+    "Materializer patch differs from training-time compiler; new physical evaluations require a fresh output directory.",
+    "Checkpoint inference and non-Qiskit unit tests were checked; actual routing requires user Qiskit 0.45 setup.",
+    "One-step Ridge may undergo distribution shift during multi-step beam search.",
+    "This bundle does not retrain Ridge or contain original training pairs.jsonl."
+  ]
+}

@@ -1,0 +1,973 @@
+﻿circuit,family_heuristic,previous_split,training_filename_overlap,reserved_final_test,objective,seed,screen_status,status,model_set,error,training_overlap_with_selected_model,elapsed_seconds,report_path,selected_source,original_swap,proposed_swap,final_swap,original_depth,proposed_depth,final_depth,gain_pct,gain_abs,proposed_gain_abs,guard_minus_best2_abs,n_scored,plan_changed
+0410184_169.qasm,0410184,known_train,False,False,swap_count,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+0410184_169.qasm,0410184,known_train,False,False,swap_count,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+0410184_169.qasm,0410184,known_train,False,False,swap_count,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+0410184_169.qasm,0410184,known_train,False,False,routed_depth,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+0410184_169.qasm,0410184,known_train,False,False,routed_depth,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+0410184_169.qasm,0410184,known_train,False,False,routed_depth,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+3_17_13.qasm,3_17,unassigned,False,False,swap_count,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+3_17_13.qasm,3_17,unassigned,False,False,swap_count,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+3_17_13.qasm,3_17,unassigned,False,False,swap_count,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+3_17_13.qasm,3_17,unassigned,False,False,routed_depth,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+3_17_13.qasm,3_17,unassigned,False,False,routed_depth,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+3_17_13.qasm,3_17,unassigned,False,False,routed_depth,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4_49_16.qasm,4_49,unassigned,False,False,swap_count,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4_49_16.qasm,4_49,unassigned,False,False,swap_count,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4_49_16.qasm,4_49,unassigned,False,False,swap_count,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4_49_16.qasm,4_49,unassigned,False,False,routed_depth,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4_49_16.qasm,4_49,unassigned,False,False,routed_depth,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4_49_16.qasm,4_49,unassigned,False,False,routed_depth,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4gt10-v1_81.qasm,four_gt,known_validation,False,False,swap_count,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4gt10-v1_81.qasm,four_gt,known_validation,False,False,swap_count,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4gt10-v1_81.qasm,four_gt,known_validation,False,False,swap_count,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4gt10-v1_81.qasm,four_gt,known_validation,False,False,routed_depth,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4gt10-v1_81.qasm,four_gt,known_validation,False,False,routed_depth,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4gt10-v1_81.qasm,four_gt,known_validation,False,False,routed_depth,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4gt11_82.qasm,four_gt,unassigned,False,False,swap_count,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4gt11_82.qasm,four_gt,unassigned,False,False,swap_count,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4gt11_82.qasm,four_gt,unassigned,False,False,swap_count,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4gt11_82.qasm,four_gt,unassigned,False,False,routed_depth,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4gt11_82.qasm,four_gt,unassigned,False,False,routed_depth,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4gt11_82.qasm,four_gt,unassigned,False,False,routed_depth,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4gt11_83.qasm,four_gt,unassigned,False,False,swap_count,200,no_observed_neighbor,no_observed_neighbor,,,,,,,,,,,,,,,,,,
+4gt11_83.qasm,four_gt,unassigned,False,False,swap_count,211,no_observed_neighbor,no_observed_neighbor,,,,,,,,,,,,,,,,,,
+4gt11_83.qasm,four_gt,unassigned,False,False,swap_count,223,no_observed_neighbor,no_observed_neighbor,,,,,,,,,,,,,,,,,,
+4gt11_83.qasm,four_gt,unassigned,False,False,routed_depth,200,no_observed_neighbor,no_observed_neighbor,,,,,,,,,,,,,,,,,,
+4gt11_83.qasm,four_gt,unassigned,False,False,routed_depth,211,no_observed_neighbor,no_observed_neighbor,,,,,,,,,,,,,,,,,,
+4gt11_83.qasm,four_gt,unassigned,False,False,routed_depth,223,no_observed_neighbor,no_observed_neighbor,,,,,,,,,,,,,,,,,,
+4gt11_84.qasm,four_gt,known_validation,False,False,swap_count,200,ready,ok,materializer,,False,2.57,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\4gt11_84\swap_count\seed_200\routed\routing_report.json,original_unchanged,4,4,4,19,19,19,0.0,0,0,0,1,False
+4gt11_84.qasm,four_gt,known_validation,False,False,swap_count,211,ready,ok,materializer,,False,2.364,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\4gt11_84\swap_count\seed_211\routed\routing_report.json,original_unchanged,4,4,4,19,19,19,0.0,0,0,0,1,False
+4gt11_84.qasm,four_gt,known_validation,False,False,swap_count,223,ready,ok,materializer,,False,2.298,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\4gt11_84\swap_count\seed_223\routed\routing_report.json,original_unchanged,4,4,4,18,18,18,0.0,0,0,0,1,False
+4gt11_84.qasm,four_gt,known_validation,False,False,routed_depth,200,ready,ok,materializer,,False,2.401,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\4gt11_84\routed_depth\seed_200\routed\routing_report.json,original_unchanged,4,4,4,19,19,19,0.0,0,0,-1,1,False
+4gt11_84.qasm,four_gt,known_validation,False,False,routed_depth,211,ready,ok,materializer,,False,2.445,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\4gt11_84\routed_depth\seed_211\routed\routing_report.json,original_unchanged,4,4,4,19,19,19,0.0,0,0,0,1,False
+4gt11_84.qasm,four_gt,known_validation,False,False,routed_depth,223,ready,ok,materializer,,False,2.252,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\4gt11_84\routed_depth\seed_223\routed\routing_report.json,original_unchanged,4,4,4,18,18,18,0.0,0,0,0,1,False
+4gt12-v0_86.qasm,four_gt,known_validation,False,False,swap_count,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4gt12-v0_86.qasm,four_gt,known_validation,False,False,swap_count,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4gt12-v0_86.qasm,four_gt,known_validation,False,False,swap_count,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4gt12-v0_86.qasm,four_gt,known_validation,False,False,routed_depth,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4gt12-v0_86.qasm,four_gt,known_validation,False,False,routed_depth,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4gt12-v0_86.qasm,four_gt,known_validation,False,False,routed_depth,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4gt12-v0_87.qasm,four_gt,unassigned,False,False,swap_count,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4gt12-v0_87.qasm,four_gt,unassigned,False,False,swap_count,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4gt12-v0_87.qasm,four_gt,unassigned,False,False,swap_count,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4gt12-v0_87.qasm,four_gt,unassigned,False,False,routed_depth,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4gt12-v0_87.qasm,four_gt,unassigned,False,False,routed_depth,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4gt12-v0_87.qasm,four_gt,unassigned,False,False,routed_depth,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4gt12-v0_88.qasm,four_gt,unassigned,False,False,swap_count,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4gt12-v0_88.qasm,four_gt,unassigned,False,False,swap_count,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4gt12-v0_88.qasm,four_gt,unassigned,False,False,swap_count,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4gt12-v0_88.qasm,four_gt,unassigned,False,False,routed_depth,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4gt12-v0_88.qasm,four_gt,unassigned,False,False,routed_depth,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4gt12-v0_88.qasm,four_gt,unassigned,False,False,routed_depth,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4gt12-v1_89.qasm,four_gt,unassigned,False,False,swap_count,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4gt12-v1_89.qasm,four_gt,unassigned,False,False,swap_count,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4gt12-v1_89.qasm,four_gt,unassigned,False,False,swap_count,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4gt12-v1_89.qasm,four_gt,unassigned,False,False,routed_depth,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4gt12-v1_89.qasm,four_gt,unassigned,False,False,routed_depth,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4gt12-v1_89.qasm,four_gt,unassigned,False,False,routed_depth,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4gt13-v1_93.qasm,four_gt,unassigned,False,False,swap_count,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4gt13-v1_93.qasm,four_gt,unassigned,False,False,swap_count,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4gt13-v1_93.qasm,four_gt,unassigned,False,False,swap_count,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4gt13-v1_93.qasm,four_gt,unassigned,False,False,routed_depth,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4gt13-v1_93.qasm,four_gt,unassigned,False,False,routed_depth,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4gt13-v1_93.qasm,four_gt,unassigned,False,False,routed_depth,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4gt13_90.qasm,four_gt,unassigned,False,False,swap_count,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4gt13_90.qasm,four_gt,unassigned,False,False,swap_count,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4gt13_90.qasm,four_gt,unassigned,False,False,swap_count,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4gt13_90.qasm,four_gt,unassigned,False,False,routed_depth,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4gt13_90.qasm,four_gt,unassigned,False,False,routed_depth,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4gt13_90.qasm,four_gt,unassigned,False,False,routed_depth,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4gt13_91.qasm,four_gt,unassigned,False,False,swap_count,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4gt13_91.qasm,four_gt,unassigned,False,False,swap_count,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4gt13_91.qasm,four_gt,unassigned,False,False,swap_count,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4gt13_91.qasm,four_gt,unassigned,False,False,routed_depth,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4gt13_91.qasm,four_gt,unassigned,False,False,routed_depth,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4gt13_91.qasm,four_gt,unassigned,False,False,routed_depth,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4gt13_92.qasm,four_gt,known_validation,False,False,swap_count,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4gt13_92.qasm,four_gt,known_validation,False,False,swap_count,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4gt13_92.qasm,four_gt,known_validation,False,False,swap_count,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4gt13_92.qasm,four_gt,known_validation,False,False,routed_depth,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4gt13_92.qasm,four_gt,known_validation,False,False,routed_depth,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4gt13_92.qasm,four_gt,known_validation,False,False,routed_depth,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4gt4-v0_72.qasm,four_gt,unassigned,False,False,swap_count,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4gt4-v0_72.qasm,four_gt,unassigned,False,False,swap_count,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4gt4-v0_72.qasm,four_gt,unassigned,False,False,swap_count,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4gt4-v0_72.qasm,four_gt,unassigned,False,False,routed_depth,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4gt4-v0_72.qasm,four_gt,unassigned,False,False,routed_depth,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4gt4-v0_72.qasm,four_gt,unassigned,False,False,routed_depth,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4gt4-v0_73.qasm,four_gt,unassigned,False,False,swap_count,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4gt4-v0_73.qasm,four_gt,unassigned,False,False,swap_count,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4gt4-v0_73.qasm,four_gt,unassigned,False,False,swap_count,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4gt4-v0_73.qasm,four_gt,unassigned,False,False,routed_depth,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4gt4-v0_73.qasm,four_gt,unassigned,False,False,routed_depth,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4gt4-v0_73.qasm,four_gt,unassigned,False,False,routed_depth,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4gt4-v0_78.qasm,four_gt,unassigned,False,False,swap_count,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4gt4-v0_78.qasm,four_gt,unassigned,False,False,swap_count,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4gt4-v0_78.qasm,four_gt,unassigned,False,False,swap_count,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4gt4-v0_78.qasm,four_gt,unassigned,False,False,routed_depth,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4gt4-v0_78.qasm,four_gt,unassigned,False,False,routed_depth,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4gt4-v0_78.qasm,four_gt,unassigned,False,False,routed_depth,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4gt4-v0_79.qasm,four_gt,unassigned,False,False,swap_count,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4gt4-v0_79.qasm,four_gt,unassigned,False,False,swap_count,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4gt4-v0_79.qasm,four_gt,unassigned,False,False,swap_count,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4gt4-v0_79.qasm,four_gt,unassigned,False,False,routed_depth,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4gt4-v0_79.qasm,four_gt,unassigned,False,False,routed_depth,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4gt4-v0_79.qasm,four_gt,unassigned,False,False,routed_depth,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4gt4-v0_80.qasm,four_gt,known_validation,False,False,swap_count,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4gt4-v0_80.qasm,four_gt,known_validation,False,False,swap_count,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4gt4-v0_80.qasm,four_gt,known_validation,False,False,swap_count,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4gt4-v0_80.qasm,four_gt,known_validation,False,False,routed_depth,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4gt4-v0_80.qasm,four_gt,known_validation,False,False,routed_depth,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4gt4-v0_80.qasm,four_gt,known_validation,False,False,routed_depth,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4gt4-v1_74.qasm,four_gt,unassigned,False,False,swap_count,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4gt4-v1_74.qasm,four_gt,unassigned,False,False,swap_count,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4gt4-v1_74.qasm,four_gt,unassigned,False,False,swap_count,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4gt4-v1_74.qasm,four_gt,unassigned,False,False,routed_depth,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4gt4-v1_74.qasm,four_gt,unassigned,False,False,routed_depth,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4gt4-v1_74.qasm,four_gt,unassigned,False,False,routed_depth,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4gt5_75.qasm,four_gt,known_validation,False,False,swap_count,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4gt5_75.qasm,four_gt,known_validation,False,False,swap_count,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4gt5_75.qasm,four_gt,known_validation,False,False,swap_count,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4gt5_75.qasm,four_gt,known_validation,False,False,routed_depth,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4gt5_75.qasm,four_gt,known_validation,False,False,routed_depth,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4gt5_75.qasm,four_gt,known_validation,False,False,routed_depth,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4gt5_76.qasm,four_gt,unassigned,False,False,swap_count,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4gt5_76.qasm,four_gt,unassigned,False,False,swap_count,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4gt5_76.qasm,four_gt,unassigned,False,False,swap_count,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4gt5_76.qasm,four_gt,unassigned,False,False,routed_depth,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4gt5_76.qasm,four_gt,unassigned,False,False,routed_depth,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4gt5_76.qasm,four_gt,unassigned,False,False,routed_depth,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4gt5_77.qasm,four_gt,unassigned,False,False,swap_count,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4gt5_77.qasm,four_gt,unassigned,False,False,swap_count,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4gt5_77.qasm,four_gt,unassigned,False,False,swap_count,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4gt5_77.qasm,four_gt,unassigned,False,False,routed_depth,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4gt5_77.qasm,four_gt,unassigned,False,False,routed_depth,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4gt5_77.qasm,four_gt,unassigned,False,False,routed_depth,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4mod5-bdd_287.qasm,modular_arithmetic,unassigned,False,False,swap_count,200,ready,ok,materializer,,False,2.46,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\4mod5-bdd_287\swap_count\seed_200\routed\routing_report.json,repaired,15,14,14,64,63,63,6.666666666666667,1,1,1,17,True
+4mod5-bdd_287.qasm,modular_arithmetic,unassigned,False,False,swap_count,211,ready,ok,materializer,,False,2.524,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\4mod5-bdd_287\swap_count\seed_211\routed\routing_report.json,original_guarded,14,14,14,62,63,62,0.0,0,0,0,17,True
+4mod5-bdd_287.qasm,modular_arithmetic,unassigned,False,False,swap_count,223,ready,ok,materializer,,False,2.505,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\4mod5-bdd_287\swap_count\seed_223\routed\routing_report.json,original_guarded,14,14,14,62,63,62,0.0,0,0,0,17,True
+4mod5-bdd_287.qasm,modular_arithmetic,unassigned,False,False,routed_depth,200,ready,ok,materializer,,False,3.233,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\4mod5-bdd_287\routed_depth\seed_200\routed\routing_report.json,original_guarded,15,15,15,64,64,64,0.0,0,0,0,17,True
+4mod5-bdd_287.qasm,modular_arithmetic,unassigned,False,False,routed_depth,211,ready,ok,materializer,,False,2.919,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\4mod5-bdd_287\routed_depth\seed_211\routed\routing_report.json,original_guarded,14,15,14,62,64,62,0.0,0,-2,0,17,True
+4mod5-bdd_287.qasm,modular_arithmetic,unassigned,False,False,routed_depth,223,ready,ok,materializer,,False,3.005,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\4mod5-bdd_287\routed_depth\seed_223\routed\routing_report.json,original_guarded,14,15,14,62,64,62,0.0,0,-2,0,17,True
+4mod5-v0_18.qasm,modular_arithmetic,known_validation,False,False,swap_count,200,no_observed_neighbor,no_observed_neighbor,,,,,,,,,,,,,,,,,,
+4mod5-v0_18.qasm,modular_arithmetic,known_validation,False,False,swap_count,211,no_observed_neighbor,no_observed_neighbor,,,,,,,,,,,,,,,,,,
+4mod5-v0_18.qasm,modular_arithmetic,known_validation,False,False,swap_count,223,no_observed_neighbor,no_observed_neighbor,,,,,,,,,,,,,,,,,,
+4mod5-v0_18.qasm,modular_arithmetic,known_validation,False,False,routed_depth,200,no_observed_neighbor,no_observed_neighbor,,,,,,,,,,,,,,,,,,
+4mod5-v0_18.qasm,modular_arithmetic,known_validation,False,False,routed_depth,211,no_observed_neighbor,no_observed_neighbor,,,,,,,,,,,,,,,,,,
+4mod5-v0_18.qasm,modular_arithmetic,known_validation,False,False,routed_depth,223,no_observed_neighbor,no_observed_neighbor,,,,,,,,,,,,,,,,,,
+4mod5-v0_19.qasm,modular_arithmetic,unassigned,False,False,swap_count,200,ready,ok,materializer,,False,2.86,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\4mod5-v0_19\swap_count\seed_200\routed\routing_report.json,original_guarded,7,7,7,32,31,32,0.0,0,0,0,1,True
+4mod5-v0_19.qasm,modular_arithmetic,unassigned,False,False,swap_count,211,ready,ok,materializer,,False,2.617,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\4mod5-v0_19\swap_count\seed_211\routed\routing_report.json,original_guarded,7,7,7,32,31,32,0.0,0,0,0,1,True
+4mod5-v0_19.qasm,modular_arithmetic,unassigned,False,False,swap_count,223,ready,ok,materializer,,False,2.548,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\4mod5-v0_19\swap_count\seed_223\routed\routing_report.json,original_guarded,7,7,7,32,31,32,0.0,0,0,0,1,True
+4mod5-v0_19.qasm,modular_arithmetic,unassigned,False,False,routed_depth,200,ready,ok,materializer,,False,2.573,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\4mod5-v0_19\routed_depth\seed_200\routed\routing_report.json,repaired,7,7,7,32,31,31,3.125,1,1,1,1,True
+4mod5-v0_19.qasm,modular_arithmetic,unassigned,False,False,routed_depth,211,ready,ok,materializer,,False,2.601,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\4mod5-v0_19\routed_depth\seed_211\routed\routing_report.json,repaired,7,7,7,32,31,31,3.125,1,1,1,1,True
+4mod5-v0_19.qasm,modular_arithmetic,unassigned,False,False,routed_depth,223,ready,ok,materializer,,False,2.491,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\4mod5-v0_19\routed_depth\seed_223\routed\routing_report.json,repaired,7,7,7,32,31,31,3.125,1,1,1,1,True
+4mod5-v0_20.qasm,modular_arithmetic,known_validation,False,False,swap_count,200,ready,ok,materializer,,False,2.357,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\4mod5-v0_20\swap_count\seed_200\routed\routing_report.json,repaired,4,3,3,18,19,19,25.0,1,1,1,3,True
+4mod5-v0_20.qasm,modular_arithmetic,known_validation,False,False,swap_count,211,ready,ok,materializer,,False,2.365,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\4mod5-v0_20\swap_count\seed_211\routed\routing_report.json,repaired,4,3,3,19,19,19,25.0,1,1,1,3,True
+4mod5-v0_20.qasm,modular_arithmetic,known_validation,False,False,swap_count,223,ready,ok,materializer,,False,2.323,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\4mod5-v0_20\swap_count\seed_223\routed\routing_report.json,repaired,4,3,3,22,18,18,25.0,1,1,1,3,True
+4mod5-v0_20.qasm,modular_arithmetic,known_validation,False,False,routed_depth,200,ready,ok,materializer,,False,2.463,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\4mod5-v0_20\routed_depth\seed_200\routed\routing_report.json,repaired,4,3,3,18,17,17,5.555555555555555,1,1,1,3,True
+4mod5-v0_20.qasm,modular_arithmetic,known_validation,False,False,routed_depth,211,ready,ok,materializer,,False,2.314,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\4mod5-v0_20\routed_depth\seed_211\routed\routing_report.json,repaired,4,3,3,19,17,17,10.526315789473685,2,2,2,3,True
+4mod5-v0_20.qasm,modular_arithmetic,known_validation,False,False,routed_depth,223,ready,ok,materializer,,False,2.454,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\4mod5-v0_20\routed_depth\seed_223\routed\routing_report.json,repaired,4,3,3,22,17,17,22.727272727272727,5,5,4,3,True
+4mod5-v1_22.qasm,modular_arithmetic,unassigned,False,False,swap_count,200,ready,ok,materializer,,False,2.911,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\4mod5-v1_22\swap_count\seed_200\routed\routing_report.json,original_guarded,2,2,2,15,17,15,0.0,0,0,0,7,True
+4mod5-v1_22.qasm,modular_arithmetic,unassigned,False,False,swap_count,211,ready,ok,materializer,,False,2.398,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\4mod5-v1_22\swap_count\seed_211\routed\routing_report.json,original_guarded,2,2,2,15,17,15,0.0,0,0,0,7,True
+4mod5-v1_22.qasm,modular_arithmetic,unassigned,False,False,swap_count,223,ready,ok,materializer,,False,2.384,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\4mod5-v1_22\swap_count\seed_223\routed\routing_report.json,original_guarded,2,2,2,15,17,15,0.0,0,0,0,7,True
+4mod5-v1_22.qasm,modular_arithmetic,unassigned,False,False,routed_depth,200,ready,ok,materializer,,False,2.632,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\4mod5-v1_22\routed_depth\seed_200\routed\routing_report.json,original_guarded,2,2,2,15,16,15,0.0,0,-1,0,7,True
+4mod5-v1_22.qasm,modular_arithmetic,unassigned,False,False,routed_depth,211,ready,ok,materializer,,False,2.324,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\4mod5-v1_22\routed_depth\seed_211\routed\routing_report.json,original_guarded,2,2,2,15,16,15,0.0,0,-1,0,7,True
+4mod5-v1_22.qasm,modular_arithmetic,unassigned,False,False,routed_depth,223,ready,ok,materializer,,False,2.379,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\4mod5-v1_22\routed_depth\seed_223\routed\routing_report.json,original_guarded,2,2,2,15,16,15,0.0,0,-1,0,7,True
+4mod5-v1_23.qasm,modular_arithmetic,unassigned,False,False,swap_count,200,no_observed_neighbor,no_observed_neighbor,,,,,,,,,,,,,,,,,,
+4mod5-v1_23.qasm,modular_arithmetic,unassigned,False,False,swap_count,211,no_observed_neighbor,no_observed_neighbor,,,,,,,,,,,,,,,,,,
+4mod5-v1_23.qasm,modular_arithmetic,unassigned,False,False,swap_count,223,no_observed_neighbor,no_observed_neighbor,,,,,,,,,,,,,,,,,,
+4mod5-v1_23.qasm,modular_arithmetic,unassigned,False,False,routed_depth,200,no_observed_neighbor,no_observed_neighbor,,,,,,,,,,,,,,,,,,
+4mod5-v1_23.qasm,modular_arithmetic,unassigned,False,False,routed_depth,211,no_observed_neighbor,no_observed_neighbor,,,,,,,,,,,,,,,,,,
+4mod5-v1_23.qasm,modular_arithmetic,unassigned,False,False,routed_depth,223,no_observed_neighbor,no_observed_neighbor,,,,,,,,,,,,,,,,,,
+4mod5-v1_24.qasm,modular_arithmetic,unassigned,False,False,swap_count,200,ready,ok,materializer,,False,2.369,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\4mod5-v1_24\swap_count\seed_200\routed\routing_report.json,repaired,8,7,7,32,30,30,12.5,1,1,1,4,True
+4mod5-v1_24.qasm,modular_arithmetic,unassigned,False,False,swap_count,211,ready,ok,materializer,,False,2.387,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\4mod5-v1_24\swap_count\seed_211\routed\routing_report.json,repaired,8,7,7,32,31,31,12.5,1,1,1,4,True
+4mod5-v1_24.qasm,modular_arithmetic,unassigned,False,False,swap_count,223,ready,ok,materializer,,False,2.395,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\4mod5-v1_24\swap_count\seed_223\routed\routing_report.json,repaired,8,7,7,32,32,32,12.5,1,1,1,4,True
+4mod5-v1_24.qasm,modular_arithmetic,unassigned,False,False,routed_depth,200,ready,ok,materializer,,False,2.308,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\4mod5-v1_24\routed_depth\seed_200\routed\routing_report.json,repaired,8,7,7,32,30,30,6.25,2,2,2,4,True
+4mod5-v1_24.qasm,modular_arithmetic,unassigned,False,False,routed_depth,211,ready,ok,materializer,,False,2.331,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\4mod5-v1_24\routed_depth\seed_211\routed\routing_report.json,repaired,8,7,7,32,31,31,3.125,1,1,1,4,True
+4mod5-v1_24.qasm,modular_arithmetic,unassigned,False,False,routed_depth,223,ready,ok,materializer,,False,2.331,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\4mod5-v1_24\routed_depth\seed_223\routed\routing_report.json,original_guarded,8,7,8,32,32,32,0.0,0,0,0,4,True
+4mod7-v0_94.qasm,4mod7-v0,known_train,False,False,swap_count,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4mod7-v0_94.qasm,4mod7-v0,known_train,False,False,swap_count,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4mod7-v0_94.qasm,4mod7-v0,known_train,False,False,swap_count,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4mod7-v0_94.qasm,4mod7-v0,known_train,False,False,routed_depth,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4mod7-v0_94.qasm,4mod7-v0,known_train,False,False,routed_depth,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4mod7-v0_94.qasm,4mod7-v0,known_train,False,False,routed_depth,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4mod7-v1_96.qasm,4mod7-v1,unassigned,False,False,swap_count,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4mod7-v1_96.qasm,4mod7-v1,unassigned,False,False,swap_count,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4mod7-v1_96.qasm,4mod7-v1,unassigned,False,False,swap_count,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4mod7-v1_96.qasm,4mod7-v1,unassigned,False,False,routed_depth,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4mod7-v1_96.qasm,4mod7-v1,unassigned,False,False,routed_depth,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+4mod7-v1_96.qasm,4mod7-v1,unassigned,False,False,routed_depth,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+9symml_195.qasm,symmetry,unassigned,False,False,swap_count,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+9symml_195.qasm,symmetry,unassigned,False,False,swap_count,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+9symml_195.qasm,symmetry,unassigned,False,False,swap_count,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+9symml_195.qasm,symmetry,unassigned,False,False,routed_depth,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+9symml_195.qasm,symmetry,unassigned,False,False,routed_depth,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+9symml_195.qasm,symmetry,unassigned,False,False,routed_depth,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+C17_204.qasm,c17,known_train,False,False,swap_count,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+C17_204.qasm,c17,known_train,False,False,swap_count,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+C17_204.qasm,c17,known_train,False,False,swap_count,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+C17_204.qasm,c17,known_train,False,False,routed_depth,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+C17_204.qasm,c17,known_train,False,False,routed_depth,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+C17_204.qasm,c17,known_train,False,False,routed_depth,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+adr4_197.qasm,adr4,unassigned,False,False,swap_count,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+adr4_197.qasm,adr4,unassigned,False,False,swap_count,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+adr4_197.qasm,adr4,unassigned,False,False,swap_count,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+adr4_197.qasm,adr4,unassigned,False,False,routed_depth,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+adr4_197.qasm,adr4,unassigned,False,False,routed_depth,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+adr4_197.qasm,adr4,unassigned,False,False,routed_depth,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+aj-e11_165.qasm,aj-e11,unassigned,False,False,swap_count,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+aj-e11_165.qasm,aj-e11,unassigned,False,False,swap_count,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+aj-e11_165.qasm,aj-e11,unassigned,False,False,swap_count,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+aj-e11_165.qasm,aj-e11,unassigned,False,False,routed_depth,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+aj-e11_165.qasm,aj-e11,unassigned,False,False,routed_depth,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+aj-e11_165.qasm,aj-e11,unassigned,False,False,routed_depth,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+alu-bdd_288.qasm,alu,unassigned,False,False,swap_count,200,ready,ok,materializer,,False,2.439,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\alu-bdd_288\swap_count\seed_200\routed\routing_report.json,repaired,22,20,20,76,77,77,9.090909090909092,2,2,2,5,True
+alu-bdd_288.qasm,alu,unassigned,False,False,swap_count,211,ready,ok,materializer,,False,2.431,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\alu-bdd_288\swap_count\seed_211\routed\routing_report.json,repaired,21,20,20,78,78,78,4.761904761904762,1,1,1,5,True
+alu-bdd_288.qasm,alu,unassigned,False,False,swap_count,223,ready,ok,materializer,,False,2.373,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\alu-bdd_288\swap_count\seed_223\routed\routing_report.json,original_guarded,21,21,21,79,78,79,0.0,0,0,0,5,True
+alu-bdd_288.qasm,alu,unassigned,False,False,routed_depth,200,ready,ok,materializer,,False,2.353,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\alu-bdd_288\routed_depth\seed_200\routed\routing_report.json,original_guarded,22,20,22,76,77,76,0.0,0,-1,0,5,True
+alu-bdd_288.qasm,alu,unassigned,False,False,routed_depth,211,ready,ok,materializer,,False,2.499,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\alu-bdd_288\routed_depth\seed_211\routed\routing_report.json,original_guarded,21,20,21,78,78,78,0.0,0,0,0,5,True
+alu-bdd_288.qasm,alu,unassigned,False,False,routed_depth,223,ready,ok,materializer,,False,2.337,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\alu-bdd_288\routed_depth\seed_223\routed\routing_report.json,repaired,21,21,21,79,78,78,1.2658227848101267,1,1,-3,5,True
+alu-v0_26.qasm,alu,unassigned,False,False,swap_count,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+alu-v0_26.qasm,alu,unassigned,False,False,swap_count,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+alu-v0_26.qasm,alu,unassigned,False,False,swap_count,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+alu-v0_26.qasm,alu,unassigned,False,False,routed_depth,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+alu-v0_26.qasm,alu,unassigned,False,False,routed_depth,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+alu-v0_26.qasm,alu,unassigned,False,False,routed_depth,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+alu-v0_27.qasm,alu,known_train,True,False,swap_count,200,ready,ok,materializer,,True,2.315,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\alu-v0_27\swap_count\seed_200\routed\routing_report.json,original_unchanged,7,7,7,31,31,31,0.0,0,0,0,1,False
+alu-v0_27.qasm,alu,known_train,True,False,swap_count,211,ready,ok,materializer,,True,2.652,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\alu-v0_27\swap_count\seed_211\routed\routing_report.json,original_unchanged,7,7,7,32,32,32,0.0,0,0,0,1,False
+alu-v0_27.qasm,alu,known_train,True,False,swap_count,223,ready,ok,materializer,,True,2.339,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\alu-v0_27\swap_count\seed_223\routed\routing_report.json,original_unchanged,7,7,7,31,31,31,0.0,0,0,0,1,False
+alu-v0_27.qasm,alu,known_train,True,False,routed_depth,200,ready,ok,materializer,,True,2.285,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\alu-v0_27\routed_depth\seed_200\routed\routing_report.json,original_unchanged,7,7,7,31,31,31,0.0,0,0,0,1,False
+alu-v0_27.qasm,alu,known_train,True,False,routed_depth,211,ready,ok,materializer,,True,2.313,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\alu-v0_27\routed_depth\seed_211\routed\routing_report.json,original_unchanged,7,7,7,32,32,32,0.0,0,0,0,1,False
+alu-v0_27.qasm,alu,known_train,True,False,routed_depth,223,ready,ok,materializer,,True,2.271,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\alu-v0_27\routed_depth\seed_223\routed\routing_report.json,original_unchanged,7,7,7,31,31,31,0.0,0,0,0,1,False
+alu-v1_28.qasm,alu,unassigned,False,False,swap_count,200,ready,ok,materializer,,False,2.317,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\alu-v1_28\swap_count\seed_200\routed\routing_report.json,original_unchanged,7,7,7,32,32,32,0.0,0,0,0,1,False
+alu-v1_28.qasm,alu,unassigned,False,False,swap_count,211,ready,ok,materializer,,False,2.333,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\alu-v1_28\swap_count\seed_211\routed\routing_report.json,original_unchanged,7,7,7,33,33,33,0.0,0,0,0,1,False
+alu-v1_28.qasm,alu,unassigned,False,False,swap_count,223,ready,ok,materializer,,False,2.319,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\alu-v1_28\swap_count\seed_223\routed\routing_report.json,original_unchanged,7,7,7,32,32,32,0.0,0,0,0,1,False
+alu-v1_28.qasm,alu,unassigned,False,False,routed_depth,200,ready,ok,materializer,,False,2.296,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\alu-v1_28\routed_depth\seed_200\routed\routing_report.json,original_unchanged,7,7,7,32,32,32,0.0,0,0,0,1,False
+alu-v1_28.qasm,alu,unassigned,False,False,routed_depth,211,ready,ok,materializer,,False,2.396,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\alu-v1_28\routed_depth\seed_211\routed\routing_report.json,original_unchanged,7,7,7,33,33,33,0.0,0,0,0,1,False
+alu-v1_28.qasm,alu,unassigned,False,False,routed_depth,223,ready,ok,materializer,,False,2.299,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\alu-v1_28\routed_depth\seed_223\routed\routing_report.json,original_unchanged,7,7,7,32,32,32,0.0,0,0,0,1,False
+alu-v1_29.qasm,alu,unassigned,False,False,swap_count,200,ready,ok,materializer,,False,2.265,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\alu-v1_29\swap_count\seed_200\routed\routing_report.json,original_unchanged,7,7,7,31,31,31,0.0,0,0,0,1,False
+alu-v1_29.qasm,alu,unassigned,False,False,swap_count,211,ready,ok,materializer,,False,2.373,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\alu-v1_29\swap_count\seed_211\routed\routing_report.json,original_unchanged,7,7,7,32,32,32,0.0,0,0,0,1,False
+alu-v1_29.qasm,alu,unassigned,False,False,swap_count,223,ready,ok,materializer,,False,2.324,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\alu-v1_29\swap_count\seed_223\routed\routing_report.json,original_unchanged,7,7,7,31,31,31,0.0,0,0,0,1,False
+alu-v1_29.qasm,alu,unassigned,False,False,routed_depth,200,ready,ok,materializer,,False,2.279,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\alu-v1_29\routed_depth\seed_200\routed\routing_report.json,original_unchanged,7,7,7,31,31,31,0.0,0,0,0,1,False
+alu-v1_29.qasm,alu,unassigned,False,False,routed_depth,211,ready,ok,materializer,,False,2.363,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\alu-v1_29\routed_depth\seed_211\routed\routing_report.json,original_unchanged,7,7,7,32,32,32,0.0,0,0,0,1,False
+alu-v1_29.qasm,alu,unassigned,False,False,routed_depth,223,ready,ok,materializer,,False,2.334,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\alu-v1_29\routed_depth\seed_223\routed\routing_report.json,original_unchanged,7,7,7,31,31,31,0.0,0,0,0,1,False
+alu-v2_30.qasm,alu,known_train,False,False,swap_count,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+alu-v2_30.qasm,alu,known_train,False,False,swap_count,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+alu-v2_30.qasm,alu,known_train,False,False,swap_count,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+alu-v2_30.qasm,alu,known_train,False,False,routed_depth,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+alu-v2_30.qasm,alu,known_train,False,False,routed_depth,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+alu-v2_30.qasm,alu,known_train,False,False,routed_depth,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+alu-v2_31.qasm,alu,unassigned,False,False,swap_count,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+alu-v2_31.qasm,alu,unassigned,False,False,swap_count,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+alu-v2_31.qasm,alu,unassigned,False,False,swap_count,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+alu-v2_31.qasm,alu,unassigned,False,False,routed_depth,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+alu-v2_31.qasm,alu,unassigned,False,False,routed_depth,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+alu-v2_31.qasm,alu,unassigned,False,False,routed_depth,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+alu-v2_32.qasm,alu,unassigned,False,False,swap_count,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+alu-v2_32.qasm,alu,unassigned,False,False,swap_count,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+alu-v2_32.qasm,alu,unassigned,False,False,swap_count,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+alu-v2_32.qasm,alu,unassigned,False,False,routed_depth,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+alu-v2_32.qasm,alu,unassigned,False,False,routed_depth,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+alu-v2_32.qasm,alu,unassigned,False,False,routed_depth,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+alu-v2_33.qasm,alu,unassigned,False,False,swap_count,200,ready,ok,materializer,,False,2.383,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\alu-v2_33\swap_count\seed_200\routed\routing_report.json,original_unchanged,8,8,8,34,34,34,0.0,0,0,0,1,False
+alu-v2_33.qasm,alu,unassigned,False,False,swap_count,211,ready,ok,materializer,,False,2.391,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\alu-v2_33\swap_count\seed_211\routed\routing_report.json,original_unchanged,8,8,8,35,35,35,0.0,0,0,0,1,False
+alu-v2_33.qasm,alu,unassigned,False,False,swap_count,223,ready,ok,materializer,,False,2.307,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\alu-v2_33\swap_count\seed_223\routed\routing_report.json,original_unchanged,8,8,8,35,35,35,0.0,0,0,0,1,False
+alu-v2_33.qasm,alu,unassigned,False,False,routed_depth,200,ready,ok,materializer,,False,2.317,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\alu-v2_33\routed_depth\seed_200\routed\routing_report.json,original_unchanged,8,8,8,34,34,34,0.0,0,0,0,1,False
+alu-v2_33.qasm,alu,unassigned,False,False,routed_depth,211,ready,ok,materializer,,False,2.464,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\alu-v2_33\routed_depth\seed_211\routed\routing_report.json,original_unchanged,8,8,8,35,35,35,0.0,0,0,0,1,False
+alu-v2_33.qasm,alu,unassigned,False,False,routed_depth,223,ready,ok,materializer,,False,2.358,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\alu-v2_33\routed_depth\seed_223\routed\routing_report.json,original_unchanged,8,8,8,35,35,35,0.0,0,0,0,1,False
+alu-v3_34.qasm,alu,unassigned,False,False,swap_count,200,ready,ok,materializer,,False,2.377,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\alu-v3_34\swap_count\seed_200\routed\routing_report.json,repaired,13,11,11,50,47,47,15.384615384615385,2,2,2,1,True
+alu-v3_34.qasm,alu,unassigned,False,False,swap_count,211,ready,ok,materializer,,False,2.365,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\alu-v3_34\swap_count\seed_211\routed\routing_report.json,repaired,12,11,11,50,47,47,8.333333333333334,1,1,1,1,True
+alu-v3_34.qasm,alu,unassigned,False,False,swap_count,223,ready,ok,materializer,,False,2.383,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\alu-v3_34\swap_count\seed_223\routed\routing_report.json,repaired,13,11,11,51,47,47,15.384615384615385,2,2,2,1,True
+alu-v3_34.qasm,alu,unassigned,False,False,routed_depth,200,ready,ok,materializer,,False,2.331,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\alu-v3_34\routed_depth\seed_200\routed\routing_report.json,repaired,13,11,11,50,47,47,6.0,3,3,3,1,True
+alu-v3_34.qasm,alu,unassigned,False,False,routed_depth,211,ready,ok,materializer,,False,2.291,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\alu-v3_34\routed_depth\seed_211\routed\routing_report.json,repaired,12,11,11,50,47,47,6.0,3,3,3,1,True
+alu-v3_34.qasm,alu,unassigned,False,False,routed_depth,223,ready,ok,materializer,,False,2.362,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\alu-v3_34\routed_depth\seed_223\routed\routing_report.json,repaired,13,11,11,51,47,47,7.8431372549019605,4,4,4,1,True
+alu-v3_35.qasm,alu,unassigned,False,False,swap_count,200,ready,ok,materializer,,False,2.286,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\alu-v3_35\swap_count\seed_200\routed\routing_report.json,original_unchanged,8,8,8,34,34,34,0.0,0,0,0,1,False
+alu-v3_35.qasm,alu,unassigned,False,False,swap_count,211,ready,ok,materializer,,False,2.392,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\alu-v3_35\swap_count\seed_211\routed\routing_report.json,original_unchanged,8,8,8,37,37,37,0.0,0,0,0,1,False
+alu-v3_35.qasm,alu,unassigned,False,False,swap_count,223,ready,ok,materializer,,False,2.266,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\alu-v3_35\swap_count\seed_223\routed\routing_report.json,original_unchanged,8,8,8,34,34,34,0.0,0,0,0,1,False
+alu-v3_35.qasm,alu,unassigned,False,False,routed_depth,200,ready,ok,materializer,,False,2.302,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\alu-v3_35\routed_depth\seed_200\routed\routing_report.json,original_unchanged,8,8,8,34,34,34,0.0,0,0,0,1,False
+alu-v3_35.qasm,alu,unassigned,False,False,routed_depth,211,ready,ok,materializer,,False,2.364,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\alu-v3_35\routed_depth\seed_211\routed\routing_report.json,original_unchanged,8,8,8,37,37,37,0.0,0,0,-3,1,False
+alu-v3_35.qasm,alu,unassigned,False,False,routed_depth,223,ready,ok,materializer,,False,2.268,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\alu-v3_35\routed_depth\seed_223\routed\routing_report.json,original_unchanged,8,8,8,34,34,34,0.0,0,0,0,1,False
+alu-v4_36.qasm,alu,unassigned,False,False,swap_count,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+alu-v4_36.qasm,alu,unassigned,False,False,swap_count,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+alu-v4_36.qasm,alu,unassigned,False,False,swap_count,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+alu-v4_36.qasm,alu,unassigned,False,False,routed_depth,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+alu-v4_36.qasm,alu,unassigned,False,False,routed_depth,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+alu-v4_36.qasm,alu,unassigned,False,False,routed_depth,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+alu-v4_37.qasm,alu,unassigned,False,False,swap_count,200,ready,ok,materializer,,False,2.407,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\alu-v4_37\swap_count\seed_200\routed\routing_report.json,original_unchanged,8,8,8,34,34,34,0.0,0,0,0,1,False
+alu-v4_37.qasm,alu,unassigned,False,False,swap_count,211,ready,ok,materializer,,False,2.344,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\alu-v4_37\swap_count\seed_211\routed\routing_report.json,original_unchanged,8,8,8,37,37,37,0.0,0,0,0,1,False
+alu-v4_37.qasm,alu,unassigned,False,False,swap_count,223,ready,ok,materializer,,False,2.349,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\alu-v4_37\swap_count\seed_223\routed\routing_report.json,original_unchanged,8,8,8,34,34,34,0.0,0,0,0,1,False
+alu-v4_37.qasm,alu,unassigned,False,False,routed_depth,200,ready,ok,materializer,,False,2.418,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\alu-v4_37\routed_depth\seed_200\routed\routing_report.json,original_unchanged,8,8,8,34,34,34,0.0,0,0,0,1,False
+alu-v4_37.qasm,alu,unassigned,False,False,routed_depth,211,ready,ok,materializer,,False,2.414,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\alu-v4_37\routed_depth\seed_211\routed\routing_report.json,original_unchanged,8,8,8,37,37,37,0.0,0,0,-3,1,False
+alu-v4_37.qasm,alu,unassigned,False,False,routed_depth,223,ready,ok,materializer,,False,2.324,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\alu-v4_37\routed_depth\seed_223\routed\routing_report.json,original_unchanged,8,8,8,34,34,34,0.0,0,0,0,1,False
+bv_n10.qasm,bv_n10,known_train,False,False,swap_count,200,no_observed_neighbor,no_observed_neighbor,,,,,,,,,,,,,,,,,,
+bv_n10.qasm,bv_n10,known_train,False,False,swap_count,211,no_observed_neighbor,no_observed_neighbor,,,,,,,,,,,,,,,,,,
+bv_n10.qasm,bv_n10,known_train,False,False,swap_count,223,no_observed_neighbor,no_observed_neighbor,,,,,,,,,,,,,,,,,,
+bv_n10.qasm,bv_n10,known_train,False,False,routed_depth,200,no_observed_neighbor,no_observed_neighbor,,,,,,,,,,,,,,,,,,
+bv_n10.qasm,bv_n10,known_train,False,False,routed_depth,211,no_observed_neighbor,no_observed_neighbor,,,,,,,,,,,,,,,,,,
+bv_n10.qasm,bv_n10,known_train,False,False,routed_depth,223,no_observed_neighbor,no_observed_neighbor,,,,,,,,,,,,,,,,,,
+cc_n10.qasm,cc_n10,known_train,False,False,swap_count,200,no_observed_neighbor,no_observed_neighbor,,,,,,,,,,,,,,,,,,
+cc_n10.qasm,cc_n10,known_train,False,False,swap_count,211,no_observed_neighbor,no_observed_neighbor,,,,,,,,,,,,,,,,,,
+cc_n10.qasm,cc_n10,known_train,False,False,swap_count,223,no_observed_neighbor,no_observed_neighbor,,,,,,,,,,,,,,,,,,
+cc_n10.qasm,cc_n10,known_train,False,False,routed_depth,200,no_observed_neighbor,no_observed_neighbor,,,,,,,,,,,,,,,,,,
+cc_n10.qasm,cc_n10,known_train,False,False,routed_depth,211,no_observed_neighbor,no_observed_neighbor,,,,,,,,,,,,,,,,,,
+cc_n10.qasm,cc_n10,known_train,False,False,routed_depth,223,no_observed_neighbor,no_observed_neighbor,,,,,,,,,,,,,,,,,,
+clip_206.qasm,clip,unassigned,False,False,swap_count,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+clip_206.qasm,clip,unassigned,False,False,swap_count,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+clip_206.qasm,clip,unassigned,False,False,swap_count,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+clip_206.qasm,clip,unassigned,False,False,routed_depth,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+clip_206.qasm,clip,unassigned,False,False,routed_depth,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+clip_206.qasm,clip,unassigned,False,False,routed_depth,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+cm152a_212.qasm,cm,known_train,True,False,swap_count,200,ready,ok,materializer,,True,3.39,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\cm152a_212\swap_count\seed_200\routed\routing_report.json,repaired,314,313,313,987,987,987,0.3184713375796178,1,1,1,7,True
+cm152a_212.qasm,cm,known_train,True,False,swap_count,211,ready,ok,materializer,,True,3.434,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\cm152a_212\swap_count\seed_211\routed\routing_report.json,original_guarded,311,313,311,984,1045,984,0.0,0,-2,0,7,True
+cm152a_212.qasm,cm,known_train,True,False,swap_count,223,ready,ok,materializer,,True,3.434,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\cm152a_212\swap_count\seed_223\routed\routing_report.json,original_guarded,316,316,316,1030,1052,1030,0.0,0,0,0,7,True
+cm152a_212.qasm,cm,known_train,True,False,routed_depth,200,ready,ok,materializer,,True,3.561,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\cm152a_212\routed_depth\seed_200\routed\routing_report.json,original_unchanged,314,314,314,987,987,987,0.0,0,0,0,7,False
+cm152a_212.qasm,cm,known_train,True,False,routed_depth,211,ready,ok,materializer,,True,3.354,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\cm152a_212\routed_depth\seed_211\routed\routing_report.json,original_unchanged,311,311,311,984,984,984,0.0,0,0,0,7,False
+cm152a_212.qasm,cm,known_train,True,False,routed_depth,223,ready,ok,materializer,,True,3.368,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\cm152a_212\routed_depth\seed_223\routed\routing_report.json,original_unchanged,316,316,316,1030,1030,1030,0.0,0,0,0,7,False
+cm42a_207.qasm,cm,known_train,True,False,swap_count,200,ready,ok,materializer,,True,5.231,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\cm42a_207\swap_count\seed_200\routed\routing_report.json,repaired,500,493,493,1488,1456,1456,1.4,7,7,7,21,True
+cm42a_207.qasm,cm,known_train,True,False,swap_count,211,ready,ok,materializer,,True,5.272,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\cm42a_207\swap_count\seed_211\routed\routing_report.json,repaired,500,478,478,1477,1457,1457,4.4,22,22,22,21,True
+cm42a_207.qasm,cm,known_train,True,False,swap_count,223,ready,ok,materializer,,True,5.198,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\cm42a_207\swap_count\seed_223\routed\routing_report.json,repaired,487,478,478,1480,1450,1450,1.8480492813141685,9,9,5,21,True
+cm42a_207.qasm,cm,known_train,True,False,routed_depth,200,ready,ok,materializer,,True,5.286,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\cm42a_207\routed_depth\seed_200\routed\routing_report.json,repaired,500,483,483,1488,1485,1485,0.20161290322580644,3,3,3,21,True
+cm42a_207.qasm,cm,known_train,True,False,routed_depth,211,ready,ok,materializer,,True,5.28,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\cm42a_207\routed_depth\seed_211\routed\routing_report.json,original_guarded,500,499,500,1477,1493,1477,0.0,0,-16,-10,21,True
+cm42a_207.qasm,cm,known_train,True,False,routed_depth,223,ready,ok,materializer,,True,5.324,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\cm42a_207\routed_depth\seed_223\routed\routing_report.json,repaired,487,478,478,1480,1441,1441,2.635135135135135,39,39,37,21,True
+cm82a_208.qasm,cm,known_train,False,False,swap_count,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+cm82a_208.qasm,cm,known_train,False,False,swap_count,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+cm82a_208.qasm,cm,known_train,False,False,swap_count,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+cm82a_208.qasm,cm,known_train,False,False,routed_depth,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+cm82a_208.qasm,cm,known_train,False,False,routed_depth,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+cm82a_208.qasm,cm,known_train,False,False,routed_depth,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+cm85a_209.qasm,cm,unassigned,False,False,swap_count,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+cm85a_209.qasm,cm,unassigned,False,False,swap_count,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+cm85a_209.qasm,cm,unassigned,False,False,swap_count,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+cm85a_209.qasm,cm,unassigned,False,False,routed_depth,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+cm85a_209.qasm,cm,unassigned,False,False,routed_depth,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+cm85a_209.qasm,cm,unassigned,False,False,routed_depth,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+cnt3-5_179.qasm,cnt3_5,known_train,True,False,swap_count,200,ready,ok,materializer,,False,3.512,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\cnt3-5_179\swap_count\seed_200\routed\routing_report.json,repaired,53,49,49,158,151,151,7.547169811320755,4,4,4,120,True
+cnt3-5_179.qasm,cnt3_5,known_train,True,False,swap_count,211,ready,ok,materializer,,False,3.385,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\cnt3-5_179\swap_count\seed_211\routed\routing_report.json,repaired,56,47,47,161,154,154,16.071428571428573,9,9,9,120,True
+cnt3-5_179.qasm,cnt3_5,known_train,True,False,swap_count,223,ready,ok,materializer,,False,3.485,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\cnt3-5_179\swap_count\seed_223\routed\routing_report.json,repaired,56,49,49,162,151,151,12.5,7,7,7,120,True
+cnt3-5_179.qasm,cnt3_5,known_train,True,False,routed_depth,200,ready,ok,materializer,,False,3.411,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\cnt3-5_179\routed_depth\seed_200\routed\routing_report.json,repaired,53,53,53,158,155,155,1.8987341772151898,3,3,3,120,True
+cnt3-5_179.qasm,cnt3_5,known_train,True,False,routed_depth,211,ready,ok,materializer,,False,3.368,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\cnt3-5_179\routed_depth\seed_211\routed\routing_report.json,repaired,56,53,53,161,155,155,3.7267080745341614,6,6,6,120,True
+cnt3-5_179.qasm,cnt3_5,known_train,True,False,routed_depth,223,ready,ok,materializer,,False,3.382,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\cnt3-5_179\routed_depth\seed_223\routed\routing_report.json,repaired,56,53,53,162,155,155,4.320987654320987,7,7,7,120,True
+cnt3-5_180.qasm,cnt3_5,known_train,True,False,swap_count,200,ready,ok,materializer,,True,4.772,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\cnt3-5_180\swap_count\seed_200\routed\routing_report.json,repaired,121,120,120,414,415,415,0.8264462809917356,1,1,1,120,True
+cnt3-5_180.qasm,cnt3_5,known_train,True,False,swap_count,211,ready,ok,materializer,,True,4.834,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\cnt3-5_180\swap_count\seed_211\routed\routing_report.json,original_guarded,121,124,121,414,409,414,0.0,0,-3,0,120,True
+cnt3-5_180.qasm,cnt3_5,known_train,True,False,swap_count,223,ready,ok,materializer,,True,4.743,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\cnt3-5_180\swap_count\seed_223\routed\routing_report.json,original_guarded,122,123,122,417,419,417,0.0,0,-1,-1,120,True
+cnt3-5_180.qasm,cnt3_5,known_train,True,False,routed_depth,200,ready,ok,materializer,,True,4.758,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\cnt3-5_180\routed_depth\seed_200\routed\routing_report.json,repaired,121,115,115,414,404,404,2.4154589371980677,10,10,10,120,True
+cnt3-5_180.qasm,cnt3_5,known_train,True,False,routed_depth,211,ready,ok,materializer,,True,4.653,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\cnt3-5_180\routed_depth\seed_211\routed\routing_report.json,repaired,121,114,114,414,400,400,3.3816425120772946,14,14,14,120,True
+cnt3-5_180.qasm,cnt3_5,known_train,True,False,routed_depth,223,ready,ok,materializer,,True,4.799,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\cnt3-5_180\routed_depth\seed_223\routed\routing_report.json,repaired,122,120,120,417,406,406,2.6378896882494005,11,11,7,120,True
+co14_215.qasm,co14,unassigned,False,False,swap_count,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+co14_215.qasm,co14,unassigned,False,False,swap_count,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+co14_215.qasm,co14,unassigned,False,False,swap_count,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+co14_215.qasm,co14,unassigned,False,False,routed_depth,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+co14_215.qasm,co14,unassigned,False,False,routed_depth,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+co14_215.qasm,co14,unassigned,False,False,routed_depth,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+con1_216.qasm,con1,known_train,False,False,swap_count,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+con1_216.qasm,con1,known_train,False,False,swap_count,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+con1_216.qasm,con1,known_train,False,False,swap_count,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+con1_216.qasm,con1,known_train,False,False,routed_depth,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+con1_216.qasm,con1,known_train,False,False,routed_depth,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+con1_216.qasm,con1,known_train,False,False,routed_depth,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+cycle10_2_110.qasm,cycle10_2,unassigned,False,False,swap_count,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+cycle10_2_110.qasm,cycle10_2,unassigned,False,False,swap_count,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+cycle10_2_110.qasm,cycle10_2,unassigned,False,False,swap_count,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+cycle10_2_110.qasm,cycle10_2,unassigned,False,False,routed_depth,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+cycle10_2_110.qasm,cycle10_2,unassigned,False,False,routed_depth,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+cycle10_2_110.qasm,cycle10_2,unassigned,False,False,routed_depth,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+dc1_220.qasm,dc1,unassigned,False,False,swap_count,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+dc1_220.qasm,dc1,unassigned,False,False,swap_count,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+dc1_220.qasm,dc1,unassigned,False,False,swap_count,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+dc1_220.qasm,dc1,unassigned,False,False,routed_depth,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+dc1_220.qasm,dc1,unassigned,False,False,routed_depth,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+dc1_220.qasm,dc1,unassigned,False,False,routed_depth,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+dc2_222.qasm,dc2,unassigned,False,False,swap_count,200,ready,ok,materializer,,False,15.591,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\dc2_222\swap_count\seed_200\routed\routing_report.json,repaired,2840,2810,2810,7969,7954,7954,1.056338028169014,30,30,26,12,True
+dc2_222.qasm,dc2,unassigned,False,False,swap_count,211,ready,ok,materializer,,False,16.05,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\dc2_222\swap_count\seed_211\routed\routing_report.json,repaired,2819,2797,2797,7967,7962,7962,0.7804185881518269,22,22,22,12,True
+dc2_222.qasm,dc2,unassigned,False,False,swap_count,223,ready,ok,materializer,,False,15.804,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\dc2_222\swap_count\seed_223\routed\routing_report.json,original_guarded,2767,2870,2767,7961,8069,7961,0.0,0,-103,0,12,True
+dc2_222.qasm,dc2,unassigned,False,False,routed_depth,200,ready,ok,materializer,,False,15.613,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\dc2_222\routed_depth\seed_200\routed\routing_report.json,repaired,2840,2793,2793,7969,7913,7913,0.7027230518258251,56,56,56,12,True
+dc2_222.qasm,dc2,unassigned,False,False,routed_depth,211,ready,ok,materializer,,False,15.923,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\dc2_222\routed_depth\seed_211\routed\routing_report.json,repaired,2819,2811,2811,7967,7935,7935,0.40165683444207356,32,32,32,12,True
+dc2_222.qasm,dc2,unassigned,False,False,routed_depth,223,ready,ok,materializer,,False,16.068,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\dc2_222\routed_depth\seed_223\routed\routing_report.json,original_guarded,2767,2838,2767,7961,7964,7961,0.0,0,-3,0,12,True
+decod24-bdd_294.qasm,decod24-bdd,unassigned,False,False,swap_count,200,ready,ok,materializer,,False,2.481,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\decod24-bdd_294\swap_count\seed_200\routed\routing_report.json,original_guarded,14,14,14,63,58,63,0.0,0,0,0,6,True
+decod24-bdd_294.qasm,decod24-bdd,unassigned,False,False,swap_count,211,ready,ok,materializer,,False,2.372,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\decod24-bdd_294\swap_count\seed_211\routed\routing_report.json,original_guarded,14,14,14,63,58,63,0.0,0,0,0,6,True
+decod24-bdd_294.qasm,decod24-bdd,unassigned,False,False,swap_count,223,ready,ok,materializer,,False,2.37,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\decod24-bdd_294\swap_count\seed_223\routed\routing_report.json,original_guarded,14,14,14,62,58,62,0.0,0,0,0,6,True
+decod24-bdd_294.qasm,decod24-bdd,unassigned,False,False,routed_depth,200,ready,ok,materializer,,False,2.45,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\decod24-bdd_294\routed_depth\seed_200\routed\routing_report.json,repaired,14,14,14,63,58,58,7.936507936507937,5,5,5,6,True
+decod24-bdd_294.qasm,decod24-bdd,unassigned,False,False,routed_depth,211,ready,ok,materializer,,False,2.466,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\decod24-bdd_294\routed_depth\seed_211\routed\routing_report.json,repaired,14,14,14,63,58,58,7.936507936507937,5,5,5,6,True
+decod24-bdd_294.qasm,decod24-bdd,unassigned,False,False,routed_depth,223,ready,ok,materializer,,False,2.456,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\decod24-bdd_294\routed_depth\seed_223\routed\routing_report.json,repaired,14,14,14,62,58,58,6.451612903225806,4,4,4,6,True
+decod24-enable_126.qasm,decod24-enable,unassigned,False,False,swap_count,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+decod24-enable_126.qasm,decod24-enable,unassigned,False,False,swap_count,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+decod24-enable_126.qasm,decod24-enable,unassigned,False,False,swap_count,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+decod24-enable_126.qasm,decod24-enable,unassigned,False,False,routed_depth,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+decod24-enable_126.qasm,decod24-enable,unassigned,False,False,routed_depth,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+decod24-enable_126.qasm,decod24-enable,unassigned,False,False,routed_depth,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+decod24-v0_38.qasm,decod24-v0,unassigned,False,False,swap_count,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+decod24-v0_38.qasm,decod24-v0,unassigned,False,False,swap_count,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+decod24-v0_38.qasm,decod24-v0,unassigned,False,False,swap_count,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+decod24-v0_38.qasm,decod24-v0,unassigned,False,False,routed_depth,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+decod24-v0_38.qasm,decod24-v0,unassigned,False,False,routed_depth,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+decod24-v0_38.qasm,decod24-v0,unassigned,False,False,routed_depth,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+decod24-v1_41.qasm,decod24-v1,known_train,False,False,swap_count,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+decod24-v1_41.qasm,decod24-v1,known_train,False,False,swap_count,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+decod24-v1_41.qasm,decod24-v1,known_train,False,False,swap_count,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+decod24-v1_41.qasm,decod24-v1,known_train,False,False,routed_depth,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+decod24-v1_41.qasm,decod24-v1,known_train,False,False,routed_depth,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+decod24-v1_41.qasm,decod24-v1,known_train,False,False,routed_depth,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+decod24-v2_43.qasm,decod24-v2,unassigned,False,False,swap_count,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+decod24-v2_43.qasm,decod24-v2,unassigned,False,False,swap_count,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+decod24-v2_43.qasm,decod24-v2,unassigned,False,False,swap_count,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+decod24-v2_43.qasm,decod24-v2,unassigned,False,False,routed_depth,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+decod24-v2_43.qasm,decod24-v2,unassigned,False,False,routed_depth,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+decod24-v2_43.qasm,decod24-v2,unassigned,False,False,routed_depth,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+decod24-v3_45.qasm,decod24-v3,unassigned,False,False,swap_count,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+decod24-v3_45.qasm,decod24-v3,unassigned,False,False,swap_count,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+decod24-v3_45.qasm,decod24-v3,unassigned,False,False,swap_count,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+decod24-v3_45.qasm,decod24-v3,unassigned,False,False,routed_depth,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+decod24-v3_45.qasm,decod24-v3,unassigned,False,False,routed_depth,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+decod24-v3_45.qasm,decod24-v3,unassigned,False,False,routed_depth,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+dist_223.qasm,dist,unassigned,False,False,swap_count,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+dist_223.qasm,dist,unassigned,False,False,swap_count,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+dist_223.qasm,dist,unassigned,False,False,swap_count,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+dist_223.qasm,dist,unassigned,False,False,routed_depth,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+dist_223.qasm,dist,unassigned,False,False,routed_depth,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+dist_223.qasm,dist,unassigned,False,False,routed_depth,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+ex-1_166.qasm,ex-1,unassigned,False,False,swap_count,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+ex-1_166.qasm,ex-1,unassigned,False,False,swap_count,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+ex-1_166.qasm,ex-1,unassigned,False,False,swap_count,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+ex-1_166.qasm,ex-1,unassigned,False,False,routed_depth,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+ex-1_166.qasm,ex-1,unassigned,False,False,routed_depth,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+ex-1_166.qasm,ex-1,unassigned,False,False,routed_depth,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+ex1_226.qasm,ex1,known_validation,False,False,swap_count,200,no_observed_neighbor,no_observed_neighbor,,,,,,,,,,,,,,,,,,
+ex1_226.qasm,ex1,known_validation,False,False,swap_count,211,no_observed_neighbor,no_observed_neighbor,,,,,,,,,,,,,,,,,,
+ex1_226.qasm,ex1,known_validation,False,False,swap_count,223,no_observed_neighbor,no_observed_neighbor,,,,,,,,,,,,,,,,,,
+ex1_226.qasm,ex1,known_validation,False,False,routed_depth,200,no_observed_neighbor,no_observed_neighbor,,,,,,,,,,,,,,,,,,
+ex1_226.qasm,ex1,known_validation,False,False,routed_depth,211,no_observed_neighbor,no_observed_neighbor,,,,,,,,,,,,,,,,,,
+ex1_226.qasm,ex1,known_validation,False,False,routed_depth,223,no_observed_neighbor,no_observed_neighbor,,,,,,,,,,,,,,,,,,
+ex2_227.qasm,ex2,unassigned,False,False,swap_count,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+ex2_227.qasm,ex2,unassigned,False,False,swap_count,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+ex2_227.qasm,ex2,unassigned,False,False,swap_count,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+ex2_227.qasm,ex2,unassigned,False,False,routed_depth,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+ex2_227.qasm,ex2,unassigned,False,False,routed_depth,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+ex2_227.qasm,ex2,unassigned,False,False,routed_depth,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+ex3_229.qasm,ex3,unassigned,False,False,swap_count,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+ex3_229.qasm,ex3,unassigned,False,False,swap_count,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+ex3_229.qasm,ex3,unassigned,False,False,swap_count,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+ex3_229.qasm,ex3,unassigned,False,False,routed_depth,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+ex3_229.qasm,ex3,unassigned,False,False,routed_depth,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+ex3_229.qasm,ex3,unassigned,False,False,routed_depth,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+f2_232.qasm,f2,unassigned,False,False,swap_count,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+f2_232.qasm,f2,unassigned,False,False,swap_count,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+f2_232.qasm,f2,unassigned,False,False,swap_count,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+f2_232.qasm,f2,unassigned,False,False,routed_depth,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+f2_232.qasm,f2,unassigned,False,False,routed_depth,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+f2_232.qasm,f2,unassigned,False,False,routed_depth,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+graycode6_47.qasm,graycode6,known_train,False,False,swap_count,200,ready,ok,materializer,,True,2.432,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\graycode6_47\swap_count\seed_200\routed\routing_report.json,repaired,1,0,0,8,8,8,100.0,1,1,1,14,True
+graycode6_47.qasm,graycode6,known_train,False,False,swap_count,211,ready,ok,materializer,,True,2.416,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\graycode6_47\swap_count\seed_211\routed\routing_report.json,repaired,1,0,0,8,8,8,100.0,1,1,1,14,True
+graycode6_47.qasm,graycode6,known_train,False,False,swap_count,223,ready,ok,materializer,,True,2.401,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\graycode6_47\swap_count\seed_223\routed\routing_report.json,repaired,1,0,0,8,8,8,100.0,1,1,1,14,True
+graycode6_47.qasm,graycode6,known_train,False,False,routed_depth,200,ready,ok,materializer,,True,2.391,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\graycode6_47\routed_depth\seed_200\routed\routing_report.json,original_guarded,1,0,1,8,8,8,0.0,0,0,0,14,True
+graycode6_47.qasm,graycode6,known_train,False,False,routed_depth,211,ready,ok,materializer,,True,2.41,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\graycode6_47\routed_depth\seed_211\routed\routing_report.json,original_guarded,1,0,1,8,8,8,0.0,0,0,0,14,True
+graycode6_47.qasm,graycode6,known_train,False,False,routed_depth,223,ready,ok,materializer,,True,2.434,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\graycode6_47\routed_depth\seed_223\routed\routing_report.json,original_guarded,1,0,1,8,8,8,0.0,0,0,0,14,True
+ground_state_estimation_10.qasm,ground_state_estimation,unassigned,False,False,swap_count,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+ground_state_estimation_10.qasm,ground_state_estimation,unassigned,False,False,swap_count,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+ground_state_estimation_10.qasm,ground_state_estimation,unassigned,False,False,swap_count,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+ground_state_estimation_10.qasm,ground_state_estimation,unassigned,False,False,routed_depth,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+ground_state_estimation_10.qasm,ground_state_estimation,unassigned,False,False,routed_depth,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+ground_state_estimation_10.qasm,ground_state_estimation,unassigned,False,False,routed_depth,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+ham15_107.qasm,ham15,unassigned,False,False,swap_count,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+ham15_107.qasm,ham15,unassigned,False,False,swap_count,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+ham15_107.qasm,ham15,unassigned,False,False,swap_count,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+ham15_107.qasm,ham15,unassigned,False,False,routed_depth,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+ham15_107.qasm,ham15,unassigned,False,False,routed_depth,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+ham15_107.qasm,ham15,unassigned,False,False,routed_depth,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+ham3_102.qasm,ham3,unassigned,False,False,swap_count,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+ham3_102.qasm,ham3,unassigned,False,False,swap_count,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+ham3_102.qasm,ham3,unassigned,False,False,swap_count,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+ham3_102.qasm,ham3,unassigned,False,False,routed_depth,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+ham3_102.qasm,ham3,unassigned,False,False,routed_depth,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+ham3_102.qasm,ham3,unassigned,False,False,routed_depth,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+ham7_104.qasm,ham7,known_train,False,False,swap_count,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+ham7_104.qasm,ham7,known_train,False,False,swap_count,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+ham7_104.qasm,ham7,known_train,False,False,swap_count,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+ham7_104.qasm,ham7,known_train,False,False,routed_depth,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+ham7_104.qasm,ham7,known_train,False,False,routed_depth,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+ham7_104.qasm,ham7,known_train,False,False,routed_depth,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+hwb4_49.qasm,hwb,known_train,False,False,swap_count,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+hwb4_49.qasm,hwb,known_train,False,False,swap_count,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+hwb4_49.qasm,hwb,known_train,False,False,swap_count,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+hwb4_49.qasm,hwb,known_train,False,False,routed_depth,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+hwb4_49.qasm,hwb,known_train,False,False,routed_depth,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+hwb4_49.qasm,hwb,known_train,False,False,routed_depth,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+hwb5_53.qasm,hwb,known_train,False,False,swap_count,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+hwb5_53.qasm,hwb,known_train,False,False,swap_count,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+hwb5_53.qasm,hwb,known_train,False,False,swap_count,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+hwb5_53.qasm,hwb,known_train,False,False,routed_depth,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+hwb5_53.qasm,hwb,known_train,False,False,routed_depth,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+hwb5_53.qasm,hwb,known_train,False,False,routed_depth,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+hwb6_56.qasm,hwb,unassigned,False,False,swap_count,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+hwb6_56.qasm,hwb,unassigned,False,False,swap_count,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+hwb6_56.qasm,hwb,unassigned,False,False,swap_count,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+hwb6_56.qasm,hwb,unassigned,False,False,routed_depth,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+hwb6_56.qasm,hwb,unassigned,False,False,routed_depth,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+hwb6_56.qasm,hwb,unassigned,False,False,routed_depth,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+hwb7_59.qasm,hwb,unassigned,False,False,swap_count,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+hwb7_59.qasm,hwb,unassigned,False,False,swap_count,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+hwb7_59.qasm,hwb,unassigned,False,False,swap_count,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+hwb7_59.qasm,hwb,unassigned,False,False,routed_depth,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+hwb7_59.qasm,hwb,unassigned,False,False,routed_depth,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+hwb7_59.qasm,hwb,unassigned,False,False,routed_depth,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+hwb8_113.qasm,hwb,unassigned,False,False,swap_count,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+hwb8_113.qasm,hwb,unassigned,False,False,swap_count,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+hwb8_113.qasm,hwb,unassigned,False,False,swap_count,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+hwb8_113.qasm,hwb,unassigned,False,False,routed_depth,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+hwb8_113.qasm,hwb,unassigned,False,False,routed_depth,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+hwb8_113.qasm,hwb,unassigned,False,False,routed_depth,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+hwb9_119.qasm,hwb,unassigned,False,False,swap_count,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+hwb9_119.qasm,hwb,unassigned,False,False,swap_count,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+hwb9_119.qasm,hwb,unassigned,False,False,swap_count,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+hwb9_119.qasm,hwb,unassigned,False,False,routed_depth,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+hwb9_119.qasm,hwb,unassigned,False,False,routed_depth,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+hwb9_119.qasm,hwb,unassigned,False,False,routed_depth,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+inc_237.qasm,inc,unassigned,False,False,swap_count,200,ready,ok,materializer,,False,7.846,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\inc_237\swap_count\seed_200\routed\routing_report.json,repaired,3086,3071,3071,8827,8947,8947,0.4860661049902787,15,15,15,1,True
+inc_237.qasm,inc,unassigned,False,False,swap_count,211,ready,ok,materializer,,False,7.624,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\inc_237\swap_count\seed_211\routed\routing_report.json,original_guarded,3111,3111,3111,8892,8885,8892,0.0,0,0,-26,1,True
+inc_237.qasm,inc,unassigned,False,False,swap_count,223,ready,ok,materializer,,False,7.665,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\inc_237\swap_count\seed_223\routed\routing_report.json,repaired,3078,3045,3045,8869,8895,8895,1.0721247563352827,33,33,33,1,True
+inc_237.qasm,inc,unassigned,False,False,routed_depth,200,ready,ok,materializer,,False,7.776,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\inc_237\routed_depth\seed_200\routed\routing_report.json,original_guarded,3086,3071,3086,8827,8947,8827,0.0,0,-120,0,1,True
+inc_237.qasm,inc,unassigned,False,False,routed_depth,211,ready,ok,materializer,,False,7.849,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\inc_237\routed_depth\seed_211\routed\routing_report.json,repaired,3111,3111,3111,8892,8885,8885,0.07872244714349977,7,7,-7,1,True
+inc_237.qasm,inc,unassigned,False,False,routed_depth,223,ready,ok,materializer,,False,7.914,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\inc_237\routed_depth\seed_223\routed\routing_report.json,original_guarded,3078,3045,3078,8869,8895,8869,0.0,0,-26,0,1,True
+ising_model_10.qasm,ising_model,known_validation,False,False,swap_count,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+ising_model_10.qasm,ising_model,known_validation,False,False,swap_count,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+ising_model_10.qasm,ising_model,known_validation,False,False,swap_count,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+ising_model_10.qasm,ising_model,known_validation,False,False,routed_depth,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+ising_model_10.qasm,ising_model,known_validation,False,False,routed_depth,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+ising_model_10.qasm,ising_model,known_validation,False,False,routed_depth,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+ising_model_13.qasm,ising_model,unassigned,False,False,swap_count,200,ready,ok,materializer,,False,2.849,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\ising_model_13\swap_count\seed_200\routed\routing_report.json,original_unchanged,19,19,19,147,147,147,0.0,0,0,-8,3,False
+ising_model_13.qasm,ising_model,unassigned,False,False,swap_count,211,ready,ok,materializer,,False,2.754,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\ising_model_13\swap_count\seed_211\routed\routing_report.json,original_unchanged,3,3,3,120,120,120,0.0,0,0,0,3,False
+ising_model_13.qasm,ising_model,unassigned,False,False,swap_count,223,ready,ok,materializer,,False,2.782,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\ising_model_13\swap_count\seed_223\routed\routing_report.json,original_unchanged,3,3,3,118,118,118,0.0,0,0,0,3,False
+ising_model_13.qasm,ising_model,unassigned,False,False,routed_depth,200,ready,ok,materializer,,False,2.708,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\ising_model_13\routed_depth\seed_200\routed\routing_report.json,repaired,19,7,7,147,120,120,18.367346938775512,27,27,19,3,True
+ising_model_13.qasm,ising_model,unassigned,False,False,routed_depth,211,ready,ok,materializer,,False,2.711,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\ising_model_13\routed_depth\seed_211\routed\routing_report.json,repaired,3,2,2,120,119,119,0.8333333333333334,1,1,1,3,True
+ising_model_13.qasm,ising_model,unassigned,False,False,routed_depth,223,ready,ok,materializer,,False,2.804,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\ising_model_13\routed_depth\seed_223\routed\routing_report.json,original_guarded,3,18,3,118,137,118,0.0,0,-19,0,3,True
+ising_model_16.qasm,ising_model,known_validation,False,False,swap_count,200,ready,ok,materializer,,False,3.073,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\ising_model_16\swap_count\seed_200\routed\routing_report.json,original_guarded,8,11,8,168,173,168,0.0,0,-3,0,7,True
+ising_model_16.qasm,ising_model,known_validation,False,False,swap_count,211,ready,ok,materializer,,False,3.07,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\ising_model_16\swap_count\seed_211\routed\routing_report.json,original_guarded,10,11,10,169,171,169,0.0,0,-1,-2,7,True
+ising_model_16.qasm,ising_model,known_validation,False,False,swap_count,223,ready,ok,materializer,,False,2.999,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\ising_model_16\swap_count\seed_223\routed\routing_report.json,repaired,10,9,9,169,169,169,10.0,1,1,-1,7,True
+ising_model_16.qasm,ising_model,known_validation,False,False,routed_depth,200,ready,ok,materializer,,False,3.079,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\ising_model_16\routed_depth\seed_200\routed\routing_report.json,original_guarded,8,26,8,168,177,168,0.0,0,-9,0,7,True
+ising_model_16.qasm,ising_model,known_validation,False,False,routed_depth,211,ready,ok,materializer,,False,3.083,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\ising_model_16\routed_depth\seed_211\routed\routing_report.json,repaired,10,10,10,169,167,167,1.183431952662722,2,2,1,7,True
+ising_model_16.qasm,ising_model,known_validation,False,False,routed_depth,223,ready,ok,materializer,,False,3.019,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\ising_model_16\routed_depth\seed_223\routed\routing_report.json,original_guarded,10,9,10,169,169,169,0.0,0,0,0,7,True
+life_238.qasm,life,unassigned,False,False,swap_count,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+life_238.qasm,life,unassigned,False,False,swap_count,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+life_238.qasm,life,unassigned,False,False,swap_count,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+life_238.qasm,life,unassigned,False,False,routed_depth,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+life_238.qasm,life,unassigned,False,False,routed_depth,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+life_238.qasm,life,unassigned,False,False,routed_depth,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+majority_239.qasm,majority,known_train,False,False,swap_count,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+majority_239.qasm,majority,known_train,False,False,swap_count,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+majority_239.qasm,majority,known_train,False,False,swap_count,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+majority_239.qasm,majority,known_train,False,False,routed_depth,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+majority_239.qasm,majority,known_train,False,False,routed_depth,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+majority_239.qasm,majority,known_train,False,False,routed_depth,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+max46_240.qasm,max46,unassigned,False,False,swap_count,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+max46_240.qasm,max46,unassigned,False,False,swap_count,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+max46_240.qasm,max46,unassigned,False,False,swap_count,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+max46_240.qasm,max46,unassigned,False,False,routed_depth,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+max46_240.qasm,max46,unassigned,False,False,routed_depth,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+max46_240.qasm,max46,unassigned,False,False,routed_depth,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+miller_11.qasm,miller,unassigned,False,False,swap_count,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+miller_11.qasm,miller,unassigned,False,False,swap_count,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+miller_11.qasm,miller,unassigned,False,False,swap_count,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+miller_11.qasm,miller,unassigned,False,False,routed_depth,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+miller_11.qasm,miller,unassigned,False,False,routed_depth,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+miller_11.qasm,miller,unassigned,False,False,routed_depth,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+mini-alu_167.qasm,alu,known_train,False,False,swap_count,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+mini-alu_167.qasm,alu,known_train,False,False,swap_count,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+mini-alu_167.qasm,alu,known_train,False,False,swap_count,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+mini-alu_167.qasm,alu,known_train,False,False,routed_depth,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+mini-alu_167.qasm,alu,known_train,False,False,routed_depth,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+mini-alu_167.qasm,alu,known_train,False,False,routed_depth,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+mini_alu_305.qasm,alu,known_train,True,False,swap_count,200,ready,ok,materializer,,True,2.73,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\mini_alu_305\swap_count\seed_200\routed\routing_report.json,original_guarded,43,45,43,154,160,154,0.0,0,-2,0,23,True
+mini_alu_305.qasm,alu,known_train,True,False,swap_count,211,ready,ok,materializer,,True,2.578,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\mini_alu_305\swap_count\seed_211\routed\routing_report.json,original_guarded,42,46,42,154,154,154,0.0,0,-4,0,23,True
+mini_alu_305.qasm,alu,known_train,True,False,swap_count,223,ready,ok,materializer,,True,2.665,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\mini_alu_305\swap_count\seed_223\routed\routing_report.json,original_guarded,43,43,43,155,159,155,0.0,0,0,0,23,True
+mini_alu_305.qasm,alu,known_train,True,False,routed_depth,200,ready,ok,materializer,,True,2.708,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\mini_alu_305\routed_depth\seed_200\routed\routing_report.json,repaired,43,43,43,154,153,153,0.6493506493506493,1,1,1,23,True
+mini_alu_305.qasm,alu,known_train,True,False,routed_depth,211,ready,ok,materializer,,True,2.665,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\mini_alu_305\routed_depth\seed_211\routed\routing_report.json,repaired,42,43,43,154,153,153,0.6493506493506493,1,1,0,23,True
+mini_alu_305.qasm,alu,known_train,True,False,routed_depth,223,ready,ok,materializer,,True,2.659,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\mini_alu_305\routed_depth\seed_223\routed\routing_report.json,repaired,43,43,43,155,153,153,1.2903225806451613,2,2,2,23,True
+misex1_241.qasm,misex1,unassigned,False,False,swap_count,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+misex1_241.qasm,misex1,unassigned,False,False,swap_count,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+misex1_241.qasm,misex1,unassigned,False,False,swap_count,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+misex1_241.qasm,misex1,unassigned,False,False,routed_depth,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+misex1_241.qasm,misex1,unassigned,False,False,routed_depth,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+misex1_241.qasm,misex1,unassigned,False,False,routed_depth,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+mlp4_245.qasm,mlp4,unassigned,False,False,swap_count,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+mlp4_245.qasm,mlp4,unassigned,False,False,swap_count,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+mlp4_245.qasm,mlp4,unassigned,False,False,swap_count,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+mlp4_245.qasm,mlp4,unassigned,False,False,routed_depth,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+mlp4_245.qasm,mlp4,unassigned,False,False,routed_depth,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+mlp4_245.qasm,mlp4,unassigned,False,False,routed_depth,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+mod10_171.qasm,mod10,unassigned,False,False,swap_count,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+mod10_171.qasm,mod10,unassigned,False,False,swap_count,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+mod10_171.qasm,mod10,unassigned,False,False,swap_count,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+mod10_171.qasm,mod10,unassigned,False,False,routed_depth,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+mod10_171.qasm,mod10,unassigned,False,False,routed_depth,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+mod10_171.qasm,mod10,unassigned,False,False,routed_depth,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+mod10_176.qasm,mod10,known_train,False,False,swap_count,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+mod10_176.qasm,mod10,known_train,False,False,swap_count,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+mod10_176.qasm,mod10,known_train,False,False,swap_count,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+mod10_176.qasm,mod10,known_train,False,False,routed_depth,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+mod10_176.qasm,mod10,known_train,False,False,routed_depth,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+mod10_176.qasm,mod10,known_train,False,False,routed_depth,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+mod5adder_127.qasm,mod5adder,known_train,False,False,swap_count,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+mod5adder_127.qasm,mod5adder,known_train,False,False,swap_count,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+mod5adder_127.qasm,mod5adder,known_train,False,False,swap_count,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+mod5adder_127.qasm,mod5adder,known_train,False,False,routed_depth,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+mod5adder_127.qasm,mod5adder,known_train,False,False,routed_depth,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+mod5adder_127.qasm,mod5adder,known_train,False,False,routed_depth,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+mod5d1_63.qasm,mod5d1,known_train,False,False,swap_count,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+mod5d1_63.qasm,mod5d1,known_train,False,False,swap_count,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+mod5d1_63.qasm,mod5d1,known_train,False,False,swap_count,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+mod5d1_63.qasm,mod5d1,known_train,False,False,routed_depth,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+mod5d1_63.qasm,mod5d1,known_train,False,False,routed_depth,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+mod5d1_63.qasm,mod5d1,known_train,False,False,routed_depth,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+mod5d2_64.qasm,mod5d2,unassigned,False,False,swap_count,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+mod5d2_64.qasm,mod5d2,unassigned,False,False,swap_count,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+mod5d2_64.qasm,mod5d2,unassigned,False,False,swap_count,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+mod5d2_64.qasm,mod5d2,unassigned,False,False,routed_depth,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+mod5d2_64.qasm,mod5d2,unassigned,False,False,routed_depth,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+mod5d2_64.qasm,mod5d2,unassigned,False,False,routed_depth,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+mod5mils_65.qasm,modular_arithmetic,known_validation,False,False,swap_count,200,ready,ok,materializer,,False,2.345,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\mod5mils_65\swap_count\seed_200\routed\routing_report.json,repaired,8,7,7,32,33,33,12.5,1,1,1,1,True
+mod5mils_65.qasm,modular_arithmetic,known_validation,False,False,swap_count,211,ready,ok,materializer,,False,2.434,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\mod5mils_65\swap_count\seed_211\routed\routing_report.json,repaired,8,7,7,33,33,33,12.5,1,1,1,1,True
+mod5mils_65.qasm,modular_arithmetic,known_validation,False,False,swap_count,223,ready,ok,materializer,,False,2.402,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\mod5mils_65\swap_count\seed_223\routed\routing_report.json,repaired,8,7,7,32,32,32,12.5,1,1,1,1,True
+mod5mils_65.qasm,modular_arithmetic,known_validation,False,False,routed_depth,200,ready,ok,materializer,,False,2.477,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\mod5mils_65\routed_depth\seed_200\routed\routing_report.json,original_guarded,8,7,8,32,33,32,0.0,0,-1,0,1,True
+mod5mils_65.qasm,modular_arithmetic,known_validation,False,False,routed_depth,211,ready,ok,materializer,,False,2.39,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\mod5mils_65\routed_depth\seed_211\routed\routing_report.json,original_guarded,8,7,8,33,33,33,0.0,0,0,0,1,True
+mod5mils_65.qasm,modular_arithmetic,known_validation,False,False,routed_depth,223,ready,ok,materializer,,False,2.305,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\mod5mils_65\routed_depth\seed_223\routed\routing_report.json,original_guarded,8,7,8,32,32,32,0.0,0,0,0,1,True
+mod8-10_177.qasm,mod8-10,unassigned,False,False,swap_count,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+mod8-10_177.qasm,mod8-10,unassigned,False,False,swap_count,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+mod8-10_177.qasm,mod8-10,unassigned,False,False,swap_count,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+mod8-10_177.qasm,mod8-10,unassigned,False,False,routed_depth,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+mod8-10_177.qasm,mod8-10,unassigned,False,False,routed_depth,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+mod8-10_177.qasm,mod8-10,unassigned,False,False,routed_depth,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+mod8-10_178.qasm,mod8-10,known_train,False,False,swap_count,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+mod8-10_178.qasm,mod8-10,known_train,False,False,swap_count,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+mod8-10_178.qasm,mod8-10,known_train,False,False,swap_count,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+mod8-10_178.qasm,mod8-10,known_train,False,False,routed_depth,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+mod8-10_178.qasm,mod8-10,known_train,False,False,routed_depth,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+mod8-10_178.qasm,mod8-10,known_train,False,False,routed_depth,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+multiply_n13.qasm,multiplication_related,known_train,True,False,swap_count,200,ready,ok,materializer,,True,3.04,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\multiply_n13\swap_count\seed_200\routed\routing_report.json,repaired,23,18,18,91,82,82,21.73913043478261,5,5,5,120,True
+multiply_n13.qasm,multiplication_related,known_train,True,False,swap_count,211,ready,ok,materializer,,True,3.077,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\multiply_n13\swap_count\seed_211\routed\routing_report.json,repaired,24,21,21,89,66,66,12.5,3,3,1,120,True
+multiply_n13.qasm,multiplication_related,known_train,True,False,swap_count,223,ready,ok,materializer,,True,3.073,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\multiply_n13\swap_count\seed_223\routed\routing_report.json,repaired,22,19,19,88,82,82,13.636363636363637,3,3,2,120,True
+multiply_n13.qasm,multiplication_related,known_train,True,False,routed_depth,200,ready,ok,materializer,,True,3.068,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\multiply_n13\routed_depth\seed_200\routed\routing_report.json,repaired,23,21,21,91,67,67,26.373626373626372,24,24,15,120,True
+multiply_n13.qasm,multiplication_related,known_train,True,False,routed_depth,211,ready,ok,materializer,,True,3.049,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\multiply_n13\routed_depth\seed_211\routed\routing_report.json,repaired,24,23,23,89,76,76,14.606741573033707,13,13,13,120,True
+multiply_n13.qasm,multiplication_related,known_train,True,False,routed_depth,223,ready,ok,materializer,,True,3.016,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\multiply_n13\routed_depth\seed_223\routed\routing_report.json,repaired,22,21,21,88,62,62,29.545454545454547,26,26,26,120,True
+one-two-three-v0_97.qasm,one-two-three-v0,unassigned,False,False,swap_count,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+one-two-three-v0_97.qasm,one-two-three-v0,unassigned,False,False,swap_count,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+one-two-three-v0_97.qasm,one-two-three-v0,unassigned,False,False,swap_count,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+one-two-three-v0_97.qasm,one-two-three-v0,unassigned,False,False,routed_depth,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+one-two-three-v0_97.qasm,one-two-three-v0,unassigned,False,False,routed_depth,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+one-two-three-v0_97.qasm,one-two-three-v0,unassigned,False,False,routed_depth,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+one-two-three-v0_98.qasm,one-two-three-v0,unassigned,False,False,swap_count,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+one-two-three-v0_98.qasm,one-two-three-v0,unassigned,False,False,swap_count,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+one-two-three-v0_98.qasm,one-two-three-v0,unassigned,False,False,swap_count,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+one-two-three-v0_98.qasm,one-two-three-v0,unassigned,False,False,routed_depth,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+one-two-three-v0_98.qasm,one-two-three-v0,unassigned,False,False,routed_depth,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+one-two-three-v0_98.qasm,one-two-three-v0,unassigned,False,False,routed_depth,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+one-two-three-v1_99.qasm,one-two-three-v1,unassigned,False,False,swap_count,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+one-two-three-v1_99.qasm,one-two-three-v1,unassigned,False,False,swap_count,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+one-two-three-v1_99.qasm,one-two-three-v1,unassigned,False,False,swap_count,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+one-two-three-v1_99.qasm,one-two-three-v1,unassigned,False,False,routed_depth,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+one-two-three-v1_99.qasm,one-two-three-v1,unassigned,False,False,routed_depth,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+one-two-three-v1_99.qasm,one-two-three-v1,unassigned,False,False,routed_depth,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+one-two-three-v2_100.qasm,one-two-three-v2,known_train,False,False,swap_count,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+one-two-three-v2_100.qasm,one-two-three-v2,known_train,False,False,swap_count,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+one-two-three-v2_100.qasm,one-two-three-v2,known_train,False,False,swap_count,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+one-two-three-v2_100.qasm,one-two-three-v2,known_train,False,False,routed_depth,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+one-two-three-v2_100.qasm,one-two-three-v2,known_train,False,False,routed_depth,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+one-two-three-v2_100.qasm,one-two-three-v2,known_train,False,False,routed_depth,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+one-two-three-v3_101.qasm,one-two-three-v3,unassigned,False,False,swap_count,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+one-two-three-v3_101.qasm,one-two-three-v3,unassigned,False,False,swap_count,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+one-two-three-v3_101.qasm,one-two-three-v3,unassigned,False,False,swap_count,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+one-two-three-v3_101.qasm,one-two-three-v3,unassigned,False,False,routed_depth,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+one-two-three-v3_101.qasm,one-two-three-v3,unassigned,False,False,routed_depth,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+one-two-three-v3_101.qasm,one-two-three-v3,unassigned,False,False,routed_depth,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+plus63mod4096_163.qasm,multiplication_related,unassigned,False,False,swap_count,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+plus63mod4096_163.qasm,multiplication_related,unassigned,False,False,swap_count,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+plus63mod4096_163.qasm,multiplication_related,unassigned,False,False,swap_count,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+plus63mod4096_163.qasm,multiplication_related,unassigned,False,False,routed_depth,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+plus63mod4096_163.qasm,multiplication_related,unassigned,False,False,routed_depth,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+plus63mod4096_163.qasm,multiplication_related,unassigned,False,False,routed_depth,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+plus63mod8192_164.qasm,multiplication_related,unassigned,False,False,swap_count,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+plus63mod8192_164.qasm,multiplication_related,unassigned,False,False,swap_count,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+plus63mod8192_164.qasm,multiplication_related,unassigned,False,False,swap_count,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+plus63mod8192_164.qasm,multiplication_related,unassigned,False,False,routed_depth,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+plus63mod8192_164.qasm,multiplication_related,unassigned,False,False,routed_depth,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+plus63mod8192_164.qasm,multiplication_related,unassigned,False,False,routed_depth,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+pm1_249.qasm,pm1,unassigned,False,False,swap_count,200,ready,ok,materializer,,False,5.296,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\pm1_249\swap_count\seed_200\routed\routing_report.json,repaired,500,493,493,1488,1456,1456,1.4,7,7,7,21,True
+pm1_249.qasm,pm1,unassigned,False,False,swap_count,211,ready,ok,materializer,,False,5.243,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\pm1_249\swap_count\seed_211\routed\routing_report.json,repaired,500,478,478,1477,1457,1457,4.4,22,22,22,21,True
+pm1_249.qasm,pm1,unassigned,False,False,swap_count,223,ready,ok,materializer,,False,5.292,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\pm1_249\swap_count\seed_223\routed\routing_report.json,repaired,487,478,478,1480,1450,1450,1.8480492813141685,9,9,5,21,True
+pm1_249.qasm,pm1,unassigned,False,False,routed_depth,200,ready,ok,materializer,,False,5.387,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\pm1_249\routed_depth\seed_200\routed\routing_report.json,repaired,500,483,483,1488,1485,1485,0.20161290322580644,3,3,3,21,True
+pm1_249.qasm,pm1,unassigned,False,False,routed_depth,211,ready,ok,materializer,,False,5.235,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\pm1_249\routed_depth\seed_211\routed\routing_report.json,original_guarded,500,499,500,1477,1493,1477,0.0,0,-16,-10,21,True
+pm1_249.qasm,pm1,unassigned,False,False,routed_depth,223,ready,ok,materializer,,False,5.324,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\pm1_249\routed_depth\seed_223\routed\routing_report.json,repaired,487,478,478,1480,1441,1441,2.635135135135135,39,39,37,21,True
+qft_10.qasm,qft,known_train,False,False,swap_count,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+qft_10.qasm,qft,known_train,False,False,swap_count,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+qft_10.qasm,qft,known_train,False,False,swap_count,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+qft_10.qasm,qft,known_train,False,False,routed_depth,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+qft_10.qasm,qft,known_train,False,False,routed_depth,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+qft_10.qasm,qft,known_train,False,False,routed_depth,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+qft_16.qasm,qft,known_train,False,False,swap_count,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+qft_16.qasm,qft,known_train,False,False,swap_count,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+qft_16.qasm,qft,known_train,False,False,swap_count,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+qft_16.qasm,qft,known_train,False,False,routed_depth,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+qft_16.qasm,qft,known_train,False,False,routed_depth,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+qft_16.qasm,qft,known_train,False,False,routed_depth,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+radd_250.qasm,radd,unassigned,False,False,swap_count,200,ready,ok,materializer,,False,5.124,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\radd_250\swap_count\seed_200\routed\routing_report.json,original_unchanged,978,978,978,2802,2802,2802,0.0,0,0,-30,6,False
+radd_250.qasm,radd,unassigned,False,False,swap_count,211,ready,ok,materializer,,False,5.15,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\radd_250\swap_count\seed_211\routed\routing_report.json,original_unchanged,967,967,967,2768,2768,2768,0.0,0,0,0,6,False
+radd_250.qasm,radd,unassigned,False,False,swap_count,223,ready,ok,materializer,,False,5.158,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\radd_250\swap_count\seed_223\routed\routing_report.json,original_unchanged,964,964,964,2772,2772,2772,0.0,0,0,-4,6,False
+radd_250.qasm,radd,unassigned,False,False,routed_depth,200,ready,ok,materializer,,False,5.018,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\radd_250\routed_depth\seed_200\routed\routing_report.json,original_unchanged,978,978,978,2802,2802,2802,0.0,0,0,-79,6,False
+radd_250.qasm,radd,unassigned,False,False,routed_depth,211,ready,ok,materializer,,False,5.272,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\radd_250\routed_depth\seed_211\routed\routing_report.json,original_unchanged,967,967,967,2768,2768,2768,0.0,0,0,0,6,False
+radd_250.qasm,radd,unassigned,False,False,routed_depth,223,ready,ok,materializer,,False,5.184,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\radd_250\routed_depth\seed_223\routed\routing_report.json,original_unchanged,964,964,964,2772,2772,2772,0.0,0,0,0,6,False
+rd32-v0_66.qasm,rd,unassigned,False,False,swap_count,200,no_observed_neighbor,no_observed_neighbor,,,,,,,,,,,,,,,,,,
+rd32-v0_66.qasm,rd,unassigned,False,False,swap_count,211,no_observed_neighbor,no_observed_neighbor,,,,,,,,,,,,,,,,,,
+rd32-v0_66.qasm,rd,unassigned,False,False,swap_count,223,no_observed_neighbor,no_observed_neighbor,,,,,,,,,,,,,,,,,,
+rd32-v0_66.qasm,rd,unassigned,False,False,routed_depth,200,no_observed_neighbor,no_observed_neighbor,,,,,,,,,,,,,,,,,,
+rd32-v0_66.qasm,rd,unassigned,False,False,routed_depth,211,no_observed_neighbor,no_observed_neighbor,,,,,,,,,,,,,,,,,,
+rd32-v0_66.qasm,rd,unassigned,False,False,routed_depth,223,no_observed_neighbor,no_observed_neighbor,,,,,,,,,,,,,,,,,,
+rd32-v1_68.qasm,rd,unassigned,False,False,swap_count,200,no_observed_neighbor,no_observed_neighbor,,,,,,,,,,,,,,,,,,
+rd32-v1_68.qasm,rd,unassigned,False,False,swap_count,211,no_observed_neighbor,no_observed_neighbor,,,,,,,,,,,,,,,,,,
+rd32-v1_68.qasm,rd,unassigned,False,False,swap_count,223,no_observed_neighbor,no_observed_neighbor,,,,,,,,,,,,,,,,,,
+rd32-v1_68.qasm,rd,unassigned,False,False,routed_depth,200,no_observed_neighbor,no_observed_neighbor,,,,,,,,,,,,,,,,,,
+rd32-v1_68.qasm,rd,unassigned,False,False,routed_depth,211,no_observed_neighbor,no_observed_neighbor,,,,,,,,,,,,,,,,,,
+rd32-v1_68.qasm,rd,unassigned,False,False,routed_depth,223,no_observed_neighbor,no_observed_neighbor,,,,,,,,,,,,,,,,,,
+rd32_270.qasm,rd,known_train,False,False,swap_count,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+rd32_270.qasm,rd,known_train,False,False,swap_count,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+rd32_270.qasm,rd,known_train,False,False,swap_count,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+rd32_270.qasm,rd,known_train,False,False,routed_depth,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+rd32_270.qasm,rd,known_train,False,False,routed_depth,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+rd32_270.qasm,rd,known_train,False,False,routed_depth,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+rd53_130.qasm,rd,unassigned,False,False,swap_count,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+rd53_130.qasm,rd,unassigned,False,False,swap_count,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+rd53_130.qasm,rd,unassigned,False,False,swap_count,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+rd53_130.qasm,rd,unassigned,False,False,routed_depth,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+rd53_130.qasm,rd,unassigned,False,False,routed_depth,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+rd53_130.qasm,rd,unassigned,False,False,routed_depth,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+rd53_131.qasm,rd,unassigned,False,False,swap_count,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+rd53_131.qasm,rd,unassigned,False,False,swap_count,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+rd53_131.qasm,rd,unassigned,False,False,swap_count,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+rd53_131.qasm,rd,unassigned,False,False,routed_depth,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+rd53_131.qasm,rd,unassigned,False,False,routed_depth,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+rd53_131.qasm,rd,unassigned,False,False,routed_depth,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+rd53_133.qasm,rd,unassigned,False,False,swap_count,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+rd53_133.qasm,rd,unassigned,False,False,swap_count,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+rd53_133.qasm,rd,unassigned,False,False,swap_count,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+rd53_133.qasm,rd,unassigned,False,False,routed_depth,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+rd53_133.qasm,rd,unassigned,False,False,routed_depth,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+rd53_133.qasm,rd,unassigned,False,False,routed_depth,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+rd53_135.qasm,rd,unassigned,False,False,swap_count,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+rd53_135.qasm,rd,unassigned,False,False,swap_count,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+rd53_135.qasm,rd,unassigned,False,False,swap_count,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+rd53_135.qasm,rd,unassigned,False,False,routed_depth,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+rd53_135.qasm,rd,unassigned,False,False,routed_depth,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+rd53_135.qasm,rd,unassigned,False,False,routed_depth,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+rd53_138.qasm,rd,unassigned,False,False,swap_count,200,ready,ok,materializer,,False,2.74,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\rd53_138\swap_count\seed_200\routed\routing_report.json,original_guarded,32,33,32,103,120,103,0.0,0,-1,-1,17,True
+rd53_138.qasm,rd,unassigned,False,False,swap_count,211,ready,ok,materializer,,False,2.552,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\rd53_138\swap_count\seed_211\routed\routing_report.json,original_guarded,32,32,32,114,108,114,0.0,0,0,0,17,True
+rd53_138.qasm,rd,unassigned,False,False,swap_count,223,ready,ok,materializer,,False,2.634,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\rd53_138\swap_count\seed_223\routed\routing_report.json,original_guarded,31,32,31,103,108,103,0.0,0,-1,0,17,True
+rd53_138.qasm,rd,unassigned,False,False,routed_depth,200,ready,ok,materializer,,False,2.798,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\rd53_138\routed_depth\seed_200\routed\routing_report.json,repaired,32,34,34,103,92,92,10.679611650485437,11,11,11,17,True
+rd53_138.qasm,rd,unassigned,False,False,routed_depth,211,ready,ok,materializer,,False,2.571,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\rd53_138\routed_depth\seed_211\routed\routing_report.json,repaired,32,32,32,114,94,94,17.54385964912281,20,20,20,17,True
+rd53_138.qasm,rd,unassigned,False,False,routed_depth,223,ready,ok,materializer,,False,2.566,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\rd53_138\routed_depth\seed_223\routed\routing_report.json,repaired,31,33,33,103,96,96,6.796116504854369,7,7,7,17,True
+rd53_251.qasm,rd,unassigned,False,False,swap_count,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+rd53_251.qasm,rd,unassigned,False,False,swap_count,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+rd53_251.qasm,rd,unassigned,False,False,swap_count,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+rd53_251.qasm,rd,unassigned,False,False,routed_depth,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+rd53_251.qasm,rd,unassigned,False,False,routed_depth,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+rd53_251.qasm,rd,unassigned,False,False,routed_depth,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+rd53_311.qasm,rd,known_train,True,False,swap_count,200,ready,ok,materializer,,True,3.814,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\rd53_311\swap_count\seed_200\routed\routing_report.json,original_guarded,83,83,83,246,255,246,0.0,0,0,-5,120,True
+rd53_311.qasm,rd,known_train,True,False,swap_count,211,ready,ok,materializer,,True,3.795,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\rd53_311\swap_count\seed_211\routed\routing_report.json,original_guarded,78,83,78,249,260,249,0.0,0,-5,0,120,True
+rd53_311.qasm,rd,known_train,True,False,swap_count,223,ready,ok,materializer,,True,3.804,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\rd53_311\swap_count\seed_223\routed\routing_report.json,repaired,86,81,81,240,251,251,5.813953488372093,5,5,4,120,True
+rd53_311.qasm,rd,known_train,True,False,routed_depth,200,ready,ok,materializer,,True,3.732,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\rd53_311\routed_depth\seed_200\routed\routing_report.json,repaired,83,76,76,246,221,221,10.16260162601626,25,25,25,120,True
+rd53_311.qasm,rd,known_train,True,False,routed_depth,211,ready,ok,materializer,,True,3.718,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\rd53_311\routed_depth\seed_211\routed\routing_report.json,repaired,78,73,73,249,226,226,9.236947791164658,23,23,23,120,True
+rd53_311.qasm,rd,known_train,True,False,routed_depth,223,ready,ok,materializer,,True,3.678,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\rd53_311\routed_depth\seed_223\routed\routing_report.json,repaired,86,74,74,240,223,223,7.083333333333333,17,17,17,120,True
+rd73_140.qasm,rd,known_train,True,False,swap_count,200,ready,ok,materializer,,True,2.578,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\rd73_140\swap_count\seed_200\routed\routing_report.json,original_guarded,50,65,50,212,230,212,0.0,0,-15,0,5,True
+rd73_140.qasm,rd,known_train,True,False,swap_count,211,ready,ok,materializer,,True,2.503,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\rd73_140\swap_count\seed_211\routed\routing_report.json,original_guarded,50,59,50,207,221,207,0.0,0,-9,0,5,True
+rd73_140.qasm,rd,known_train,True,False,swap_count,223,ready,ok,materializer,,True,2.605,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\rd73_140\swap_count\seed_223\routed\routing_report.json,original_guarded,49,57,49,208,222,208,0.0,0,-8,0,5,True
+rd73_140.qasm,rd,known_train,True,False,routed_depth,200,ready,ok,materializer,,True,2.515,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\rd73_140\routed_depth\seed_200\routed\routing_report.json,original_guarded,50,65,50,212,230,212,0.0,0,-18,-3,5,True
+rd73_140.qasm,rd,known_train,True,False,routed_depth,211,ready,ok,materializer,,True,2.588,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\rd73_140\routed_depth\seed_211\routed\routing_report.json,original_guarded,50,59,50,207,221,207,0.0,0,-14,0,5,True
+rd73_140.qasm,rd,known_train,True,False,routed_depth,223,ready,ok,materializer,,True,2.556,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\rd73_140\routed_depth\seed_223\routed\routing_report.json,original_guarded,49,57,49,208,222,208,0.0,0,-14,0,5,True
+rd73_252.qasm,rd,unassigned,False,False,swap_count,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+rd73_252.qasm,rd,unassigned,False,False,swap_count,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+rd73_252.qasm,rd,unassigned,False,False,swap_count,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+rd73_252.qasm,rd,unassigned,False,False,routed_depth,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+rd73_252.qasm,rd,unassigned,False,False,routed_depth,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+rd73_252.qasm,rd,unassigned,False,False,routed_depth,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+rd84_142.qasm,rd,known_train,True,False,swap_count,200,ready,ok,materializer,,True,4.05,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\rd84_142\swap_count\seed_200\routed\routing_report.json,repaired,101,93,93,273,299,299,7.920792079207921,8,8,8,120,True
+rd84_142.qasm,rd,known_train,True,False,swap_count,211,ready,ok,materializer,,True,4.011,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\rd84_142\swap_count\seed_211\routed\routing_report.json,repaired,102,95,95,278,285,285,6.862745098039215,7,7,7,120,True
+rd84_142.qasm,rd,known_train,True,False,swap_count,223,ready,ok,materializer,,True,4.051,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\rd84_142\swap_count\seed_223\routed\routing_report.json,original_guarded,94,100,94,277,301,277,0.0,0,-6,0,120,True
+rd84_142.qasm,rd,known_train,True,False,routed_depth,200,ready,ok,materializer,,True,4.05,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\rd84_142\routed_depth\seed_200\routed\routing_report.json,repaired,101,97,97,273,247,247,9.523809523809524,26,26,24,120,True
+rd84_142.qasm,rd,known_train,True,False,routed_depth,211,ready,ok,materializer,,True,4.079,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\rd84_142\routed_depth\seed_211\routed\routing_report.json,repaired,102,100,100,278,266,266,4.316546762589928,12,12,-16,120,True
+rd84_142.qasm,rd,known_train,True,False,routed_depth,223,ready,ok,materializer,,True,4.016,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\rd84_142\routed_depth\seed_223\routed\routing_report.json,repaired,94,93,93,277,239,239,13.71841155234657,38,38,34,120,True
+rd84_253.qasm,rd,unassigned,False,False,swap_count,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+rd84_253.qasm,rd,unassigned,False,False,swap_count,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+rd84_253.qasm,rd,unassigned,False,False,swap_count,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+rd84_253.qasm,rd,unassigned,False,False,routed_depth,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+rd84_253.qasm,rd,unassigned,False,False,routed_depth,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+rd84_253.qasm,rd,unassigned,False,False,routed_depth,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+root_255.qasm,root,unassigned,False,False,swap_count,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+root_255.qasm,root,unassigned,False,False,swap_count,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+root_255.qasm,root,unassigned,False,False,swap_count,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+root_255.qasm,root,unassigned,False,False,routed_depth,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+root_255.qasm,root,unassigned,False,False,routed_depth,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+root_255.qasm,root,unassigned,False,False,routed_depth,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+sao2_257.qasm,sao2,unassigned,False,False,swap_count,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+sao2_257.qasm,sao2,unassigned,False,False,swap_count,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+sao2_257.qasm,sao2,unassigned,False,False,swap_count,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+sao2_257.qasm,sao2,unassigned,False,False,routed_depth,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+sao2_257.qasm,sao2,unassigned,False,False,routed_depth,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+sao2_257.qasm,sao2,unassigned,False,False,routed_depth,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+sf_274.qasm,sf,unassigned,False,False,swap_count,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+sf_274.qasm,sf,unassigned,False,False,swap_count,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+sf_274.qasm,sf,unassigned,False,False,swap_count,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+sf_274.qasm,sf,unassigned,False,False,routed_depth,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+sf_274.qasm,sf,unassigned,False,False,routed_depth,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+sf_274.qasm,sf,unassigned,False,False,routed_depth,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+sf_276.qasm,sf,known_train,False,False,swap_count,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+sf_276.qasm,sf,known_train,False,False,swap_count,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+sf_276.qasm,sf,known_train,False,False,swap_count,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+sf_276.qasm,sf,known_train,False,False,routed_depth,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+sf_276.qasm,sf,known_train,False,False,routed_depth,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+sf_276.qasm,sf,known_train,False,False,routed_depth,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+sqn_258.qasm,sqn,unassigned,False,False,swap_count,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+sqn_258.qasm,sqn,unassigned,False,False,swap_count,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+sqn_258.qasm,sqn,unassigned,False,False,swap_count,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+sqn_258.qasm,sqn,unassigned,False,False,routed_depth,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+sqn_258.qasm,sqn,unassigned,False,False,routed_depth,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+sqn_258.qasm,sqn,unassigned,False,False,routed_depth,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+sqrt8_260.qasm,sqrt8,unassigned,False,False,swap_count,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+sqrt8_260.qasm,sqrt8,unassigned,False,False,swap_count,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+sqrt8_260.qasm,sqrt8,unassigned,False,False,swap_count,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+sqrt8_260.qasm,sqrt8,unassigned,False,False,routed_depth,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+sqrt8_260.qasm,sqrt8,unassigned,False,False,routed_depth,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+sqrt8_260.qasm,sqrt8,unassigned,False,False,routed_depth,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+squar5_261.qasm,squar5,final_test_reserved,False,True,swap_count,200,final_test_reserved,final_test_reserved,,,,,,,,,,,,,,,,,,
+squar5_261.qasm,squar5,final_test_reserved,False,True,swap_count,211,final_test_reserved,final_test_reserved,,,,,,,,,,,,,,,,,,
+squar5_261.qasm,squar5,final_test_reserved,False,True,swap_count,223,final_test_reserved,final_test_reserved,,,,,,,,,,,,,,,,,,
+squar5_261.qasm,squar5,final_test_reserved,False,True,routed_depth,200,final_test_reserved,final_test_reserved,,,,,,,,,,,,,,,,,,
+squar5_261.qasm,squar5,final_test_reserved,False,True,routed_depth,211,final_test_reserved,final_test_reserved,,,,,,,,,,,,,,,,,,
+squar5_261.qasm,squar5,final_test_reserved,False,True,routed_depth,223,final_test_reserved,final_test_reserved,,,,,,,,,,,,,,,,,,
+square_root_7.qasm,square_root,unassigned,False,False,swap_count,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+square_root_7.qasm,square_root,unassigned,False,False,swap_count,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+square_root_7.qasm,square_root,unassigned,False,False,swap_count,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+square_root_7.qasm,square_root,unassigned,False,False,routed_depth,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+square_root_7.qasm,square_root,unassigned,False,False,routed_depth,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+square_root_7.qasm,square_root,unassigned,False,False,routed_depth,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+sym10_262.qasm,symmetry,unassigned,False,False,swap_count,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+sym10_262.qasm,symmetry,unassigned,False,False,swap_count,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+sym10_262.qasm,symmetry,unassigned,False,False,swap_count,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+sym10_262.qasm,symmetry,unassigned,False,False,routed_depth,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+sym10_262.qasm,symmetry,unassigned,False,False,routed_depth,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+sym10_262.qasm,symmetry,unassigned,False,False,routed_depth,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+sym6_145.qasm,symmetry,unassigned,False,False,swap_count,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+sym6_145.qasm,symmetry,unassigned,False,False,swap_count,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+sym6_145.qasm,symmetry,unassigned,False,False,swap_count,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+sym6_145.qasm,symmetry,unassigned,False,False,routed_depth,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+sym6_145.qasm,symmetry,unassigned,False,False,routed_depth,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+sym6_145.qasm,symmetry,unassigned,False,False,routed_depth,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+sym6_316.qasm,symmetry,known_train,True,False,swap_count,200,ready,ok,materializer,,True,3.745,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\sym6_316\swap_count\seed_200\routed\routing_report.json,original_guarded,82,82,82,249,263,249,0.0,0,0,-1,120,True
+sym6_316.qasm,symmetry,known_train,True,False,swap_count,211,ready,ok,materializer,,True,3.819,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\sym6_316\swap_count\seed_211\routed\routing_report.json,original_guarded,77,84,77,244,255,244,0.0,0,-7,0,120,True
+sym6_316.qasm,symmetry,known_train,True,False,swap_count,223,ready,ok,materializer,,True,3.784,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\sym6_316\swap_count\seed_223\routed\routing_report.json,original_guarded,77,83,77,246,258,246,0.0,0,-6,0,120,True
+sym6_316.qasm,symmetry,known_train,True,False,routed_depth,200,ready,ok,materializer,,True,3.652,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\sym6_316\routed_depth\seed_200\routed\routing_report.json,repaired,82,78,78,249,237,237,4.819277108433735,12,12,12,120,True
+sym6_316.qasm,symmetry,known_train,True,False,routed_depth,211,ready,ok,materializer,,True,3.726,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\sym6_316\routed_depth\seed_211\routed\routing_report.json,repaired,77,85,85,244,239,239,2.0491803278688523,5,5,4,120,True
+sym6_316.qasm,symmetry,known_train,True,False,routed_depth,223,ready,ok,materializer,,True,3.734,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\sym6_316\routed_depth\seed_223\routed\routing_report.json,repaired,77,82,82,246,229,229,6.9105691056910565,17,17,15,120,True
+sym9_146.qasm,symmetry,known_train,True,False,swap_count,200,ready,ok,materializer,,True,2.707,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\sym9_146\swap_count\seed_200\routed\routing_report.json,original_guarded,73,96,73,303,329,303,0.0,0,-23,-1,11,True
+sym9_146.qasm,symmetry,known_train,True,False,swap_count,211,ready,ok,materializer,,True,2.735,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\sym9_146\swap_count\seed_211\routed\routing_report.json,original_guarded,73,88,73,299,318,299,0.0,0,-15,0,11,True
+sym9_146.qasm,symmetry,known_train,True,False,swap_count,223,ready,ok,materializer,,True,2.665,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\sym9_146\swap_count\seed_223\routed\routing_report.json,original_guarded,72,84,72,298,316,298,0.0,0,-12,0,11,True
+sym9_146.qasm,symmetry,known_train,True,False,routed_depth,200,ready,ok,materializer,,True,2.66,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\sym9_146\routed_depth\seed_200\routed\routing_report.json,repaired,73,75,75,303,300,300,0.9900990099009901,3,3,0,11,True
+sym9_146.qasm,symmetry,known_train,True,False,routed_depth,211,ready,ok,materializer,,True,2.735,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\sym9_146\routed_depth\seed_211\routed\routing_report.json,original_guarded,73,75,73,299,299,299,0.0,0,0,0,11,True
+sym9_146.qasm,symmetry,known_train,True,False,routed_depth,223,ready,ok,materializer,,True,2.701,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\sym9_146\routed_depth\seed_223\routed\routing_report.json,repaired,72,75,75,298,296,296,0.6711409395973155,2,2,2,11,True
+sym9_148.qasm,symmetry,unassigned,False,False,swap_count,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+sym9_148.qasm,symmetry,unassigned,False,False,swap_count,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+sym9_148.qasm,symmetry,unassigned,False,False,swap_count,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+sym9_148.qasm,symmetry,unassigned,False,False,routed_depth,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+sym9_148.qasm,symmetry,unassigned,False,False,routed_depth,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+sym9_148.qasm,symmetry,unassigned,False,False,routed_depth,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+sym9_193.qasm,symmetry,unassigned,False,False,swap_count,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+sym9_193.qasm,symmetry,unassigned,False,False,swap_count,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+sym9_193.qasm,symmetry,unassigned,False,False,swap_count,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+sym9_193.qasm,symmetry,unassigned,False,False,routed_depth,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+sym9_193.qasm,symmetry,unassigned,False,False,routed_depth,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+sym9_193.qasm,symmetry,unassigned,False,False,routed_depth,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+sys6-v0_111.qasm,system,known_train,True,False,swap_count,200,ready,ok,materializer,,True,3.252,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\sys6-v0_111\swap_count\seed_200\routed\routing_report.json,original_guarded,56,58,56,167,185,167,0.0,0,-2,0,80,True
+sys6-v0_111.qasm,system,known_train,True,False,swap_count,211,ready,ok,materializer,,True,3.129,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\sys6-v0_111\swap_count\seed_211\routed\routing_report.json,repaired,57,55,55,171,170,170,3.508771929824561,2,2,-1,80,True
+sys6-v0_111.qasm,system,known_train,True,False,swap_count,223,ready,ok,materializer,,True,3.23,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\sys6-v0_111\swap_count\seed_223\routed\routing_report.json,original_guarded,56,58,56,167,186,167,0.0,0,-2,0,80,True
+sys6-v0_111.qasm,system,known_train,True,False,routed_depth,200,ready,ok,materializer,,True,3.246,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\sys6-v0_111\routed_depth\seed_200\routed\routing_report.json,repaired,56,59,59,167,143,143,14.37125748502994,24,24,13,80,True
+sys6-v0_111.qasm,system,known_train,True,False,routed_depth,211,ready,ok,materializer,,True,3.213,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\sys6-v0_111\routed_depth\seed_211\routed\routing_report.json,repaired,57,59,59,171,149,149,12.865497076023392,22,22,13,80,True
+sys6-v0_111.qasm,system,known_train,True,False,routed_depth,223,ready,ok,materializer,,True,3.297,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\sys6-v0_111\routed_depth\seed_223\routed\routing_report.json,repaired,56,66,66,167,139,139,16.766467065868262,28,28,24,80,True
+system9.qasm,system,known_train,True,False,swap_count,200,ready,ok,materializer,,True,3.442,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\system9\swap_count\seed_200\routed\routing_report.json,repaired,103,98,98,311,271,271,4.854368932038835,5,5,-10,76,True
+system9.qasm,system,known_train,True,False,swap_count,211,ready,ok,materializer,,True,3.472,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\system9\swap_count\seed_211\routed\routing_report.json,original_guarded,88,92,88,292,292,292,0.0,0,-4,0,76,True
+system9.qasm,system,known_train,True,False,swap_count,223,ready,ok,materializer,,True,3.396,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\system9\swap_count\seed_223\routed\routing_report.json,original_guarded,92,93,92,308,281,308,0.0,0,-1,-4,76,True
+system9.qasm,system,known_train,True,False,routed_depth,200,ready,ok,materializer,,True,3.437,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\system9\routed_depth\seed_200\routed\routing_report.json,repaired,103,98,98,311,271,271,12.861736334405144,40,40,26,76,True
+system9.qasm,system,known_train,True,False,routed_depth,211,ready,ok,materializer,,True,3.615,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\system9\routed_depth\seed_211\routed\routing_report.json,original_guarded,88,92,88,292,292,292,0.0,0,0,0,76,True
+system9.qasm,system,known_train,True,False,routed_depth,223,ready,ok,materializer,,True,3.47,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\system9\routed_depth\seed_223\routed\routing_report.json,repaired,92,93,93,308,281,281,8.766233766233766,27,27,11,76,True
+urf1_149.qasm,urf1,unassigned,False,False,swap_count,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+urf1_149.qasm,urf1,unassigned,False,False,swap_count,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+urf1_149.qasm,urf1,unassigned,False,False,swap_count,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+urf1_149.qasm,urf1,unassigned,False,False,routed_depth,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+urf1_149.qasm,urf1,unassigned,False,False,routed_depth,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+urf1_149.qasm,urf1,unassigned,False,False,routed_depth,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+urf1_278.qasm,urf1,unassigned,False,False,swap_count,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+urf1_278.qasm,urf1,unassigned,False,False,swap_count,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+urf1_278.qasm,urf1,unassigned,False,False,swap_count,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+urf1_278.qasm,urf1,unassigned,False,False,routed_depth,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+urf1_278.qasm,urf1,unassigned,False,False,routed_depth,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+urf1_278.qasm,urf1,unassigned,False,False,routed_depth,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+urf2_152.qasm,urf2,unassigned,False,False,swap_count,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+urf2_152.qasm,urf2,unassigned,False,False,swap_count,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+urf2_152.qasm,urf2,unassigned,False,False,swap_count,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+urf2_152.qasm,urf2,unassigned,False,False,routed_depth,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+urf2_152.qasm,urf2,unassigned,False,False,routed_depth,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+urf2_152.qasm,urf2,unassigned,False,False,routed_depth,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+urf2_277.qasm,urf2,unassigned,False,False,swap_count,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+urf2_277.qasm,urf2,unassigned,False,False,swap_count,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+urf2_277.qasm,urf2,unassigned,False,False,swap_count,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+urf2_277.qasm,urf2,unassigned,False,False,routed_depth,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+urf2_277.qasm,urf2,unassigned,False,False,routed_depth,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+urf2_277.qasm,urf2,unassigned,False,False,routed_depth,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+urf3_155.qasm,urf3,unassigned,False,False,swap_count,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+urf3_155.qasm,urf3,unassigned,False,False,swap_count,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+urf3_155.qasm,urf3,unassigned,False,False,swap_count,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+urf3_155.qasm,urf3,unassigned,False,False,routed_depth,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+urf3_155.qasm,urf3,unassigned,False,False,routed_depth,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+urf3_155.qasm,urf3,unassigned,False,False,routed_depth,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+urf3_279.qasm,urf3,unassigned,False,False,swap_count,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+urf3_279.qasm,urf3,unassigned,False,False,swap_count,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+urf3_279.qasm,urf3,unassigned,False,False,swap_count,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+urf3_279.qasm,urf3,unassigned,False,False,routed_depth,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+urf3_279.qasm,urf3,unassigned,False,False,routed_depth,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+urf3_279.qasm,urf3,unassigned,False,False,routed_depth,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+urf4_187.qasm,urf4,unassigned,False,False,swap_count,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+urf4_187.qasm,urf4,unassigned,False,False,swap_count,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+urf4_187.qasm,urf4,unassigned,False,False,swap_count,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+urf4_187.qasm,urf4,unassigned,False,False,routed_depth,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+urf4_187.qasm,urf4,unassigned,False,False,routed_depth,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+urf4_187.qasm,urf4,unassigned,False,False,routed_depth,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+urf5_158.qasm,urf5,unassigned,False,False,swap_count,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+urf5_158.qasm,urf5,unassigned,False,False,swap_count,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+urf5_158.qasm,urf5,unassigned,False,False,swap_count,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+urf5_158.qasm,urf5,unassigned,False,False,routed_depth,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+urf5_158.qasm,urf5,unassigned,False,False,routed_depth,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+urf5_158.qasm,urf5,unassigned,False,False,routed_depth,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+urf5_280.qasm,urf5,unassigned,False,False,swap_count,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+urf5_280.qasm,urf5,unassigned,False,False,swap_count,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+urf5_280.qasm,urf5,unassigned,False,False,swap_count,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+urf5_280.qasm,urf5,unassigned,False,False,routed_depth,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+urf5_280.qasm,urf5,unassigned,False,False,routed_depth,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+urf5_280.qasm,urf5,unassigned,False,False,routed_depth,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+urf6_160.qasm,urf6,unassigned,False,False,swap_count,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+urf6_160.qasm,urf6,unassigned,False,False,swap_count,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+urf6_160.qasm,urf6,unassigned,False,False,swap_count,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+urf6_160.qasm,urf6,unassigned,False,False,routed_depth,200,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+urf6_160.qasm,urf6,unassigned,False,False,routed_depth,211,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+urf6_160.qasm,urf6,unassigned,False,False,routed_depth,223,no_reuse,no_reuse,,,,,,,,,,,,,,,,,,
+wim_266.qasm,wim,final_test_reserved,False,True,swap_count,200,final_test_reserved,final_test_reserved,,,,,,,,,,,,,,,,,,
+wim_266.qasm,wim,final_test_reserved,False,True,swap_count,211,final_test_reserved,final_test_reserved,,,,,,,,,,,,,,,,,,
+wim_266.qasm,wim,final_test_reserved,False,True,swap_count,223,final_test_reserved,final_test_reserved,,,,,,,,,,,,,,,,,,
+wim_266.qasm,wim,final_test_reserved,False,True,routed_depth,200,final_test_reserved,final_test_reserved,,,,,,,,,,,,,,,,,,
+wim_266.qasm,wim,final_test_reserved,False,True,routed_depth,211,final_test_reserved,final_test_reserved,,,,,,,,,,,,,,,,,,
+wim_266.qasm,wim,final_test_reserved,False,True,routed_depth,223,final_test_reserved,final_test_reserved,,,,,,,,,,,,,,,,,,
+xor5_254.qasm,xor5,unassigned,False,False,swap_count,200,no_observed_neighbor,no_observed_neighbor,,,,,,,,,,,,,,,,,,
+xor5_254.qasm,xor5,unassigned,False,False,swap_count,211,no_observed_neighbor,no_observed_neighbor,,,,,,,,,,,,,,,,,,
+xor5_254.qasm,xor5,unassigned,False,False,swap_count,223,no_observed_neighbor,no_observed_neighbor,,,,,,,,,,,,,,,,,,
+xor5_254.qasm,xor5,unassigned,False,False,routed_depth,200,no_observed_neighbor,no_observed_neighbor,,,,,,,,,,,,,,,,,,
+xor5_254.qasm,xor5,unassigned,False,False,routed_depth,211,no_observed_neighbor,no_observed_neighbor,,,,,,,,,,,,,,,,,,
+xor5_254.qasm,xor5,unassigned,False,False,routed_depth,223,no_observed_neighbor,no_observed_neighbor,,,,,,,,,,,,,,,,,,
+z4_268.qasm,z4,unassigned,False,False,swap_count,200,ready,ok,materializer,,False,4.167,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\z4_268\swap_count\seed_200\routed\routing_report.json,original_guarded,924,925,924,2537,2628,2537,0.0,0,-1,0,2,True
+z4_268.qasm,z4,unassigned,False,False,swap_count,211,ready,ok,materializer,,False,4.095,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\z4_268\swap_count\seed_211\routed\routing_report.json,original_guarded,924,937,924,2559,2641,2559,0.0,0,-13,0,2,True
+z4_268.qasm,z4,unassigned,False,False,swap_count,223,ready,ok,materializer,,False,4.217,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\z4_268\swap_count\seed_223\routed\routing_report.json,original_guarded,906,910,906,2618,2603,2618,0.0,0,-4,0,2,True
+z4_268.qasm,z4,unassigned,False,False,routed_depth,200,ready,ok,materializer,,False,3.81,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\z4_268\routed_depth\seed_200\routed\routing_report.json,original_unchanged,924,924,924,2537,2537,2537,0.0,0,0,-12,2,False
+z4_268.qasm,z4,unassigned,False,False,routed_depth,211,ready,ok,materializer,,False,3.964,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\z4_268\routed_depth\seed_211\routed\routing_report.json,original_unchanged,924,924,924,2559,2559,2559,0.0,0,0,0,2,False
+z4_268.qasm,z4,unassigned,False,False,routed_depth,223,ready,ok,materializer,,False,3.809,C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\z4_268\routed_depth\seed_223\routed\routing_report.json,original_unchanged,906,906,906,2618,2618,2618,0.0,0,0,-83,2,False

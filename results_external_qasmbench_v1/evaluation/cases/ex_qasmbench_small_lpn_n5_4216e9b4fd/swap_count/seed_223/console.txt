@@ -1,0 +1,10 @@
+STDOUT:
+Frozen reference plans: 6 prepared in 0.01 s
+Checkpoint: swap_count one_step TRAIN_ONLY; no retraining
+Policy random_beam original: ((2,), (3, 0, 1, 4)) proposed: ((1, 4, 2), (3, 0))
+Scored candidates: 29 predicted gain: (3.8687978030859695,) actual proposed cost (SWAP,depth): (0, 12)
+Original (SWAP,depth): (0, 13)
+Final source: original_guarded selected metric gain: None
+Report: results_external_qasmbench_v1\evaluation\cases\ex_qasmbench_small_lpn_n5_4216e9b4fd\swap_count\seed_223\routed\routing_report.json
+
+STDERR:

@@ -1,0 +1,23 @@
+{
+  "circuit": "mlp4_245.qasm",
+  "family_heuristic": "mlp4",
+  "previous_split": "unassigned",
+  "training_filename_overlap": false,
+  "reserved_final_test": false,
+  "status": "no_reuse",
+  "error": "",
+  "qasm_sha256": "1642224f4c55e61e1be971765f3e79088f67b36cdff694932516f3d8201ff406",
+  "declared_qubits": 16,
+  "active_qubits": 16,
+  "caqr_elapsed_seconds": 7.94,
+  "active_width": 16,
+  "reuse_edges": 0,
+  "width_reduction_pct": 0.0,
+  "plan_sha256": "6a777f31a33d2d6b5ee3dd371c9c77dd0ad079f1bc53163fd194fe310291bd05",
+  "valid_one_step_neighbors": 0,
+  "raw_attempts": 120,
+  "qasm_path": "C:\\Users\\ASUS\\Documents\\Quantum computing\\qubit-reuse-repair\\pilot_cases\\CaQR_162\\mlp4_245.qasm",
+  "plan_path": "C:\\Users\\ASUS\\Documents\\Quantum computing\\qubit-reuse-repair\\pilot_cases\\CaQR_162\\mlp4_245.plan.json",
+  "native_chain_path": "C:\\Users\\ASUS\\Documents\\Quantum computing\\qubit-reuse-repair\\pilot_cases\\CaQR_162\\mlp4_245.native_caqr_chain.txt",
+  "caqr_reused_qasm_path": "C:\\Users\\ASUS\\Documents\\Quantum computing\\qubit-reuse-repair\\pilot_cases\\CaQR_162\\mlp4_245.native_caqr_output.qasm"
+}

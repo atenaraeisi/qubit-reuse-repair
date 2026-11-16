@@ -1,0 +1,12 @@
+[
+  {
+    "generator": "GidNET",
+    "qasm": "pilot_cases/GidNET/graycode6_47.qasm",
+    "plan": "pilot_cases/GidNET/graycode6_47.plan.json"
+  },
+  {
+    "generator": "GidNET",
+    "qasm": "pilot_cases/GidNET/4mod5-v0_18.qasm",
+    "plan": "pilot_cases/GidNET/4mod5-v0_18.plan.json"
+  }
+]

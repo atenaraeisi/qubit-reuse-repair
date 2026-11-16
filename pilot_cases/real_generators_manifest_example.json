@@ -1,0 +1,12 @@
+[
+  {
+    "generator": "CaQR",
+    "qasm": "pilot_cases/REAL_CaQR_SOURCE.qasm",
+    "plan": "pilot_cases/REAL_CaQR_OUTPUT.plan.json"
+  },
+  {
+    "generator": "DQCC",
+    "qasm": "pilot_cases/DQCC/REAL_DQCC_SOURCE.qasm",
+    "plan": "pilot_cases/DQCC/REAL_DQCC_OUTPUT.plan.json"
+  }
+]

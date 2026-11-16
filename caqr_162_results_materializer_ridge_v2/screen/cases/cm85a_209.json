@@ -1,0 +1,23 @@
+{
+  "circuit": "cm85a_209.qasm",
+  "family_heuristic": "cm",
+  "previous_split": "unassigned",
+  "training_filename_overlap": false,
+  "reserved_final_test": false,
+  "status": "no_reuse",
+  "error": "",
+  "qasm_sha256": "3d10342bb89219c342135fa1d0bd4415b208c1a4935cee66f940a12739cb1375",
+  "declared_qubits": 16,
+  "active_qubits": 14,
+  "caqr_elapsed_seconds": 8.386,
+  "active_width": 14,
+  "reuse_edges": 0,
+  "width_reduction_pct": 0.0,
+  "plan_sha256": "765219304d50e8f016530b649fb493b5785fca56ebf361eca076d783e771db18",
+  "valid_one_step_neighbors": 0,
+  "raw_attempts": 91,
+  "qasm_path": "C:\\Users\\ASUS\\Documents\\Quantum computing\\qubit-reuse-repair\\pilot_cases\\CaQR_162\\cm85a_209.qasm",
+  "plan_path": "C:\\Users\\ASUS\\Documents\\Quantum computing\\qubit-reuse-repair\\pilot_cases\\CaQR_162\\cm85a_209.plan.json",
+  "native_chain_path": "C:\\Users\\ASUS\\Documents\\Quantum computing\\qubit-reuse-repair\\pilot_cases\\CaQR_162\\cm85a_209.native_caqr_chain.txt",
+  "caqr_reused_qasm_path": "C:\\Users\\ASUS\\Documents\\Quantum computing\\qubit-reuse-repair\\pilot_cases\\CaQR_162\\cm85a_209.native_caqr_output.qasm"
+}

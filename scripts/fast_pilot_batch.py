@@ -21,6 +21,8 @@ def main():
     ap.add_argument('--manifest',required=True,type=Path)
     ap.add_argument('--objectives',default='swap_count,routed_depth')
     ap.add_argument('--arm',choices=['one_step'],default='one_step')
+    ap.add_argument('--model-set',choices=['materializer','legacy'],default='materializer',
+                    help='Select newly trained raw-delta models or historical exploratory models')
     ap.add_argument('--policy',choices=['random_beam','adaptive_beam'],default='random_beam')
     ap.add_argument('--topology',choices=['line','ring','grid','heavy_hex7'],default='heavy_hex7')
     ap.add_argument('--physical-qubits',type=int)
@@ -52,7 +54,9 @@ def main():
             command=[
                 '--qasm',str(ROOT/item['qasm']),'--plan',str(ROOT/item['plan']),
                 '--generator',str(item['generator']),
-                '--checkpoint',str(ROOT/'pilot_models'/f'{obj}_{a.arm}_TRAIN_ONLY.json'),
+                '--checkpoint',str(ROOT/'pilot_models'/(
+                     f'{obj}_{a.arm}_MATERIALIZER.json' if a.model_set=='materializer'
+                     else f'{obj}_{a.arm}_TRAIN_ONLY.json')),
                 '--objective',obj,'--arm',a.arm,'--policy',a.policy,
                 '--topology',a.topology,'--seed',str(a.seed),'--budget',str(a.budget),
                 '--max-depth',str(a.max_depth),'--reference-attempts',str(a.reference_attempts),
@@ -61,7 +65,8 @@ def main():
             if a.control_second_seed is not None: command+=['--control-second-seed',str(a.control_second_seed)]
             if a.allow_training_circuit: command+=['--allow-training-circuit']
             if a.overwrite: command+=['--overwrite']
-            row=dict(generator=item['generator'],circuit=case,objective=obj,policy=a.policy)
+            row=dict(generator=item['generator'],circuit=case,objective=obj,policy=a.policy,
+                     model_set=a.model_set)
             try:
                 args=build_parser().parse_args(command)
                 data=run(args)
@@ -104,8 +109,8 @@ def main():
             n_better_than_best_of_two=sum(int(r['observed_guard_minus_control_abs']>0)
               for r in ok if r.get('observed_guard_minus_control_abs') is not None)))
     (a.out_dir/'pilot_summary.json').write_text(json.dumps(dict(
-        schema='pilot_not_final_test_v1',groups=summary,
-        notice='Descriptive pilot only. Nonrandom sample and frozen train-only model with compiler/reference distribution shift. Never claim independent generalization.'),
+        schema='pilot_not_final_test_v2',model_set=a.model_set,groups=summary,
+        notice='Descriptive pilot only. Separate training-overlap cases and audit exact feature extraction parity before independent generalization claims.'),
         indent=2,ensure_ascii=False),encoding='utf-8')
     print('Summary:',a.out_dir/'pilot_summary.json')
     print('Rows:',a.out_dir/'pilot_rows.csv')

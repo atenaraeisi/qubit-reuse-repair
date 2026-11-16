@@ -1,0 +1,23 @@
+{
+  "circuit": "mod5d2_64.qasm",
+  "family_heuristic": "mod5d2",
+  "previous_split": "unassigned",
+  "training_filename_overlap": false,
+  "reserved_final_test": false,
+  "status": "no_reuse",
+  "error": "",
+  "qasm_sha256": "44096785d5a3d666edffc9cdc4bda3b35bbac43e734dbf5801f212ebcc41082d",
+  "declared_qubits": 16,
+  "active_qubits": 5,
+  "caqr_elapsed_seconds": 2.234,
+  "active_width": 5,
+  "reuse_edges": 0,
+  "width_reduction_pct": 0.0,
+  "plan_sha256": "8078f3e8dc614b7a976bec4ce8e93345dcb6c152b5e635e1c3b635be1791b0f3",
+  "valid_one_step_neighbors": 0,
+  "raw_attempts": 10,
+  "qasm_path": "C:\\Users\\ASUS\\Documents\\Quantum computing\\qubit-reuse-repair\\pilot_cases\\CaQR_162\\mod5d2_64.qasm",
+  "plan_path": "C:\\Users\\ASUS\\Documents\\Quantum computing\\qubit-reuse-repair\\pilot_cases\\CaQR_162\\mod5d2_64.plan.json",
+  "native_chain_path": "C:\\Users\\ASUS\\Documents\\Quantum computing\\qubit-reuse-repair\\pilot_cases\\CaQR_162\\mod5d2_64.native_caqr_chain.txt",
+  "caqr_reused_qasm_path": "C:\\Users\\ASUS\\Documents\\Quantum computing\\qubit-reuse-repair\\pilot_cases\\CaQR_162\\mod5d2_64.native_caqr_output.qasm"
+}

@@ -1,0 +1,5 @@
+CAUTION: original_plans.csv source=CaQR refers to QASM BENCHMARK ORIGIN,
+not the qubit reuse generator. The original plans in
+reuse_audit_fixed/fixed_full/original_plans.csv were made by GidNET.
+These samples are strictly GidNET SMOKE cases on CaQR-source QASMs.
+They must NEVER be counted as CaQR-algorithm results.

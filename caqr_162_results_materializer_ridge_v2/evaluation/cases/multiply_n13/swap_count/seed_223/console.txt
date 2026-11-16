@@ -1,0 +1,10 @@
+STDOUT:
+Frozen reference plans: 20 prepared in 0.02 s
+Checkpoint: swap_count one_step TRAIN_ONLY; no retraining
+Policy random_beam original: ((0, 8, 10), (1,), (2, 3, 12), (4,), (5,), (6, 9), (7,), (11,)) proposed: ((0, 10), (1,), (2, 11), (3, 12), (4,), (5,), (6, 9), (7, 8))
+Scored candidates: 120 predicted gain: (20.342272173283035,) actual proposed cost (SWAP,depth): (19, 82)
+Original (SWAP,depth): (22, 88)
+Final source: repaired selected metric gain: 13.636363636363637
+Report: C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\multiply_n13\swap_count\seed_223\routed\routing_report.json
+
+STDERR:

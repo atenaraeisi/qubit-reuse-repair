@@ -1,0 +1,2599 @@
+{
+  "schema": "generator_neutral_materializer_ridge_pilot_v2",
+  "generator_label_user_supplied": "CaQR",
+  "source_qasm": "C:\\Users\\ASUS\\Documents\\Quantum computing\\qubit-reuse-repair\\pilot_cases\\CaQR_162\\ex_qasmbench_medium_bigadder_n18_097ac44672.qasm",
+  "source_qasm_filename": "ex_qasmbench_medium_bigadder_n18_097ac44672.qasm",
+  "source_sha256": "097ac44672d0bb9696cd77e561bc094a661f45fa84762373df840efddac4d094",
+  "plan_sha256": "3ac5b11bf0203c9d31cbccfe606a201a8fb4f939df003a4fed0d190c9da11ead",
+  "objective": "routed_depth",
+  "checkpoint": {
+    "path": "C:\\Users\\ASUS\\Documents\\Quantum computing\\qubit-reuse-repair\\pilot_models\\routed_depth_one_step_MATERIALIZER.json",
+    "sha256": "4aad856754b433048f3662ab30ba5b90da766b91266b4b296da841ea6115a634",
+    "protocol": "materializer25_rawdelta_group_ridge_v1",
+    "arm": "one_step",
+    "training_overlap_filename": false,
+    "n_train_circuits": 14,
+    "n_train_pairs": 199,
+    "feature_definition": "23 raw structural + common materializer logical_depth and reset-lowered norm_depth",
+    "normalization": "raw plan imputation using TRAIN medians; Candidate - Original raw delta; TRAIN delta mean/sd",
+    "reference_pool_size": 26,
+    "reference_raw_attempts": 274,
+    "warning": "Feature extraction source parity with friend training dataset not yet independently verified; one-step model used in multi-step beam is distribution shift"
+  },
+  "policy": "random_beam",
+  "routing_seed": 200,
+  "topology": "heavy_hex7",
+  "physical_qubits": 115,
+  "hardware_directed_edges": [
+    [
+      0,
+      73
+    ],
+    [
+      1,
+      73
+    ],
+    [
+      73,
+      0
+    ],
+    [
+      73,
+      1
+    ],
+    [
+      1,
+      74
+    ],
+    [
+      2,
+      74
+    ],
+    [
+      74,
+      1
+    ],
+    [
+      74,
+      2
+    ],
+    [
+      2,
+      75
+    ],
+    [
+      3,
+      75
+    ],
+    [
+      75,
+      2
+    ],
+    [
+      75,
+      3
+    ],
+    [
+      3,
+      76
+    ],
+    [
+      4,
+      76
+    ],
+    [
+      76,
+      3
+    ],
+    [
+      76,
+      4
+    ],
+    [
+      4,
+      77
+    ],
+    [
+      5,
+      77
+    ],
+    [
+      77,
+      4
+    ],
+    [
+      77,
+      5
+    ],
+    [
+      5,
+      78
+    ],
+    [
+      6,
+      78
+    ],
+    [
+      78,
+      5
+    ],
+    [
+      78,
+      6
+    ],
+    [
+      7,
+      79
+    ],
+    [
+      8,
+      79
+    ],
+    [
+      79,
+      7
+    ],
+    [
+      79,
+      8
+    ],
+    [
+      8,
+      80
+    ],
+    [
+      9,
+      80
+    ],
+    [
+      80,
+      8
+    ],
+    [
+      80,
+      9
+    ],
+    [
+      9,
+      81
+    ],
+    [
+      10,
+      81
+    ],
+    [
+      81,
+      9
+    ],
+    [
+      81,
+      10
+    ],
+    [
+      10,
+      82
+    ],
+    [
+      11,
+      82
+    ],
+    [
+      82,
+      10
+    ],
+    [
+      82,
+      11
+    ],
+    [
+      11,
+      83
+    ],
+    [
+      12,
+      83
+    ],
+    [
+      83,
+      11
+    ],
+    [
+      83,
+      12
+    ],
+    [
+      12,
+      84
+    ],
+    [
+      13,
+      84
+    ],
+    [
+      84,
+      12
+    ],
+    [
+      84,
+      13
+    ],
+    [
+      14,
+      85
+    ],
+    [
+      15,
+      85
+    ],
+    [
+      85,
+      14
+    ],
+    [
+      85,
+      15
+    ],
+    [
+      15,
+      86
+    ],
+    [
+      16,
+      86
+    ],
+    [
+      86,
+      15
+    ],
+    [
+      86,
+      16
+    ],
+    [
+      16,
+      87
+    ],
+    [
+      17,
+      87
+    ],
+    [
+      87,
+      16
+    ],
+    [
+      87,
+      17
+    ],
+    [
+      17,
+      88
+    ],
+    [
+      18,
+      88
+    ],
+    [
+      88,
+      17
+    ],
+    [
+      88,
+      18
+    ],
+    [
+      18,
+      89
+    ],
+    [
+      19,
+      89
+    ],
+    [
+      89,
+      18
+    ],
+    [
+      89,
+      19
+    ],
+    [
+      19,
+      90
+    ],
+    [
+      20,
+      90
+    ],
+    [
+      90,
+      19
+    ],
+    [
+      90,
+      20
+    ],
+    [
+      21,
+      91
+    ],
+    [
+      22,
+      91
+    ],
+    [
+      91,
+      21
+    ],
+    [
+      91,
+      22
+    ],
+    [
+      22,
+      92
+    ],
+    [
+      23,
+      92
+    ],
+    [
+      92,
+      22
+    ],
+    [
+      92,
+      23
+    ],
+    [
+      23,
+      93
+    ],
+    [
+      24,
+      93
+    ],
+    [
+      93,
+      23
+    ],
+    [
+      93,
+      24
+    ],
+    [
+      24,
+      94
+    ],
+    [
+      25,
+      94
+    ],
+    [
+      94,
+      24
+    ],
+    [
+      94,
+      25
+    ],
+    [
+      25,
+      95
+    ],
+    [
+      26,
+      95
+    ],
+    [
+      95,
+      25
+    ],
+    [
+      95,
+      26
+    ],
+    [
+      26,
+      96
+    ],
+    [
+      27,
+      96
+    ],
+    [
+      96,
+      26
+    ],
+    [
+      96,
+      27
+    ],
+    [
+      28,
+      97
+    ],
+    [
+      29,
+      97
+    ],
+    [
+      97,
+      28
+    ],
+    [
+      97,
+      29
+    ],
+    [
+      29,
+      98
+    ],
+    [
+      30,
+      98
+    ],
+    [
+      98,
+      29
+    ],
+    [
+      98,
+      30
+    ],
+    [
+      30,
+      99
+    ],
+    [
+      31,
+      99
+    ],
+    [
+      99,
+      30
+    ],
+    [
+      99,
+      31
+    ],
+    [
+      31,
+      100
+    ],
+    [
+      32,
+      100
+    ],
+    [
+      100,
+      31
+    ],
+    [
+      100,
+      32
+    ],
+    [
+      32,
+      101
+    ],
+    [
+      33,
+      101
+    ],
+    [
+      101,
+      32
+    ],
+    [
+      101,
+      33
+    ],
+    [
+      33,
+      102
+    ],
+    [
+      34,
+      102
+    ],
+    [
+      102,
+      33
+    ],
+    [
+      102,
+      34
+    ],
+    [
+      35,
+      103
+    ],
+    [
+      36,
+      103
+    ],
+    [
+      103,
+      35
+    ],
+    [
+      103,
+      36
+    ],
+    [
+      36,
+      104
+    ],
+    [
+      37,
+      104
+    ],
+    [
+      104,
+      36
+    ],
+    [
+      104,
+      37
+    ],
+    [
+      37,
+      105
+    ],
+    [
+      38,
+      105
+    ],
+    [
+      105,
+      37
+    ],
+    [
+      105,
+      38
+    ],
+    [
+      38,
+      106
+    ],
+    [
+      39,
+      106
+    ],
+    [
+      106,
+      38
+    ],
+    [
+      106,
+      39
+    ],
+    [
+      39,
+      107
+    ],
+    [
+      40,
+      107
+    ],
+    [
+      107,
+      39
+    ],
+    [
+      107,
+      40
+    ],
+    [
+      40,
+      108
+    ],
+    [
+      41,
+      108
+    ],
+    [
+      108,
+      40
+    ],
+    [
+      108,
+      41
+    ],
+    [
+      42,
+      109
+    ],
+    [
+      43,
+      109
+    ],
+    [
+      109,
+      42
+    ],
+    [
+      109,
+      43
+    ],
+    [
+      43,
+      110
+    ],
+    [
+      44,
+      110
+    ],
+    [
+      110,
+      43
+    ],
+    [
+      110,
+      44
+    ],
+    [
+      44,
+      111
+    ],
+    [
+      45,
+      111
+    ],
+    [
+      111,
+      44
+    ],
+    [
+      111,
+      45
+    ],
+    [
+      45,
+      112
+    ],
+    [
+      46,
+      112
+    ],
+    [
+      112,
+      45
+    ],
+    [
+      112,
+      46
+    ],
+    [
+      46,
+      113
+    ],
+    [
+      47,
+      113
+    ],
+    [
+      113,
+      46
+    ],
+    [
+      113,
+      47
+    ],
+    [
+      47,
+      114
+    ],
+    [
+      48,
+      114
+    ],
+    [
+      114,
+      47
+    ],
+    [
+      114,
+      48
+    ],
+    [
+      0,
+      49
+    ],
+    [
+      7,
+      49
+    ],
+    [
+      49,
+      0
+    ],
+    [
+      49,
+      7
+    ],
+    [
+      13,
+      56
+    ],
+    [
+      20,
+      56
+    ],
+    [
+      56,
+      13
+    ],
+    [
+      56,
+      20
+    ],
+    [
+      14,
+      57
+    ],
+    [
+      21,
+      57
+    ],
+    [
+      57,
+      14
+    ],
+    [
+      57,
+      21
+    ],
+    [
+      27,
+      64
+    ],
+    [
+      34,
+      64
+    ],
+    [
+      64,
+      27
+    ],
+    [
+      64,
+      34
+    ],
+    [
+      28,
+      65
+    ],
+    [
+      35,
+      65
+    ],
+    [
+      65,
+      28
+    ],
+    [
+      65,
+      35
+    ],
+    [
+      41,
+      72
+    ],
+    [
+      48,
+      72
+    ],
+    [
+      72,
+      41
+    ],
+    [
+      72,
+      48
+    ],
+    [
+      50,
+      74
+    ],
+    [
+      50,
+      80
+    ],
+    [
+      74,
+      50
+    ],
+    [
+      80,
+      50
+    ],
+    [
+      51,
+      76
+    ],
+    [
+      51,
+      82
+    ],
+    [
+      76,
+      51
+    ],
+    [
+      82,
+      51
+    ],
+    [
+      52,
+      78
+    ],
+    [
+      52,
+      84
+    ],
+    [
+      78,
+      52
+    ],
+    [
+      84,
+      52
+    ],
+    [
+      53,
+      79
+    ],
+    [
+      53,
+      85
+    ],
+    [
+      79,
+      53
+    ],
+    [
+      85,
+      53
+    ],
+    [
+      54,
+      81
+    ],
+    [
+      54,
+      87
+    ],
+    [
+      81,
+      54
+    ],
+    [
+      87,
+      54
+    ],
+    [
+      55,
+      83
+    ],
+    [
+      55,
+      89
+    ],
+    [
+      83,
+      55
+    ],
+    [
+      89,
+      55
+    ],
+    [
+      58,
+      86
+    ],
+    [
+      58,
+      92
+    ],
+    [
+      86,
+      58
+    ],
+    [
+      92,
+      58
+    ],
+    [
+      59,
+      88
+    ],
+    [
+      59,
+      94
+    ],
+    [
+      88,
+      59
+    ],
+    [
+      94,
+      59
+    ],
+    [
+      60,
+      90
+    ],
+    [
+      60,
+      96
+    ],
+    [
+      90,
+      60
+    ],
+    [
+      96,
+      60
+    ],
+    [
+      61,
+      91
+    ],
+    [
+      61,
+      97
+    ],
+    [
+      91,
+      61
+    ],
+    [
+      97,
+      61
+    ],
+    [
+      62,
+      93
+    ],
+    [
+      62,
+      99
+    ],
+    [
+      93,
+      62
+    ],
+    [
+      99,
+      62
+    ],
+    [
+      63,
+      95
+    ],
+    [
+      63,
+      101
+    ],
+    [
+      95,
+      63
+    ],
+    [
+      101,
+      63
+    ],
+    [
+      66,
+      98
+    ],
+    [
+      66,
+      104
+    ],
+    [
+      98,
+      66
+    ],
+    [
+      104,
+      66
+    ],
+    [
+      67,
+      100
+    ],
+    [
+      67,
+      106
+    ],
+    [
+      100,
+      67
+    ],
+    [
+      106,
+      67
+    ],
+    [
+      68,
+      102
+    ],
+    [
+      68,
+      108
+    ],
+    [
+      102,
+      68
+    ],
+    [
+      108,
+      68
+    ],
+    [
+      69,
+      103
+    ],
+    [
+      69,
+      109
+    ],
+    [
+      103,
+      69
+    ],
+    [
+      109,
+      69
+    ],
+    [
+      70,
+      105
+    ],
+    [
+      70,
+      111
+    ],
+    [
+      105,
+      70
+    ],
+    [
+      111,
+      70
+    ],
+    [
+      71,
+      107
+    ],
+    [
+      71,
+      113
+    ],
+    [
+      107,
+      71
+    ],
+    [
+      113,
+      71
+    ]
+  ],
+  "routing_settings": {
+    "layout_method": "sabre",
+    "routing_method": "sabre",
+    "optimization_level": 1,
+    "metric_definitions": {
+      "swap_count": "int(transpiled_circuit.count_ops().get('swap', 0))",
+      "routed_depth": "int(transpiled_circuit.depth())"
+    }
+  },
+  "search": {
+    "stage": "pre_routing_search_only",
+    "objective": "routed_depth",
+    "policy": "random_beam",
+    "original_plan": {
+      "schema_version": 1,
+      "chains": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ],
+        [
+          8
+        ],
+        [
+          9
+        ],
+        [
+          10
+        ],
+        [
+          11
+        ],
+        [
+          12
+        ],
+        [
+          13
+        ],
+        [
+          14
+        ],
+        [
+          15
+        ],
+        [
+          16
+        ],
+        [
+          17
+        ]
+      ]
+    },
+    "selected_plan": {
+      "schema_version": 1,
+      "chains": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ],
+        [
+          8
+        ],
+        [
+          9
+        ],
+        [
+          10
+        ],
+        [
+          11
+        ],
+        [
+          12
+        ],
+        [
+          13
+        ],
+        [
+          14
+        ],
+        [
+          15
+        ],
+        [
+          16
+        ],
+        [
+          17
+        ]
+      ]
+    },
+    "selected_score": [
+      0.0
+    ],
+    "changed": false,
+    "reached_depth": 3,
+    "n_scored": 120,
+    "n_valid_accepted": 175,
+    "raw_attempts": 1925,
+    "stop_reason": "valid_candidate_budget",
+    "rejection_counts": {
+      "attempted": 1925,
+      "same_plan": 840,
+      "duplicate": 210,
+      "fast_reject_illegal_boundary": 700,
+      "fast_reject_dependency_cycle": 0,
+      "full_reject": 0,
+      "accepted": 175,
+      "global_duplicate": 43
+    },
+    "trace": [
+      {
+        "signature": "b752a874726a1f2b1bd683db2a1a2d0c63348999178e75de8fd510229620b523",
+        "parent_signature": "3ac5b11bf0203c9d31cbccfe606a201a8fb4f939df003a4fed0d190c9da11ead",
+        "depth": 1,
+        "operator": "chain_transfer",
+        "score": [
+          -0.09943045289278901
+        ]
+      },
+      {
+        "signature": "5bc25982cabb6905714b223347d5a94142e1989451e9ca44fdfd31cf6e6c27aa",
+        "parent_signature": "3ac5b11bf0203c9d31cbccfe606a201a8fb4f939df003a4fed0d190c9da11ead",
+        "depth": 1,
+        "operator": "chain_transfer",
+        "score": [
+          -0.23461711006423103
+        ]
+      },
+      {
+        "signature": "c5fe40c425d588bda2ad9eb4969e20acb02110ccc4e8d7ba9bc4fb662b31843c",
+        "parent_signature": "3ac5b11bf0203c9d31cbccfe606a201a8fb4f939df003a4fed0d190c9da11ead",
+        "depth": 1,
+        "operator": "chain_transfer",
+        "score": [
+          -0.09943045289278901
+        ]
+      },
+      {
+        "signature": "e1c02ec7adba62669e82a4e91b96058b9aea67ce8500a643d61bf88d8f5983f7",
+        "parent_signature": "3ac5b11bf0203c9d31cbccfe606a201a8fb4f939df003a4fed0d190c9da11ead",
+        "depth": 1,
+        "operator": "chain_transfer",
+        "score": [
+          -0.36062787993034545
+        ]
+      },
+      {
+        "signature": "258e566e11a9c0b6a742a17ac45df7ea902d4acee1c115db5f06a07f022a9124",
+        "parent_signature": "3ac5b11bf0203c9d31cbccfe606a201a8fb4f939df003a4fed0d190c9da11ead",
+        "depth": 1,
+        "operator": "chain_transfer",
+        "score": [
+          -0.23461711006423103
+        ]
+      },
+      {
+        "signature": "4fb4b2da14534ea8131aa4cdd5807fb60da26cae4b32e65e40a4f22dbb5055f0",
+        "parent_signature": "3ac5b11bf0203c9d31cbccfe606a201a8fb4f939df003a4fed0d190c9da11ead",
+        "depth": 1,
+        "operator": "chain_transfer",
+        "score": [
+          -0.36062787993034545
+        ]
+      },
+      {
+        "signature": "a08fda9a938fa5869cdc876d51a3dec17ef2c6743ff1893278cef84674cc7c4a",
+        "parent_signature": "3ac5b11bf0203c9d31cbccfe606a201a8fb4f939df003a4fed0d190c9da11ead",
+        "depth": 1,
+        "operator": "chain_transfer",
+        "score": [
+          -0.09943045289278901
+        ]
+      },
+      {
+        "signature": "24225fc1d770c07beb7e9500210485b371e7d24fa217e02cbe7fd1ee0c8518cf",
+        "parent_signature": "3ac5b11bf0203c9d31cbccfe606a201a8fb4f939df003a4fed0d190c9da11ead",
+        "depth": 1,
+        "operator": "chain_transfer",
+        "score": [
+          -0.09943045289278901
+        ]
+      },
+      {
+        "signature": "2f866c1fba02da478dd788fc8cf72249372f05cfa00e72bb19d40f01c4bb0b0a",
+        "parent_signature": "3ac5b11bf0203c9d31cbccfe606a201a8fb4f939df003a4fed0d190c9da11ead",
+        "depth": 1,
+        "operator": "suffix_swap",
+        "score": [
+          -0.09943045289278901
+        ]
+      },
+      {
+        "signature": "a7a770af77e469ad5895ac21695626b1220baf671f7dc349f3d01d8837e1da8c",
+        "parent_signature": "3ac5b11bf0203c9d31cbccfe606a201a8fb4f939df003a4fed0d190c9da11ead",
+        "depth": 1,
+        "operator": "chain_transfer",
+        "score": [
+          -0.6218253069679017
+        ]
+      },
+      {
+        "signature": "3e35c2090b60c920f1ac89878de3c92be9ef414fca4eb336f12fa2e16b4dfb5c",
+        "parent_signature": "3ac5b11bf0203c9d31cbccfe606a201a8fb4f939df003a4fed0d190c9da11ead",
+        "depth": 1,
+        "operator": "chain_transfer",
+        "score": [
+          -0.23461711006423103
+        ]
+      },
+      {
+        "signature": "b7eed6c8d9217947f573d819d5c1000e7c9a5a359e947cf9608d15372216bfb1",
+        "parent_signature": "3ac5b11bf0203c9d31cbccfe606a201a8fb4f939df003a4fed0d190c9da11ead",
+        "depth": 1,
+        "operator": "chain_transfer",
+        "score": [
+          -0.09943045289278901
+        ]
+      },
+      {
+        "signature": "08150bccb7206be0a18ec0a9bb331fc0be7cdda02fa6dc968d44c9dc586b2cd3",
+        "parent_signature": "3ac5b11bf0203c9d31cbccfe606a201a8fb4f939df003a4fed0d190c9da11ead",
+        "depth": 1,
+        "operator": "chain_transfer",
+        "score": [
+          -0.23461711006423103
+        ]
+      },
+      {
+        "signature": "12f11370dfd234abf51c1beed5075e685918201fb260ec4d6e02dd1c3bce4944",
+        "parent_signature": "3ac5b11bf0203c9d31cbccfe606a201a8fb4f939df003a4fed0d190c9da11ead",
+        "depth": 1,
+        "operator": "chain_transfer",
+        "score": [
+          -0.09943045289278901
+        ]
+      },
+      {
+        "signature": "c16de1c289c9ac68a110421c7a72b6387535105baf221b5d249a7809bb4aaa09",
+        "parent_signature": "3ac5b11bf0203c9d31cbccfe606a201a8fb4f939df003a4fed0d190c9da11ead",
+        "depth": 1,
+        "operator": "chain_transfer",
+        "score": [
+          -0.23461711006423103
+        ]
+      },
+      {
+        "signature": "d14c4bdfb4a194f5d92fe6434387c0ca66b822fb6f0eeb3c5ee7b0778201aa28",
+        "parent_signature": "3ac5b11bf0203c9d31cbccfe606a201a8fb4f939df003a4fed0d190c9da11ead",
+        "depth": 1,
+        "operator": "chain_transfer",
+        "score": [
+          -0.36062787993034545
+        ]
+      },
+      {
+        "signature": "d2ca1a42fef4adce260af3ac9b672ce1c4cdac0da7e4475bf3b475bf54f742ff",
+        "parent_signature": "3ac5b11bf0203c9d31cbccfe606a201a8fb4f939df003a4fed0d190c9da11ead",
+        "depth": 1,
+        "operator": "chain_transfer",
+        "score": [
+          -0.36062787993034545
+        ]
+      },
+      {
+        "signature": "2ed9139de61e9d43858d3c561d37e8d75f9cf50743c276e46b2362f11a23345e",
+        "parent_signature": "3ac5b11bf0203c9d31cbccfe606a201a8fb4f939df003a4fed0d190c9da11ead",
+        "depth": 1,
+        "operator": "chain_transfer",
+        "score": [
+          -0.09943045289278901
+        ]
+      },
+      {
+        "signature": "3c6b37d94d0dc75dd2c244cf92c990870518eb6c3af7929cb3f30bfe51c88c2b",
+        "parent_signature": "3ac5b11bf0203c9d31cbccfe606a201a8fb4f939df003a4fed0d190c9da11ead",
+        "depth": 1,
+        "operator": "chain_transfer",
+        "score": [
+          -0.36062787993034545
+        ]
+      },
+      {
+        "signature": "3ccba4a92d7ec23f767ec74fb0425207da2cdf7e1e34281f40701546018ef556",
+        "parent_signature": "3ac5b11bf0203c9d31cbccfe606a201a8fb4f939df003a4fed0d190c9da11ead",
+        "depth": 1,
+        "operator": "chain_transfer",
+        "score": [
+          -0.09943045289278901
+        ]
+      },
+      {
+        "signature": "bdca933a487096558cfcc824e096642599b9f63bcf6c3cbce5b6d4d29ae878c2",
+        "parent_signature": "3ac5b11bf0203c9d31cbccfe606a201a8fb4f939df003a4fed0d190c9da11ead",
+        "depth": 1,
+        "operator": "chain_transfer",
+        "score": [
+          -0.36062787993034545
+        ]
+      },
+      {
+        "signature": "55eadd2a8dfe45d3c02f2e560bb21ddb9b68b71e732ea20224f80c6ab9092d17",
+        "parent_signature": "3ac5b11bf0203c9d31cbccfe606a201a8fb4f939df003a4fed0d190c9da11ead",
+        "depth": 1,
+        "operator": "chain_transfer",
+        "score": [
+          -0.23461711006423103
+        ]
+      },
+      {
+        "signature": "10a34ae41df616c6567b224b086ce30dfb2e1f1c7b2924b317d38bbc124a7188",
+        "parent_signature": "3ac5b11bf0203c9d31cbccfe606a201a8fb4f939df003a4fed0d190c9da11ead",
+        "depth": 1,
+        "operator": "chain_transfer",
+        "score": [
+          -0.23461711006423103
+        ]
+      },
+      {
+        "signature": "b5b987c793b35d60ebe7dc16f050006d5a18343b1b230f657965e91b949c6d17",
+        "parent_signature": "3ac5b11bf0203c9d31cbccfe606a201a8fb4f939df003a4fed0d190c9da11ead",
+        "depth": 1,
+        "operator": "chain_transfer",
+        "score": [
+          -0.6218253069679017
+        ]
+      },
+      {
+        "signature": "fe709edb6d3afe5695effd230c1c7c8a6a15be4e1cfd91aad1f5b9f5d28d12a0",
+        "parent_signature": "3ac5b11bf0203c9d31cbccfe606a201a8fb4f939df003a4fed0d190c9da11ead",
+        "depth": 1,
+        "operator": "chain_transfer",
+        "score": [
+          -0.23461711006423103
+        ]
+      },
+      {
+        "signature": "478bf7b198111342b3041d61a48729d80a3b7b4eb4a02f4605174f4f1bb0fc54",
+        "parent_signature": "55eadd2a8dfe45d3c02f2e560bb21ddb9b68b71e732ea20224f80c6ab9092d17",
+        "depth": 2,
+        "operator": "chain_transfer",
+        "score": [
+          -0.23461711006423103
+        ]
+      },
+      {
+        "signature": "36990d47e284cfd96424ccd0aaf454883ea85409a646375362d04fc7f3ef7ca3",
+        "parent_signature": "55eadd2a8dfe45d3c02f2e560bb21ddb9b68b71e732ea20224f80c6ab9092d17",
+        "depth": 2,
+        "operator": "chain_transfer",
+        "score": [
+          -0.6218253069679017
+        ]
+      },
+      {
+        "signature": "e6fe3fb05a218e3dfd8ef1c1cd58812bafbcb786c23b4b8c8fc372c6ca138e66",
+        "parent_signature": "55eadd2a8dfe45d3c02f2e560bb21ddb9b68b71e732ea20224f80c6ab9092d17",
+        "depth": 2,
+        "operator": "chain_transfer",
+        "score": [
+          -0.23461711006423103
+        ]
+      },
+      {
+        "signature": "2c851414c661df2e155c7d7093e6ecd7b598678d3c0887e92978eef6588ca19f",
+        "parent_signature": "55eadd2a8dfe45d3c02f2e560bb21ddb9b68b71e732ea20224f80c6ab9092d17",
+        "depth": 2,
+        "operator": "chain_transfer",
+        "score": [
+          -0.36062787993034545
+        ]
+      },
+      {
+        "signature": "6020a5d25f24bfc2f27f149542e769b175f35216010603815d3ebbbf712a5b15",
+        "parent_signature": "55eadd2a8dfe45d3c02f2e560bb21ddb9b68b71e732ea20224f80c6ab9092d17",
+        "depth": 2,
+        "operator": "chain_transfer",
+        "score": [
+          -0.23461711006423103
+        ]
+      },
+      {
+        "signature": "1c8fae35735860fc0ac32e6b4e830b81d99c8d88fc39292f9cc73030d40dd921",
+        "parent_signature": "55eadd2a8dfe45d3c02f2e560bb21ddb9b68b71e732ea20224f80c6ab9092d17",
+        "depth": 2,
+        "operator": "chain_transfer",
+        "score": [
+          -0.4958145371017874
+        ]
+      },
+      {
+        "signature": "01932c3a01dc99f2033c86738bc61ac10931938d8d0b503db9622fb8fbe4536a",
+        "parent_signature": "55eadd2a8dfe45d3c02f2e560bb21ddb9b68b71e732ea20224f80c6ab9092d17",
+        "depth": 2,
+        "operator": "chain_transfer",
+        "score": [
+          -0.4958145371017874
+        ]
+      },
+      {
+        "signature": "7ab06d59c3dd06eac401e96bb16eaf0718b3127232c3202477356ce21265e9e5",
+        "parent_signature": "55eadd2a8dfe45d3c02f2e560bb21ddb9b68b71e732ea20224f80c6ab9092d17",
+        "depth": 2,
+        "operator": "chain_transfer",
+        "score": [
+          -0.23461711006423103
+        ]
+      },
+      {
+        "signature": "672194d1d7485f94bcc667e0855c1afabdf80e2b03be2c5dafa0d76935a66173",
+        "parent_signature": "55eadd2a8dfe45d3c02f2e560bb21ddb9b68b71e732ea20224f80c6ab9092d17",
+        "depth": 2,
+        "operator": "chain_transfer",
+        "score": [
+          -0.23461711006423103
+        ]
+      },
+      {
+        "signature": "38a719f893bdac906debd08d47dbeb7675bd1c5a22f3cbdb0ccd5e32272fb5a4",
+        "parent_signature": "55eadd2a8dfe45d3c02f2e560bb21ddb9b68b71e732ea20224f80c6ab9092d17",
+        "depth": 2,
+        "operator": "chain_transfer",
+        "score": [
+          -0.36062787993034545
+        ]
+      },
+      {
+        "signature": "b28d8b8b1a25207b600f9f017204418cafea74d2d329a4cae43f4db505a4b1de",
+        "parent_signature": "55eadd2a8dfe45d3c02f2e560bb21ddb9b68b71e732ea20224f80c6ab9092d17",
+        "depth": 2,
+        "operator": "chain_transfer",
+        "score": [
+          -0.36062787993034545
+        ]
+      },
+      {
+        "signature": "e0beeab505af98697254f5c3b87fa705e8d9c69f8b85bdc56db548c313e38b5a",
+        "parent_signature": "55eadd2a8dfe45d3c02f2e560bb21ddb9b68b71e732ea20224f80c6ab9092d17",
+        "depth": 2,
+        "operator": "chain_transfer",
+        "score": [
+          -0.23461711006423103
+        ]
+      },
+      {
+        "signature": "a2569cdec4df78601277b128575e52a2194b2414e70a2a95b94a7779af2c9be6",
+        "parent_signature": "55eadd2a8dfe45d3c02f2e560bb21ddb9b68b71e732ea20224f80c6ab9092d17",
+        "depth": 2,
+        "operator": "chain_transfer",
+        "score": [
+          -0.23461711006423103
+        ]
+      },
+      {
+        "signature": "b5cd05aabb1bfd245fea9781d0a42468af14bc0e0742738be3a03b667aa2a884",
+        "parent_signature": "55eadd2a8dfe45d3c02f2e560bb21ddb9b68b71e732ea20224f80c6ab9092d17",
+        "depth": 2,
+        "operator": "suffix_swap",
+        "score": [
+          -0.23461711006423103
+        ]
+      },
+      {
+        "signature": "b429d858e77fc8d00ce649a0e7aa14c60078c11f6a7047a8314cef049e0aaa5b",
+        "parent_signature": "55eadd2a8dfe45d3c02f2e560bb21ddb9b68b71e732ea20224f80c6ab9092d17",
+        "depth": 2,
+        "operator": "chain_transfer",
+        "score": [
+          -0.23461711006423103
+        ]
+      },
+      {
+        "signature": "e1a61486d3ee0a283875e0f5aaae3795c711bbfa8c18486638e32d1926b2e632",
+        "parent_signature": "55eadd2a8dfe45d3c02f2e560bb21ddb9b68b71e732ea20224f80c6ab9092d17",
+        "depth": 2,
+        "operator": "chain_transfer",
+        "score": [
+          -0.23461711006423103
+        ]
+      },
+      {
+        "signature": "ee40c78c1a12d86b5aced5ef5fde9b705723e493152700c19618815605295977",
+        "parent_signature": "55eadd2a8dfe45d3c02f2e560bb21ddb9b68b71e732ea20224f80c6ab9092d17",
+        "depth": 2,
+        "operator": "chain_transfer",
+        "score": [
+          -0.4958145371017874
+        ]
+      },
+      {
+        "signature": "9c798267c0235e8707caed27edd0d0fe6ffd9660359d222b5affddc3d1bea18d",
+        "parent_signature": "55eadd2a8dfe45d3c02f2e560bb21ddb9b68b71e732ea20224f80c6ab9092d17",
+        "depth": 2,
+        "operator": "chain_transfer",
+        "score": [
+          -0.7570119641393437
+        ]
+      },
+      {
+        "signature": "ff54a10c3c8345c2010ef5be25c723a2221724d2f7c89602329643149734de97",
+        "parent_signature": "55eadd2a8dfe45d3c02f2e560bb21ddb9b68b71e732ea20224f80c6ab9092d17",
+        "depth": 2,
+        "operator": "chain_transfer",
+        "score": [
+          -0.23461711006423103
+        ]
+      },
+      {
+        "signature": "d0600bf02ffdb87c6dc64e454dd255b4184ef2a8993a82a88cc71a97d5dc0ff1",
+        "parent_signature": "a08fda9a938fa5869cdc876d51a3dec17ef2c6743ff1893278cef84674cc7c4a",
+        "depth": 2,
+        "operator": "suffix_swap",
+        "score": [
+          -0.23461711006423103
+        ]
+      },
+      {
+        "signature": "fa43e5e4003d09e09ffaccdce7d5d457b7e929a20df3554029832138828f92f1",
+        "parent_signature": "a08fda9a938fa5869cdc876d51a3dec17ef2c6743ff1893278cef84674cc7c4a",
+        "depth": 2,
+        "operator": "suffix_swap",
+        "score": [
+          -0.09943045289278901
+        ]
+      },
+      {
+        "signature": "8b18bcadc255afc0866e30598cdde6ddb61f6dfeecd9dad0f051642b221324a4",
+        "parent_signature": "a08fda9a938fa5869cdc876d51a3dec17ef2c6743ff1893278cef84674cc7c4a",
+        "depth": 2,
+        "operator": "chain_transfer",
+        "score": [
+          -0.09943045289278901
+        ]
+      },
+      {
+        "signature": "0a0367a7d0b3e32cf4dddf720499ec7de3385b091774578ab4a81aabf74f9c02",
+        "parent_signature": "a08fda9a938fa5869cdc876d51a3dec17ef2c6743ff1893278cef84674cc7c4a",
+        "depth": 2,
+        "operator": "chain_transfer",
+        "score": [
+          -0.36062787993034545
+        ]
+      },
+      {
+        "signature": "6869303d82d64df43a7c82ef170d89773fcbbac4422cbb7ea609d846129bb4b4",
+        "parent_signature": "a08fda9a938fa5869cdc876d51a3dec17ef2c6743ff1893278cef84674cc7c4a",
+        "depth": 2,
+        "operator": "chain_transfer",
+        "score": [
+          -0.09943045289278901
+        ]
+      },
+      {
+        "signature": "92130c79bc6b474c0c52069ad58a93395d81ca89c45a00855305a7b169dc1710",
+        "parent_signature": "a08fda9a938fa5869cdc876d51a3dec17ef2c6743ff1893278cef84674cc7c4a",
+        "depth": 2,
+        "operator": "chain_transfer",
+        "score": [
+          -0.09943045289278901
+        ]
+      },
+      {
+        "signature": "ec132a3a832fa7f6fb0b1ad13161a157bc2fbd2a2f748beec208a94da1bc042c",
+        "parent_signature": "a08fda9a938fa5869cdc876d51a3dec17ef2c6743ff1893278cef84674cc7c4a",
+        "depth": 2,
+        "operator": "suffix_swap",
+        "score": [
+          -0.09943045289278901
+        ]
+      },
+      {
+        "signature": "bd5b3d2b6f189e01a73da657b6583797fbd034abacfef4170f1acba88efdfde4",
+        "parent_signature": "a08fda9a938fa5869cdc876d51a3dec17ef2c6743ff1893278cef84674cc7c4a",
+        "depth": 2,
+        "operator": "suffix_swap",
+        "score": [
+          -0.09943045289278901
+        ]
+      },
+      {
+        "signature": "669c973d784764a127dbcf63908c9aee10b7fa86a53d52b7345d507aac40cf30",
+        "parent_signature": "a08fda9a938fa5869cdc876d51a3dec17ef2c6743ff1893278cef84674cc7c4a",
+        "depth": 2,
+        "operator": "chain_transfer",
+        "score": [
+          -0.36062787993034545
+        ]
+      },
+      {
+        "signature": "ccb2d9dcf22f74a45d8cf46abfe7b154b04a089efbe65331b1f9bc5d9baa67fd",
+        "parent_signature": "a08fda9a938fa5869cdc876d51a3dec17ef2c6743ff1893278cef84674cc7c4a",
+        "depth": 2,
+        "operator": "suffix_swap",
+        "score": [
+          -0.23461711006423103
+        ]
+      },
+      {
+        "signature": "76a8eef5a30c11db756ea32925a44974a8aa4bf1f3793a401cc3d5ddecbce496",
+        "parent_signature": "a08fda9a938fa5869cdc876d51a3dec17ef2c6743ff1893278cef84674cc7c4a",
+        "depth": 2,
+        "operator": "suffix_swap",
+        "score": [
+          -0.23461711006423103
+        ]
+      },
+      {
+        "signature": "517c32ac81a3818247d58a3765bba15ced2643f343e3ae57bbedba49411bead7",
+        "parent_signature": "a08fda9a938fa5869cdc876d51a3dec17ef2c6743ff1893278cef84674cc7c4a",
+        "depth": 2,
+        "operator": "suffix_swap",
+        "score": [
+          -0.23461711006423103
+        ]
+      },
+      {
+        "signature": "2f45772530aa92ab920a25c6f739349bbe218809e7c8f927c5ffc9d509bc6e6a",
+        "parent_signature": "a08fda9a938fa5869cdc876d51a3dec17ef2c6743ff1893278cef84674cc7c4a",
+        "depth": 2,
+        "operator": "chain_transfer",
+        "score": [
+          -0.09943045289278901
+        ]
+      },
+      {
+        "signature": "a94d87b836dd322cc46949bb9960bb89387f1447aced60b3d7fff7ba77f90101",
+        "parent_signature": "a08fda9a938fa5869cdc876d51a3dec17ef2c6743ff1893278cef84674cc7c4a",
+        "depth": 2,
+        "operator": "chain_transfer",
+        "score": [
+          -0.36062787993034545
+        ]
+      },
+      {
+        "signature": "fcc4f0e6b7085c38a25d040e2c513d3db08caf929a0a111fc5d4410e9745e9df",
+        "parent_signature": "a08fda9a938fa5869cdc876d51a3dec17ef2c6743ff1893278cef84674cc7c4a",
+        "depth": 2,
+        "operator": "chain_transfer",
+        "score": [
+          -0.36062787993034545
+        ]
+      },
+      {
+        "signature": "02e56e9d7a1c3138da33776c1e6ad7252f618390cdae8a296305578800ca6987",
+        "parent_signature": "a08fda9a938fa5869cdc876d51a3dec17ef2c6743ff1893278cef84674cc7c4a",
+        "depth": 2,
+        "operator": "chain_transfer",
+        "score": [
+          -0.36062787993034545
+        ]
+      },
+      {
+        "signature": "75e83dcee63b1ae27eb05a1291800c4d2a454218a6e7512e920589a6759b7008",
+        "parent_signature": "a08fda9a938fa5869cdc876d51a3dec17ef2c6743ff1893278cef84674cc7c4a",
+        "depth": 2,
+        "operator": "chain_transfer",
+        "score": [
+          -0.6218253069679017
+        ]
+      },
+      {
+        "signature": "e6955bf20c896913d8880b867e931710690c46785cccc2ef0a76a7a016f51e91",
+        "parent_signature": "a08fda9a938fa5869cdc876d51a3dec17ef2c6743ff1893278cef84674cc7c4a",
+        "depth": 2,
+        "operator": "chain_transfer",
+        "score": [
+          -0.6218253069679017
+        ]
+      },
+      {
+        "signature": "ce16035b01fcb6ef63b9aa708e19d64a03f75905ab6587ae306f19cdbf792891",
+        "parent_signature": "a08fda9a938fa5869cdc876d51a3dec17ef2c6743ff1893278cef84674cc7c4a",
+        "depth": 2,
+        "operator": "chain_transfer",
+        "score": [
+          -0.36062787993034545
+        ]
+      },
+      {
+        "signature": "a65d0ac08cdb4b9ac62d64ffb8256c6883635870db349d37a34da4b9c7be5da8",
+        "parent_signature": "5bc25982cabb6905714b223347d5a94142e1989451e9ca44fdfd31cf6e6c27aa",
+        "depth": 2,
+        "operator": "chain_transfer",
+        "score": [
+          -0.23461711006423103
+        ]
+      },
+      {
+        "signature": "761d1e6910416fd4edab52ba0040c30ad43d7e9637991b0e75e96e16050c968a",
+        "parent_signature": "5bc25982cabb6905714b223347d5a94142e1989451e9ca44fdfd31cf6e6c27aa",
+        "depth": 2,
+        "operator": "chain_transfer",
+        "score": [
+          -0.23461711006423103
+        ]
+      },
+      {
+        "signature": "6bdefa99fb8cbab91c9f9f4a924abae6828d2a3c97e00a5cb83437b6d1688b95",
+        "parent_signature": "5bc25982cabb6905714b223347d5a94142e1989451e9ca44fdfd31cf6e6c27aa",
+        "depth": 2,
+        "operator": "chain_transfer",
+        "score": [
+          -0.4958145371017874
+        ]
+      },
+      {
+        "signature": "ef8a40956293c286e23a8ce71f07da2c23e57ed8389e4b13c4d6e46c1b978b90",
+        "parent_signature": "5bc25982cabb6905714b223347d5a94142e1989451e9ca44fdfd31cf6e6c27aa",
+        "depth": 2,
+        "operator": "suffix_swap",
+        "score": [
+          -0.23461711006423103
+        ]
+      },
+      {
+        "signature": "98640a0d1edde690930ff1ce4c0edb530f9f3b88a1ef94fc9b94285710f0d2ea",
+        "parent_signature": "5bc25982cabb6905714b223347d5a94142e1989451e9ca44fdfd31cf6e6c27aa",
+        "depth": 2,
+        "operator": "chain_transfer",
+        "score": [
+          -0.36062787993034545
+        ]
+      },
+      {
+        "signature": "c13f7ffe77b5af76513d62bbbecbd78a6102d277226e16714c4f91e25a68681f",
+        "parent_signature": "5bc25982cabb6905714b223347d5a94142e1989451e9ca44fdfd31cf6e6c27aa",
+        "depth": 2,
+        "operator": "suffix_swap",
+        "score": [
+          -0.23461711006423103
+        ]
+      },
+      {
+        "signature": "a442c6cca78da41f16b5f66cfdb375587dbf0b149face5cf4c47d3fc6373460b",
+        "parent_signature": "5bc25982cabb6905714b223347d5a94142e1989451e9ca44fdfd31cf6e6c27aa",
+        "depth": 2,
+        "operator": "chain_transfer",
+        "score": [
+          -0.7570119641393437
+        ]
+      },
+      {
+        "signature": "10a15806c0316435f27066688482bd122482a0b7ff085b0676958909ea4474c6",
+        "parent_signature": "5bc25982cabb6905714b223347d5a94142e1989451e9ca44fdfd31cf6e6c27aa",
+        "depth": 2,
+        "operator": "chain_transfer",
+        "score": [
+          -0.4958145371017874
+        ]
+      },
+      {
+        "signature": "64fb709666983a43cf48ed641830514be221dee8fea1fcd20383d510434e92a4",
+        "parent_signature": "5bc25982cabb6905714b223347d5a94142e1989451e9ca44fdfd31cf6e6c27aa",
+        "depth": 2,
+        "operator": "suffix_swap",
+        "score": [
+          -0.23461711006423103
+        ]
+      },
+      {
+        "signature": "0e6a550fe6d80a0553ecc274a5c7f44513aac7184009a3454ab9b88f06cc18c9",
+        "parent_signature": "5bc25982cabb6905714b223347d5a94142e1989451e9ca44fdfd31cf6e6c27aa",
+        "depth": 2,
+        "operator": "suffix_swap",
+        "score": [
+          -0.23461711006423103
+        ]
+      },
+      {
+        "signature": "da846049fb1f732440af48cf9fe648cff7e9be0697325960fd80a4761dc757bb",
+        "parent_signature": "5bc25982cabb6905714b223347d5a94142e1989451e9ca44fdfd31cf6e6c27aa",
+        "depth": 2,
+        "operator": "chain_transfer",
+        "score": [
+          -0.4958145371017874
+        ]
+      },
+      {
+        "signature": "d9ab3a47607825e8d0fb64235e666acc42ed28ee77417aa63e4c28cfa6840bcd",
+        "parent_signature": "5bc25982cabb6905714b223347d5a94142e1989451e9ca44fdfd31cf6e6c27aa",
+        "depth": 2,
+        "operator": "chain_transfer",
+        "score": [
+          -0.6218253069679017
+        ]
+      },
+      {
+        "signature": "92f15e2b657bc4545dfb75a5ad7051d21d3a892b0b016af723797226e0268804",
+        "parent_signature": "5bc25982cabb6905714b223347d5a94142e1989451e9ca44fdfd31cf6e6c27aa",
+        "depth": 2,
+        "operator": "chain_transfer",
+        "score": [
+          -0.23461711006423103
+        ]
+      },
+      {
+        "signature": "f97d598beb778092a88929a92ff96cdba50a2c7f1c317b1054dfb798434295c9",
+        "parent_signature": "5bc25982cabb6905714b223347d5a94142e1989451e9ca44fdfd31cf6e6c27aa",
+        "depth": 2,
+        "operator": "chain_transfer",
+        "score": [
+          -0.36062787993034545
+        ]
+      },
+      {
+        "signature": "304512500ca97d927ef73e9d25c386b53eaf06ef2c027f2a984f97c0090f4bb7",
+        "parent_signature": "5bc25982cabb6905714b223347d5a94142e1989451e9ca44fdfd31cf6e6c27aa",
+        "depth": 2,
+        "operator": "chain_transfer",
+        "score": [
+          -0.36062787993034545
+        ]
+      },
+      {
+        "signature": "044f27ded5878c68468ad8b9eae5e72e66ec47c62e7b82a905c84ad04354991b",
+        "parent_signature": "5bc25982cabb6905714b223347d5a94142e1989451e9ca44fdfd31cf6e6c27aa",
+        "depth": 2,
+        "operator": "chain_transfer",
+        "score": [
+          -0.23461711006423103
+        ]
+      },
+      {
+        "signature": "d1715aa71a5dae03b2e5efad73dd5ad62a636b15e5b47d4f448770f3aba5ae61",
+        "parent_signature": "fe709edb6d3afe5695effd230c1c7c8a6a15be4e1cfd91aad1f5b9f5d28d12a0",
+        "depth": 2,
+        "operator": "chain_transfer",
+        "score": [
+          -0.4958145371017874
+        ]
+      },
+      {
+        "signature": "bf84ab2433b532c01f0ac236f50ca579078fdd4e828a17e2c15176eeae8a978a",
+        "parent_signature": "fe709edb6d3afe5695effd230c1c7c8a6a15be4e1cfd91aad1f5b9f5d28d12a0",
+        "depth": 2,
+        "operator": "chain_transfer",
+        "score": [
+          -0.4958145371017874
+        ]
+      },
+      {
+        "signature": "164b8d952fced5cda6cdc2a4c14e239de776d89f2ef46174623c4f209e4904ba",
+        "parent_signature": "fe709edb6d3afe5695effd230c1c7c8a6a15be4e1cfd91aad1f5b9f5d28d12a0",
+        "depth": 2,
+        "operator": "suffix_swap",
+        "score": [
+          -0.23461711006423103
+        ]
+      },
+      {
+        "signature": "24f412955481a12f1bb1835196816bb974a19ee7169028bf7f610219ef2f7176",
+        "parent_signature": "fe709edb6d3afe5695effd230c1c7c8a6a15be4e1cfd91aad1f5b9f5d28d12a0",
+        "depth": 2,
+        "operator": "suffix_swap",
+        "score": [
+          -0.23461711006423103
+        ]
+      },
+      {
+        "signature": "26ea859fb4b767d29903292ac10f71fcfddaec3118c85683ffc23b48aeddc547",
+        "parent_signature": "fe709edb6d3afe5695effd230c1c7c8a6a15be4e1cfd91aad1f5b9f5d28d12a0",
+        "depth": 2,
+        "operator": "chain_transfer",
+        "score": [
+          -0.6218253069679017
+        ]
+      },
+      {
+        "signature": "b03ea6516328f812cfb704b358620ebc9e8828bdc7d25827ec2f96e61fc96bc5",
+        "parent_signature": "fe709edb6d3afe5695effd230c1c7c8a6a15be4e1cfd91aad1f5b9f5d28d12a0",
+        "depth": 2,
+        "operator": "chain_transfer",
+        "score": [
+          -0.23461711006423103
+        ]
+      },
+      {
+        "signature": "a5565e3ccc472e32b719cdc6b22e950b5f16aba13618b0e3c18be728287cf148",
+        "parent_signature": "fe709edb6d3afe5695effd230c1c7c8a6a15be4e1cfd91aad1f5b9f5d28d12a0",
+        "depth": 2,
+        "operator": "chain_transfer",
+        "score": [
+          -0.4958145371017874
+        ]
+      },
+      {
+        "signature": "482de2ff3acbc95738377889ffaa0cef1e6351658cc05f9840e249e85fcfafc3",
+        "parent_signature": "fe709edb6d3afe5695effd230c1c7c8a6a15be4e1cfd91aad1f5b9f5d28d12a0",
+        "depth": 2,
+        "operator": "chain_transfer",
+        "score": [
+          -0.36062787993034545
+        ]
+      },
+      {
+        "signature": "95c651367bd433947db82474165d317c7c1bb9ed1ef5977c799f90e822905644",
+        "parent_signature": "fe709edb6d3afe5695effd230c1c7c8a6a15be4e1cfd91aad1f5b9f5d28d12a0",
+        "depth": 2,
+        "operator": "chain_transfer",
+        "score": [
+          -0.7570119641393437
+        ]
+      },
+      {
+        "signature": "87172dec212c3c6509ea7d50079b8a26c68f6755642a8e8e5d8a64d4fdccbc84",
+        "parent_signature": "fe709edb6d3afe5695effd230c1c7c8a6a15be4e1cfd91aad1f5b9f5d28d12a0",
+        "depth": 2,
+        "operator": "chain_transfer",
+        "score": [
+          -0.36062787993034545
+        ]
+      },
+      {
+        "signature": "5661698fd6a8106b31a9d8432f2204b4b71bf542e2e674192faa98548747bb39",
+        "parent_signature": "fe709edb6d3afe5695effd230c1c7c8a6a15be4e1cfd91aad1f5b9f5d28d12a0",
+        "depth": 2,
+        "operator": "chain_transfer",
+        "score": [
+          -0.23461711006423103
+        ]
+      },
+      {
+        "signature": "cd50c049dd8afa1de18d617f518424a0f5b9dc6fb951c42db3a5060be1b73317",
+        "parent_signature": "fe709edb6d3afe5695effd230c1c7c8a6a15be4e1cfd91aad1f5b9f5d28d12a0",
+        "depth": 2,
+        "operator": "chain_transfer",
+        "score": [
+          -0.36062787993034545
+        ]
+      },
+      {
+        "signature": "081b321b27fa123e10769f63cc0e2e70bb90abedb6517017ab564a2621048c89",
+        "parent_signature": "fe709edb6d3afe5695effd230c1c7c8a6a15be4e1cfd91aad1f5b9f5d28d12a0",
+        "depth": 2,
+        "operator": "suffix_swap",
+        "score": [
+          -0.23461711006423103
+        ]
+      },
+      {
+        "signature": "e066a541dba87a6bf94bd35be372c93b6a4828e01799bdfb639e303a9d15cccb",
+        "parent_signature": "fe709edb6d3afe5695effd230c1c7c8a6a15be4e1cfd91aad1f5b9f5d28d12a0",
+        "depth": 2,
+        "operator": "chain_transfer",
+        "score": [
+          -0.23461711006423103
+        ]
+      },
+      {
+        "signature": "9389290b1b9db6c4490d7c926fec9d546e756f547f5f1e29bdb3e1556bba1c35",
+        "parent_signature": "fe709edb6d3afe5695effd230c1c7c8a6a15be4e1cfd91aad1f5b9f5d28d12a0",
+        "depth": 2,
+        "operator": "chain_transfer",
+        "score": [
+          -0.23461711006423103
+        ]
+      },
+      {
+        "signature": "48f4c3f85f0aa2a0e937fa5aac3d672507eb6cb885dfe855823d23d07543aaa0",
+        "parent_signature": "fe709edb6d3afe5695effd230c1c7c8a6a15be4e1cfd91aad1f5b9f5d28d12a0",
+        "depth": 2,
+        "operator": "suffix_swap",
+        "score": [
+          -0.23461711006423103
+        ]
+      },
+      {
+        "signature": "859ee14e8ae7e882b406c9f0de76c98168c29a7d18c3fa2a659664d985a1967c",
+        "parent_signature": "fe709edb6d3afe5695effd230c1c7c8a6a15be4e1cfd91aad1f5b9f5d28d12a0",
+        "depth": 2,
+        "operator": "suffix_swap",
+        "score": [
+          -0.23461711006423103
+        ]
+      },
+      {
+        "signature": "adaf6a06bb6372ae9d0cfcc7bdc5b9b0f0cbfb9f2f55ec6f5449d63e8d7ff25e",
+        "parent_signature": "c16de1c289c9ac68a110421c7a72b6387535105baf221b5d249a7809bb4aaa09",
+        "depth": 2,
+        "operator": "suffix_swap",
+        "score": [
+          -0.23461711006423103
+        ]
+      },
+      {
+        "signature": "ee8d46c359b741c80685172cb162d9c3d2885ccef2547c14088ccafb5041edd8",
+        "parent_signature": "c16de1c289c9ac68a110421c7a72b6387535105baf221b5d249a7809bb4aaa09",
+        "depth": 2,
+        "operator": "chain_transfer",
+        "score": [
+          -0.4958145371017874
+        ]
+      },
+      {
+        "signature": "73ecce801245e6c9d12dd83910193e547f7c5c680c80a3ff4abb71c736889ac8",
+        "parent_signature": "c16de1c289c9ac68a110421c7a72b6387535105baf221b5d249a7809bb4aaa09",
+        "depth": 2,
+        "operator": "chain_transfer",
+        "score": [
+          -0.23461711006423103
+        ]
+      },
+      {
+        "signature": "37b0450d3c3babe6dbf1240627c60c70e1dd4cb94f76f3cc03f6bd8dc97b9e72",
+        "parent_signature": "c16de1c289c9ac68a110421c7a72b6387535105baf221b5d249a7809bb4aaa09",
+        "depth": 2,
+        "operator": "chain_transfer",
+        "score": [
+          -0.23461711006423103
+        ]
+      },
+      {
+        "signature": "9d9edfcf013e651179b9642d62a4647d45332d3d4a795ea8ee0db3d8c696665a",
+        "parent_signature": "c16de1c289c9ac68a110421c7a72b6387535105baf221b5d249a7809bb4aaa09",
+        "depth": 2,
+        "operator": "chain_transfer",
+        "score": [
+          -0.36062787993034545
+        ]
+      },
+      {
+        "signature": "e8c9b5902212846de79bc49ba8772914b572f31e7ca6c5128a90e4f609feebf1",
+        "parent_signature": "c16de1c289c9ac68a110421c7a72b6387535105baf221b5d249a7809bb4aaa09",
+        "depth": 2,
+        "operator": "chain_transfer",
+        "score": [
+          -0.23461711006423103
+        ]
+      },
+      {
+        "signature": "4fd812721a22914a4b420fa34fca2dd90cde09a42238f0fd0e1e5ceecabbc585",
+        "parent_signature": "c16de1c289c9ac68a110421c7a72b6387535105baf221b5d249a7809bb4aaa09",
+        "depth": 2,
+        "operator": "suffix_swap",
+        "score": [
+          -0.23461711006423103
+        ]
+      },
+      {
+        "signature": "a7b07af2d6d278d1d11a8a157df10f91e5321db4fcc1ec0861faf1b03a2e42c9",
+        "parent_signature": "c16de1c289c9ac68a110421c7a72b6387535105baf221b5d249a7809bb4aaa09",
+        "depth": 2,
+        "operator": "suffix_swap",
+        "score": [
+          -0.23461711006423103
+        ]
+      },
+      {
+        "signature": "8bb3f5975ddd1c8b802e2df9566a791dc33f8c300945f51fc0549af84a6fa4d6",
+        "parent_signature": "c16de1c289c9ac68a110421c7a72b6387535105baf221b5d249a7809bb4aaa09",
+        "depth": 2,
+        "operator": "suffix_swap",
+        "score": [
+          -0.23461711006423103
+        ]
+      },
+      {
+        "signature": "745d54161b6c0ff0da2a53bcca031eb6d457aa594de17442275bdf8a909de752",
+        "parent_signature": "c16de1c289c9ac68a110421c7a72b6387535105baf221b5d249a7809bb4aaa09",
+        "depth": 2,
+        "operator": "chain_transfer",
+        "score": [
+          -0.23461711006423103
+        ]
+      },
+      {
+        "signature": "2b7244ec1309b1e71758470144ff7ac86c87aa68c560227ec3fbba64956d5aab",
+        "parent_signature": "c16de1c289c9ac68a110421c7a72b6387535105baf221b5d249a7809bb4aaa09",
+        "depth": 2,
+        "operator": "chain_transfer",
+        "score": [
+          -0.4958145371017874
+        ]
+      },
+      {
+        "signature": "cad360496bd277eccbb9e6292013a2adcaf730d099b98302bfcc3fa957a47623",
+        "parent_signature": "c16de1c289c9ac68a110421c7a72b6387535105baf221b5d249a7809bb4aaa09",
+        "depth": 2,
+        "operator": "chain_transfer",
+        "score": [
+          -0.6218253069679017
+        ]
+      },
+      {
+        "signature": "f6a94f0d68a43693557649429869870419e3425b1c43e6344e019407c07c8be2",
+        "parent_signature": "c16de1c289c9ac68a110421c7a72b6387535105baf221b5d249a7809bb4aaa09",
+        "depth": 2,
+        "operator": "suffix_swap",
+        "score": [
+          -0.23461711006423103
+        ]
+      },
+      {
+        "signature": "7c16e6b166029e3e497762586e897ad08da24ea19a7d91b5d09d8bf2183ef5fb",
+        "parent_signature": "c16de1c289c9ac68a110421c7a72b6387535105baf221b5d249a7809bb4aaa09",
+        "depth": 2,
+        "operator": "chain_transfer",
+        "score": [
+          -0.36062787993034545
+        ]
+      },
+      {
+        "signature": "eff482021858f32d15599f43b2b52bdc40a8b8b240712d9d505a928e079f9604",
+        "parent_signature": "c16de1c289c9ac68a110421c7a72b6387535105baf221b5d249a7809bb4aaa09",
+        "depth": 2,
+        "operator": "chain_transfer",
+        "score": [
+          -0.7570119641393437
+        ]
+      },
+      {
+        "signature": "28f36dcf01ee373d06caa59ce47b4cd96c1a6080941e5909af3b10a88b160f4d",
+        "parent_signature": "c16de1c289c9ac68a110421c7a72b6387535105baf221b5d249a7809bb4aaa09",
+        "depth": 2,
+        "operator": "chain_transfer",
+        "score": [
+          -0.36062787993034545
+        ]
+      },
+      {
+        "signature": "efea42c132526cb2fd90b7332f5bc5dca2647a7037c43a1db0f655e02929f5bd",
+        "parent_signature": "c16de1c289c9ac68a110421c7a72b6387535105baf221b5d249a7809bb4aaa09",
+        "depth": 2,
+        "operator": "chain_transfer",
+        "score": [
+          -0.4958145371017874
+        ]
+      },
+      {
+        "signature": "44571a8fc33e8997a6eb0c5d259c2e71fdd452aa5acd2dbd29bca9effdc5e755",
+        "parent_signature": "ee40c78c1a12d86b5aced5ef5fde9b705723e493152700c19618815605295977",
+        "depth": 3,
+        "operator": "chain_transfer",
+        "score": [
+          -0.4958145371017874
+        ]
+      },
+      {
+        "signature": "fb2cdbd031802950bf9edcb037a7d83b260caeacf4e9cfb4308a87d6794d126d",
+        "parent_signature": "ee40c78c1a12d86b5aced5ef5fde9b705723e493152700c19618815605295977",
+        "depth": 3,
+        "operator": "chain_transfer",
+        "score": [
+          -0.4958145371017874
+        ]
+      },
+      {
+        "signature": "2bfdafc4142f1fd7d4eacb6833d78ab2af80a4ad80cb8114680a59b607473a20",
+        "parent_signature": "ee40c78c1a12d86b5aced5ef5fde9b705723e493152700c19618815605295977",
+        "depth": 3,
+        "operator": "chain_transfer",
+        "score": [
+          -0.4958145371017874
+        ]
+      },
+      {
+        "signature": "48c54259de4f7240d3635a93da5deb1992ebd569f366c57e9afae1b0bf99c268",
+        "parent_signature": "ee40c78c1a12d86b5aced5ef5fde9b705723e493152700c19618815605295977",
+        "depth": 3,
+        "operator": "chain_transfer",
+        "score": [
+          -0.4958145371017874
+        ]
+      },
+      {
+        "signature": "cb3daab43a03558ee5985441beeef056e02af42a81ebebc0238d19246fef4409",
+        "parent_signature": "ee40c78c1a12d86b5aced5ef5fde9b705723e493152700c19618815605295977",
+        "depth": 3,
+        "operator": "chain_transfer",
+        "score": [
+          -0.4958145371017874
+        ]
+      },
+      {
+        "signature": "617026c384c78bc4173792f2e60b2589d2ce7f63732876590baed67da45ffc2a",
+        "parent_signature": "ee40c78c1a12d86b5aced5ef5fde9b705723e493152700c19618815605295977",
+        "depth": 3,
+        "operator": "chain_transfer",
+        "score": [
+          -0.4958145371017874
+        ]
+      },
+      {
+        "signature": "1d5b96c782f6384ca7ccec3793a5afa5f7f8f1e7e06736f2c9c8d4a2b7724cc0",
+        "parent_signature": "ee40c78c1a12d86b5aced5ef5fde9b705723e493152700c19618815605295977",
+        "depth": 3,
+        "operator": "chain_transfer",
+        "score": [
+          -0.4958145371017874
+        ]
+      }
+    ],
+    "physical_gain_measured": false
+  },
+  "selection": {
+    "schema": "physical_selection_v1",
+    "objective": "routed_depth",
+    "selection_mode": "route_guarded",
+    "search_selection_was_original": true,
+    "selected_source": "original_unchanged",
+    "output_is_original_plan": true,
+    "original_plan": {
+      "schema_version": 1,
+      "chains": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ],
+        [
+          8
+        ],
+        [
+          9
+        ],
+        [
+          10
+        ],
+        [
+          11
+        ],
+        [
+          12
+        ],
+        [
+          13
+        ],
+        [
+          14
+        ],
+        [
+          15
+        ],
+        [
+          16
+        ],
+        [
+          17
+        ]
+      ]
+    },
+    "candidate_plan": {
+      "schema_version": 1,
+      "chains": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ],
+        [
+          8
+        ],
+        [
+          9
+        ],
+        [
+          10
+        ],
+        [
+          11
+        ],
+        [
+          12
+        ],
+        [
+          13
+        ],
+        [
+          14
+        ],
+        [
+          15
+        ],
+        [
+          16
+        ],
+        [
+          17
+        ]
+      ]
+    },
+    "selected_plan": {
+      "schema_version": 1,
+      "chains": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ],
+        [
+          8
+        ],
+        [
+          9
+        ],
+        [
+          10
+        ],
+        [
+          11
+        ],
+        [
+          12
+        ],
+        [
+          13
+        ],
+        [
+          14
+        ],
+        [
+          15
+        ],
+        [
+          16
+        ],
+        [
+          17
+        ]
+      ]
+    },
+    "routes_for_main_method": 1,
+    "additional_control_routes": 1,
+    "original_route": {
+      "seed": 200,
+      "swap_count": 60,
+      "routed_depth": 243,
+      "routing_time_sec": 0.20223130000158562,
+      "operation_counts": {
+        "barrier": 1,
+        "cx": 130,
+        "h": 16,
+        "measure": 9,
+        "reset": 2,
+        "swap": 60,
+        "t": 48,
+        "tdg": 48,
+        "u3": 16,
+        "x": 8
+      }
+    },
+    "repaired_route": {
+      "seed": 200,
+      "swap_count": 60,
+      "routed_depth": 243,
+      "routing_time_sec": 0.20223130000158562,
+      "operation_counts": {
+        "barrier": 1,
+        "cx": 130,
+        "h": 16,
+        "measure": 9,
+        "reset": 2,
+        "swap": 60,
+        "t": 48,
+        "tdg": 48,
+        "u3": 16,
+        "x": 8
+      }
+    },
+    "selected_route": {
+      "seed": 200,
+      "swap_count": 60,
+      "routed_depth": 243,
+      "routing_time_sec": 0.20223130000158562,
+      "operation_counts": {
+        "barrier": 1,
+        "cx": 130,
+        "h": 16,
+        "measure": 9,
+        "reset": 2,
+        "swap": 60,
+        "t": 48,
+        "tdg": 48,
+        "u3": 16,
+        "x": 8
+      }
+    },
+    "actual_gain_abs": 0,
+    "actual_gain_pct": 0.0,
+    "gain_pct_defined": true,
+    "both_metrics_are_recorded": true,
+    "zero_observed_harm_guarantee_scope": "only the measured matched-seed routes in route_guarded mode",
+    "original_best_of_two_control": {
+      "second_original": {
+        "seed": 1200,
+        "swap_count": 70,
+        "routed_depth": 254,
+        "routing_time_sec": 0.030999699998574215,
+        "operation_counts": {
+          "barrier": 1,
+          "cx": 130,
+          "h": 16,
+          "measure": 9,
+          "reset": 2,
+          "swap": 70,
+          "t": 48,
+          "tdg": 48,
+          "u3": 16,
+          "x": 8
+        }
+      },
+      "best_original": {
+        "seed": 200,
+        "swap_count": 60,
+        "routed_depth": 243,
+        "routing_time_sec": 0.20223130000158562,
+        "operation_counts": {
+          "barrier": 1,
+          "cx": 130,
+          "h": 16,
+          "measure": 9,
+          "reset": 2,
+          "swap": 60,
+          "t": 48,
+          "tdg": 48,
+          "u3": 16,
+          "x": 8
+        }
+      },
+      "control_gain_abs": 0,
+      "control_gain_pct": 0.0,
+      "guard_minus_control_abs": 0
+    }
+  },
+  "timing": {
+    "search_time_sec": 0.8265135999990889,
+    "materialization_time_sec": 0.023223500000312924,
+    "physical_selection_time_sec": 0.23446119999971415
+  },
+  "independent_validation": "unseen-name pilot; not independently validated model/feature transfer",
+  "cautions": [
+    "No routing labels were read during search",
+    "Feature extraction source parity with friend training dataset not yet independently verified; one-step model used in multi-step beam is distribution shift",
+    "One observed routing seed cannot support a generalization or no-harm claim",
+    "Generator label is provenance supplied by caller; native generator parsing not yet verified",
+    "Do not mix compiler revisions or compare different router settings as matched results"
+  ]
+}

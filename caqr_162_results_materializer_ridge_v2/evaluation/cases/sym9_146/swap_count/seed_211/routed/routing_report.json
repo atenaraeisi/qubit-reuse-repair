@@ -1,0 +1,1463 @@
+{
+  "schema": "generator_neutral_materializer_ridge_pilot_v2",
+  "generator_label_user_supplied": "CaQR",
+  "source_qasm": "C:\\Users\\ASUS\\Documents\\Quantum computing\\qubit-reuse-repair\\pilot_cases\\CaQR_162\\sym9_146.qasm",
+  "source_qasm_filename": "sym9_146.qasm",
+  "source_sha256": "68b843e5d6b93704016d02904fcce595e139e7b164541a6c1acac2739d6d1a87",
+  "plan_sha256": "48a474610e4c0af6f0c377971d2343c32e0400e0c77495cfda3b1f98f0fcc127",
+  "objective": "swap_count",
+  "checkpoint": {
+    "path": "C:\\Users\\ASUS\\Documents\\Quantum computing\\qubit-reuse-repair\\pilot_models\\swap_count_one_step_MATERIALIZER.json",
+    "sha256": "6d5725e1021eb83fb349e2b4715bbbca4f838420f3908c4c1160666921b97fd0",
+    "protocol": "materializer25_rawdelta_group_ridge_v1",
+    "arm": "one_step",
+    "training_overlap_filename": true,
+    "n_train_circuits": 14,
+    "n_train_pairs": 199,
+    "feature_definition": "23 raw structural + common materializer logical_depth and reset-lowered norm_depth",
+    "normalization": "raw plan imputation using TRAIN medians; Candidate - Original raw delta; TRAIN delta mean/sd",
+    "reference_pool_size": 5,
+    "reference_raw_attempts": 198,
+    "warning": "Feature extraction source parity with friend training dataset not yet independently verified; one-step model used in multi-step beam is distribution shift"
+  },
+  "policy": "random_beam",
+  "routing_seed": 211,
+  "topology": "heavy_hex7",
+  "physical_qubits": 115,
+  "hardware_directed_edges": [
+    [
+      0,
+      73
+    ],
+    [
+      1,
+      73
+    ],
+    [
+      73,
+      0
+    ],
+    [
+      73,
+      1
+    ],
+    [
+      1,
+      74
+    ],
+    [
+      2,
+      74
+    ],
+    [
+      74,
+      1
+    ],
+    [
+      74,
+      2
+    ],
+    [
+      2,
+      75
+    ],
+    [
+      3,
+      75
+    ],
+    [
+      75,
+      2
+    ],
+    [
+      75,
+      3
+    ],
+    [
+      3,
+      76
+    ],
+    [
+      4,
+      76
+    ],
+    [
+      76,
+      3
+    ],
+    [
+      76,
+      4
+    ],
+    [
+      4,
+      77
+    ],
+    [
+      5,
+      77
+    ],
+    [
+      77,
+      4
+    ],
+    [
+      77,
+      5
+    ],
+    [
+      5,
+      78
+    ],
+    [
+      6,
+      78
+    ],
+    [
+      78,
+      5
+    ],
+    [
+      78,
+      6
+    ],
+    [
+      7,
+      79
+    ],
+    [
+      8,
+      79
+    ],
+    [
+      79,
+      7
+    ],
+    [
+      79,
+      8
+    ],
+    [
+      8,
+      80
+    ],
+    [
+      9,
+      80
+    ],
+    [
+      80,
+      8
+    ],
+    [
+      80,
+      9
+    ],
+    [
+      9,
+      81
+    ],
+    [
+      10,
+      81
+    ],
+    [
+      81,
+      9
+    ],
+    [
+      81,
+      10
+    ],
+    [
+      10,
+      82
+    ],
+    [
+      11,
+      82
+    ],
+    [
+      82,
+      10
+    ],
+    [
+      82,
+      11
+    ],
+    [
+      11,
+      83
+    ],
+    [
+      12,
+      83
+    ],
+    [
+      83,
+      11
+    ],
+    [
+      83,
+      12
+    ],
+    [
+      12,
+      84
+    ],
+    [
+      13,
+      84
+    ],
+    [
+      84,
+      12
+    ],
+    [
+      84,
+      13
+    ],
+    [
+      14,
+      85
+    ],
+    [
+      15,
+      85
+    ],
+    [
+      85,
+      14
+    ],
+    [
+      85,
+      15
+    ],
+    [
+      15,
+      86
+    ],
+    [
+      16,
+      86
+    ],
+    [
+      86,
+      15
+    ],
+    [
+      86,
+      16
+    ],
+    [
+      16,
+      87
+    ],
+    [
+      17,
+      87
+    ],
+    [
+      87,
+      16
+    ],
+    [
+      87,
+      17
+    ],
+    [
+      17,
+      88
+    ],
+    [
+      18,
+      88
+    ],
+    [
+      88,
+      17
+    ],
+    [
+      88,
+      18
+    ],
+    [
+      18,
+      89
+    ],
+    [
+      19,
+      89
+    ],
+    [
+      89,
+      18
+    ],
+    [
+      89,
+      19
+    ],
+    [
+      19,
+      90
+    ],
+    [
+      20,
+      90
+    ],
+    [
+      90,
+      19
+    ],
+    [
+      90,
+      20
+    ],
+    [
+      21,
+      91
+    ],
+    [
+      22,
+      91
+    ],
+    [
+      91,
+      21
+    ],
+    [
+      91,
+      22
+    ],
+    [
+      22,
+      92
+    ],
+    [
+      23,
+      92
+    ],
+    [
+      92,
+      22
+    ],
+    [
+      92,
+      23
+    ],
+    [
+      23,
+      93
+    ],
+    [
+      24,
+      93
+    ],
+    [
+      93,
+      23
+    ],
+    [
+      93,
+      24
+    ],
+    [
+      24,
+      94
+    ],
+    [
+      25,
+      94
+    ],
+    [
+      94,
+      24
+    ],
+    [
+      94,
+      25
+    ],
+    [
+      25,
+      95
+    ],
+    [
+      26,
+      95
+    ],
+    [
+      95,
+      25
+    ],
+    [
+      95,
+      26
+    ],
+    [
+      26,
+      96
+    ],
+    [
+      27,
+      96
+    ],
+    [
+      96,
+      26
+    ],
+    [
+      96,
+      27
+    ],
+    [
+      28,
+      97
+    ],
+    [
+      29,
+      97
+    ],
+    [
+      97,
+      28
+    ],
+    [
+      97,
+      29
+    ],
+    [
+      29,
+      98
+    ],
+    [
+      30,
+      98
+    ],
+    [
+      98,
+      29
+    ],
+    [
+      98,
+      30
+    ],
+    [
+      30,
+      99
+    ],
+    [
+      31,
+      99
+    ],
+    [
+      99,
+      30
+    ],
+    [
+      99,
+      31
+    ],
+    [
+      31,
+      100
+    ],
+    [
+      32,
+      100
+    ],
+    [
+      100,
+      31
+    ],
+    [
+      100,
+      32
+    ],
+    [
+      32,
+      101
+    ],
+    [
+      33,
+      101
+    ],
+    [
+      101,
+      32
+    ],
+    [
+      101,
+      33
+    ],
+    [
+      33,
+      102
+    ],
+    [
+      34,
+      102
+    ],
+    [
+      102,
+      33
+    ],
+    [
+      102,
+      34
+    ],
+    [
+      35,
+      103
+    ],
+    [
+      36,
+      103
+    ],
+    [
+      103,
+      35
+    ],
+    [
+      103,
+      36
+    ],
+    [
+      36,
+      104
+    ],
+    [
+      37,
+      104
+    ],
+    [
+      104,
+      36
+    ],
+    [
+      104,
+      37
+    ],
+    [
+      37,
+      105
+    ],
+    [
+      38,
+      105
+    ],
+    [
+      105,
+      37
+    ],
+    [
+      105,
+      38
+    ],
+    [
+      38,
+      106
+    ],
+    [
+      39,
+      106
+    ],
+    [
+      106,
+      38
+    ],
+    [
+      106,
+      39
+    ],
+    [
+      39,
+      107
+    ],
+    [
+      40,
+      107
+    ],
+    [
+      107,
+      39
+    ],
+    [
+      107,
+      40
+    ],
+    [
+      40,
+      108
+    ],
+    [
+      41,
+      108
+    ],
+    [
+      108,
+      40
+    ],
+    [
+      108,
+      41
+    ],
+    [
+      42,
+      109
+    ],
+    [
+      43,
+      109
+    ],
+    [
+      109,
+      42
+    ],
+    [
+      109,
+      43
+    ],
+    [
+      43,
+      110
+    ],
+    [
+      44,
+      110
+    ],
+    [
+      110,
+      43
+    ],
+    [
+      110,
+      44
+    ],
+    [
+      44,
+      111
+    ],
+    [
+      45,
+      111
+    ],
+    [
+      111,
+      44
+    ],
+    [
+      111,
+      45
+    ],
+    [
+      45,
+      112
+    ],
+    [
+      46,
+      112
+    ],
+    [
+      112,
+      45
+    ],
+    [
+      112,
+      46
+    ],
+    [
+      46,
+      113
+    ],
+    [
+      47,
+      113
+    ],
+    [
+      113,
+      46
+    ],
+    [
+      113,
+      47
+    ],
+    [
+      47,
+      114
+    ],
+    [
+      48,
+      114
+    ],
+    [
+      114,
+      47
+    ],
+    [
+      114,
+      48
+    ],
+    [
+      0,
+      49
+    ],
+    [
+      7,
+      49
+    ],
+    [
+      49,
+      0
+    ],
+    [
+      49,
+      7
+    ],
+    [
+      13,
+      56
+    ],
+    [
+      20,
+      56
+    ],
+    [
+      56,
+      13
+    ],
+    [
+      56,
+      20
+    ],
+    [
+      14,
+      57
+    ],
+    [
+      21,
+      57
+    ],
+    [
+      57,
+      14
+    ],
+    [
+      57,
+      21
+    ],
+    [
+      27,
+      64
+    ],
+    [
+      34,
+      64
+    ],
+    [
+      64,
+      27
+    ],
+    [
+      64,
+      34
+    ],
+    [
+      28,
+      65
+    ],
+    [
+      35,
+      65
+    ],
+    [
+      65,
+      28
+    ],
+    [
+      65,
+      35
+    ],
+    [
+      41,
+      72
+    ],
+    [
+      48,
+      72
+    ],
+    [
+      72,
+      41
+    ],
+    [
+      72,
+      48
+    ],
+    [
+      50,
+      74
+    ],
+    [
+      50,
+      80
+    ],
+    [
+      74,
+      50
+    ],
+    [
+      80,
+      50
+    ],
+    [
+      51,
+      76
+    ],
+    [
+      51,
+      82
+    ],
+    [
+      76,
+      51
+    ],
+    [
+      82,
+      51
+    ],
+    [
+      52,
+      78
+    ],
+    [
+      52,
+      84
+    ],
+    [
+      78,
+      52
+    ],
+    [
+      84,
+      52
+    ],
+    [
+      53,
+      79
+    ],
+    [
+      53,
+      85
+    ],
+    [
+      79,
+      53
+    ],
+    [
+      85,
+      53
+    ],
+    [
+      54,
+      81
+    ],
+    [
+      54,
+      87
+    ],
+    [
+      81,
+      54
+    ],
+    [
+      87,
+      54
+    ],
+    [
+      55,
+      83
+    ],
+    [
+      55,
+      89
+    ],
+    [
+      83,
+      55
+    ],
+    [
+      89,
+      55
+    ],
+    [
+      58,
+      86
+    ],
+    [
+      58,
+      92
+    ],
+    [
+      86,
+      58
+    ],
+    [
+      92,
+      58
+    ],
+    [
+      59,
+      88
+    ],
+    [
+      59,
+      94
+    ],
+    [
+      88,
+      59
+    ],
+    [
+      94,
+      59
+    ],
+    [
+      60,
+      90
+    ],
+    [
+      60,
+      96
+    ],
+    [
+      90,
+      60
+    ],
+    [
+      96,
+      60
+    ],
+    [
+      61,
+      91
+    ],
+    [
+      61,
+      97
+    ],
+    [
+      91,
+      61
+    ],
+    [
+      97,
+      61
+    ],
+    [
+      62,
+      93
+    ],
+    [
+      62,
+      99
+    ],
+    [
+      93,
+      62
+    ],
+    [
+      99,
+      62
+    ],
+    [
+      63,
+      95
+    ],
+    [
+      63,
+      101
+    ],
+    [
+      95,
+      63
+    ],
+    [
+      101,
+      63
+    ],
+    [
+      66,
+      98
+    ],
+    [
+      66,
+      104
+    ],
+    [
+      98,
+      66
+    ],
+    [
+      104,
+      66
+    ],
+    [
+      67,
+      100
+    ],
+    [
+      67,
+      106
+    ],
+    [
+      100,
+      67
+    ],
+    [
+      106,
+      67
+    ],
+    [
+      68,
+      102
+    ],
+    [
+      68,
+      108
+    ],
+    [
+      102,
+      68
+    ],
+    [
+      108,
+      68
+    ],
+    [
+      69,
+      103
+    ],
+    [
+      69,
+      109
+    ],
+    [
+      103,
+      69
+    ],
+    [
+      109,
+      69
+    ],
+    [
+      70,
+      105
+    ],
+    [
+      70,
+      111
+    ],
+    [
+      105,
+      70
+    ],
+    [
+      111,
+      70
+    ],
+    [
+      71,
+      107
+    ],
+    [
+      71,
+      113
+    ],
+    [
+      107,
+      71
+    ],
+    [
+      113,
+      71
+    ]
+  ],
+  "routing_settings": {
+    "layout_method": "sabre",
+    "routing_method": "sabre",
+    "optimization_level": 1,
+    "metric_definitions": {
+      "swap_count": "int(transpiled_circuit.count_ops().get('swap', 0))",
+      "routed_depth": "int(transpiled_circuit.depth())"
+    }
+  },
+  "search": {
+    "stage": "pre_routing_search_only",
+    "objective": "swap_count",
+    "policy": "random_beam",
+    "original_plan": {
+      "schema_version": 1,
+      "chains": [
+        [
+          0,
+          10
+        ],
+        [
+          1,
+          11
+        ],
+        [
+          2,
+          4,
+          6,
+          8
+        ],
+        [
+          3,
+          5,
+          7
+        ],
+        [
+          9
+        ]
+      ]
+    },
+    "selected_plan": {
+      "schema_version": 1,
+      "chains": [
+        [
+          0,
+          2,
+          4,
+          6,
+          8
+        ],
+        [
+          1,
+          3,
+          5,
+          7
+        ],
+        [
+          9
+        ],
+        [
+          10
+        ],
+        [
+          11
+        ]
+      ]
+    },
+    "selected_score": [
+      4.614175574628287
+    ],
+    "changed": true,
+    "reached_depth": 3,
+    "n_scored": 11,
+    "n_valid_accepted": 48,
+    "raw_attempts": 2106,
+    "stop_reason": "no_new_candidates",
+    "rejection_counts": {
+      "attempted": 2106,
+      "same_plan": 120,
+      "duplicate": 144,
+      "fast_reject_illegal_boundary": 1794,
+      "fast_reject_dependency_cycle": 0,
+      "full_reject": 0,
+      "accepted": 48,
+      "global_duplicate": 37
+    },
+    "trace": [
+      {
+        "signature": "38fdf61dc1d082c24abf3d9cd3f7150534a79a652925b0e1094d6787304b5808",
+        "parent_signature": "48a474610e4c0af6f0c377971d2343c32e0400e0c77495cfda3b1f98f0fcc127",
+        "depth": 1,
+        "operator": "chain_transfer",
+        "score": [
+          -2.7337059752101216
+        ]
+      },
+      {
+        "signature": "d0c7e9ab82db45037fa8c74d79b42cd715318ad9c4404a771cdc8a13de6ef164",
+        "parent_signature": "48a474610e4c0af6f0c377971d2343c32e0400e0c77495cfda3b1f98f0fcc127",
+        "depth": 1,
+        "operator": "chain_transfer",
+        "score": [
+          -0.05742449237653602
+        ]
+      },
+      {
+        "signature": "b7bb111d8bc995ccab2fe2b797f22162f53ada7fa916216d52c3c8b177628539",
+        "parent_signature": "48a474610e4c0af6f0c377971d2343c32e0400e0c77495cfda3b1f98f0fcc127",
+        "depth": 1,
+        "operator": "chain_transfer",
+        "score": [
+          2.087831378020395
+        ]
+      },
+      {
+        "signature": "4e7a699a85ea4a016bd04464d2c4dd609db01ff26382053da29e016e91db78d6",
+        "parent_signature": "48a474610e4c0af6f0c377971d2343c32e0400e0c77495cfda3b1f98f0fcc127",
+        "depth": 1,
+        "operator": "chain_transfer",
+        "score": [
+          -4.657330942411882
+        ]
+      },
+      {
+        "signature": "ab38d75c9e3341a079880f4591f113a7f9e4e8eb8e26fef076615fad5f666413",
+        "parent_signature": "38fdf61dc1d082c24abf3d9cd3f7150534a79a652925b0e1094d6787304b5808",
+        "depth": 2,
+        "operator": "suffix_swap",
+        "score": [
+          -1.4791946311577808
+        ]
+      },
+      {
+        "signature": "a55b19e6f6516f6d1991ef7a28b5455669d166bf7ba10617cf61360637d0befb",
+        "parent_signature": "38fdf61dc1d082c24abf3d9cd3f7150534a79a652925b0e1094d6787304b5808",
+        "depth": 2,
+        "operator": "suffix_swap",
+        "score": [
+          -2.476803474646085
+        ]
+      },
+      {
+        "signature": "92e2a2d35750e8fb76e3e82891502b76fb3f69e87a09d8ff212c527cd43e1031",
+        "parent_signature": "4e7a699a85ea4a016bd04464d2c4dd609db01ff26382053da29e016e91db78d6",
+        "depth": 2,
+        "operator": "chain_transfer",
+        "score": [
+          -3.501164934287107
+        ]
+      },
+      {
+        "signature": "2d86bfd989f86008e896721bd8ad5b4aa61c04647114148ad6b50d930764d20f",
+        "parent_signature": "4e7a699a85ea4a016bd04464d2c4dd609db01ff26382053da29e016e91db78d6",
+        "depth": 2,
+        "operator": "chain_transfer",
+        "score": [
+          4.614175574628287
+        ]
+      },
+      {
+        "signature": "6ee1284403d020b79d652412eba4e92f26a07b6f673b3d63d15981a4d4cbe95a",
+        "parent_signature": "b7bb111d8bc995ccab2fe2b797f22162f53ada7fa916216d52c3c8b177628539",
+        "depth": 2,
+        "operator": "chain_transfer",
+        "score": [
+          1.9698040988650214
+        ]
+      },
+      {
+        "signature": "e87b59dd7736f6076233912b55952c5e500fd8269ec5c08899bff207f277040f",
+        "parent_signature": "2d86bfd989f86008e896721bd8ad5b4aa61c04647114148ad6b50d930764d20f",
+        "depth": 3,
+        "operator": "suffix_swap",
+        "score": [
+          4.326785964353643
+        ]
+      },
+      {
+        "signature": "458159c2c6966a798fcbe0cf0eb34e9e4ca62dad885a555662189289ce1240af",
+        "parent_signature": "ab38d75c9e3341a079880f4591f113a7f9e4e8eb8e26fef076615fad5f666413",
+        "depth": 3,
+        "operator": "suffix_swap",
+        "score": [
+          -3.7730221406516695
+        ]
+      }
+    ],
+    "physical_gain_measured": false
+  },
+  "selection": {
+    "schema": "physical_selection_v1",
+    "objective": "swap_count",
+    "selection_mode": "route_guarded",
+    "search_selection_was_original": false,
+    "selected_source": "original_guarded",
+    "output_is_original_plan": true,
+    "original_plan": {
+      "schema_version": 1,
+      "chains": [
+        [
+          0,
+          10
+        ],
+        [
+          1,
+          11
+        ],
+        [
+          2,
+          4,
+          6,
+          8
+        ],
+        [
+          3,
+          5,
+          7
+        ],
+        [
+          9
+        ]
+      ]
+    },
+    "candidate_plan": {
+      "schema_version": 1,
+      "chains": [
+        [
+          0,
+          2,
+          4,
+          6,
+          8
+        ],
+        [
+          1,
+          3,
+          5,
+          7
+        ],
+        [
+          9
+        ],
+        [
+          10
+        ],
+        [
+          11
+        ]
+      ]
+    },
+    "selected_plan": {
+      "schema_version": 1,
+      "chains": [
+        [
+          0,
+          10
+        ],
+        [
+          1,
+          11
+        ],
+        [
+          2,
+          4,
+          6,
+          8
+        ],
+        [
+          3,
+          5,
+          7
+        ],
+        [
+          9
+        ]
+      ]
+    },
+    "routes_for_main_method": 2,
+    "additional_control_routes": 1,
+    "original_route": {
+      "seed": 211,
+      "swap_count": 73,
+      "routed_depth": 299,
+      "routing_time_sec": 0.08944740000879392,
+      "operation_counts": {
+        "cx": 148,
+        "h": 2,
+        "reset": 7,
+        "swap": 73,
+        "t": 47,
+        "tdg": 60,
+        "u3": 33
+      }
+    },
+    "repaired_route": {
+      "seed": 211,
+      "swap_count": 88,
+      "routed_depth": 318,
+      "routing_time_sec": 0.02091859999927692,
+      "operation_counts": {
+        "cx": 148,
+        "h": 2,
+        "reset": 7,
+        "swap": 88,
+        "t": 47,
+        "tdg": 60,
+        "u3": 33
+      }
+    },
+    "selected_route": {
+      "seed": 211,
+      "swap_count": 73,
+      "routed_depth": 299,
+      "routing_time_sec": 0.08944740000879392,
+      "operation_counts": {
+        "cx": 148,
+        "h": 2,
+        "reset": 7,
+        "swap": 73,
+        "t": 47,
+        "tdg": 60,
+        "u3": 33
+      }
+    },
+    "actual_gain_abs": 0,
+    "actual_gain_pct": 0.0,
+    "gain_pct_defined": true,
+    "both_metrics_are_recorded": true,
+    "zero_observed_harm_guarantee_scope": "only the measured matched-seed routes in route_guarded mode",
+    "original_best_of_two_control": {
+      "second_original": {
+        "seed": 1211,
+        "swap_count": 96,
+        "routed_depth": 317,
+        "routing_time_sec": 0.022624199991696514,
+        "operation_counts": {
+          "cx": 148,
+          "h": 2,
+          "reset": 7,
+          "swap": 96,
+          "t": 47,
+          "tdg": 60,
+          "u3": 33
+        }
+      },
+      "best_original": {
+        "seed": 211,
+        "swap_count": 73,
+        "routed_depth": 299,
+        "routing_time_sec": 0.08944740000879392,
+        "operation_counts": {
+          "cx": 148,
+          "h": 2,
+          "reset": 7,
+          "swap": 73,
+          "t": 47,
+          "tdg": 60,
+          "u3": 33
+        }
+      },
+      "control_gain_abs": 0,
+      "control_gain_pct": 0.0,
+      "guard_minus_control_abs": 0
+    }
+  },
+  "timing": {
+    "search_time_sec": 0.2788961000042036,
+    "materialization_time_sec": 0.020605899990187027,
+    "physical_selection_time_sec": 0.13445270000374876
+  },
+  "independent_validation": false,
+  "cautions": [
+    "No routing labels were read during search",
+    "Feature extraction source parity with friend training dataset not yet independently verified; one-step model used in multi-step beam is distribution shift",
+    "One observed routing seed cannot support a generalization or no-harm claim",
+    "Generator label is provenance supplied by caller; native generator parsing not yet verified",
+    "Do not mix compiler revisions or compare different router settings as matched results"
+  ]
+}

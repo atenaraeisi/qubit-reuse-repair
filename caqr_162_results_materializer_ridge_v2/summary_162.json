@@ -1,0 +1,149 @@
+{
+  "schema": "caqr_162_exploratory_campaign_v1",
+  "roster_count": 162,
+  "screen_counts": {
+    "no_reuse": 113,
+    "no_observed_neighbor": 9,
+    "ready": 38,
+    "final_test_reserved": 2
+  },
+  "routing_job_counts": {
+    "no_reuse": 678,
+    "no_observed_neighbor": 54,
+    "ok": 228,
+    "final_test_reserved": 12
+  },
+  "groups": [
+    {
+      "objective": "swap_count",
+      "split": "known_train",
+      "n_roster": 38,
+      "n_ready": 15,
+      "n_fully_evaluated": 15,
+      "n_gain_percent_defined": 15,
+      "mean_gain_pct_over_complete_macro": 9.372170908472526,
+      "n_any_positive": 10,
+      "n_any_negative_proposal": 10,
+      "n_any_beats_best2": 8
+    },
+    {
+      "objective": "swap_count",
+      "split": "known_validation",
+      "n_roster": 12,
+      "n_ready": 4,
+      "n_fully_evaluated": 4,
+      "n_gain_percent_defined": 4,
+      "mean_gain_pct_over_complete_macro": 10.208333333333334,
+      "n_any_positive": 3,
+      "n_any_negative_proposal": 1,
+      "n_any_beats_best2": 2
+    },
+    {
+      "objective": "swap_count",
+      "split": "unassigned",
+      "n_roster": 110,
+      "n_ready": 19,
+      "n_fully_evaluated": 19,
+      "n_gain_percent_defined": 19,
+      "mean_gain_pct_over_complete_macro": 1.8976323049299155,
+      "n_any_positive": 7,
+      "n_any_negative_proposal": 3,
+      "n_any_beats_best2": 7
+    },
+    {
+      "objective": "swap_count",
+      "split": "final_test_reserved",
+      "n_roster": 2,
+      "n_ready": 0,
+      "n_fully_evaluated": 0,
+      "n_gain_percent_defined": 0,
+      "mean_gain_pct_over_complete_macro": null,
+      "n_any_positive": 0,
+      "n_any_negative_proposal": 0,
+      "n_any_beats_best2": 0
+    },
+    {
+      "objective": "swap_count",
+      "split": "ALL_EXPLORATORY",
+      "n_roster": 160,
+      "n_ready": 38,
+      "n_fully_evaluated": 38,
+      "n_gain_percent_defined": 38,
+      "mean_gain_pct_over_complete_macro": 5.72291870405499,
+      "n_any_positive": 20,
+      "n_any_negative_proposal": 14,
+      "n_any_beats_best2": 17
+    },
+    {
+      "objective": "routed_depth",
+      "split": "known_train",
+      "n_roster": 38,
+      "n_ready": 15,
+      "n_fully_evaluated": 15,
+      "n_gain_percent_defined": 15,
+      "mean_gain_pct_over_complete_macro": 5.098802761371775,
+      "n_any_positive": 11,
+      "n_any_negative_proposal": 2,
+      "n_any_beats_best2": 11
+    },
+    {
+      "objective": "routed_depth",
+      "split": "known_validation",
+      "n_roster": 12,
+      "n_ready": 4,
+      "n_fully_evaluated": 4,
+      "n_gain_percent_defined": 4,
+      "mean_gain_pct_over_complete_macro": 3.3327146687470575,
+      "n_any_positive": 2,
+      "n_any_negative_proposal": 2,
+      "n_any_beats_best2": 2
+    },
+    {
+      "objective": "routed_depth",
+      "split": "unassigned",
+      "n_roster": 110,
+      "n_ready": 19,
+      "n_fully_evaluated": 19,
+      "n_gain_percent_defined": 19,
+      "mean_gain_pct_over_complete_macro": 2.112696618671887,
+      "n_any_positive": 10,
+      "n_any_negative_proposal": 7,
+      "n_any_beats_best2": 8
+    },
+    {
+      "objective": "routed_depth",
+      "split": "final_test_reserved",
+      "n_roster": 2,
+      "n_ready": 0,
+      "n_fully_evaluated": 0,
+      "n_gain_percent_defined": 0,
+      "mean_gain_pct_over_complete_macro": null,
+      "n_any_positive": 0,
+      "n_any_negative_proposal": 0,
+      "n_any_beats_best2": 0
+    },
+    {
+      "objective": "routed_depth",
+      "split": "ALL_EXPLORATORY",
+      "n_roster": 160,
+      "n_ready": 38,
+      "n_fully_evaluated": 38,
+      "n_gain_percent_defined": 38,
+      "mean_gain_pct_over_complete_macro": 3.419845680271861,
+      "n_any_positive": 23,
+      "n_any_negative_proposal": 11,
+      "n_any_beats_best2": 21
+    }
+  ],
+  "warnings": [
+    "No final-test tuning; two reserved filenames locked by default",
+    "Check selected model_set in evaluation_protocol.json; old and new results MUST NOT be pooled",
+    "Materializer Ridge uses fixed TRAIN medians and delta mean/sd; parity of feature extraction with trainer source is not independently verified",
+    "One-step supervised model applied during deeper beam search introduces distribution shift",
+    "Unassigned split does not imply training independence; whole data are not independent validation",
+    "Group by circuit before averaging across circuits; report family dependence",
+    "The saved per-circuit table contains all 162 circuits including failures and no-neighbor cases",
+    "No-neighbor / unscreened / failures are not assigned fabricated physical gains",
+    "Final Guard nonnegative selected-seed gain does NOT establish expected improvement or outperform Best-of-2"
+  ]
+}

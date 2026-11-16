@@ -71,20 +71,44 @@ def run(args):
             normalized=normalize_reset_for_depth(dyn)
             compile_cache[plan.signature]=(float(dyn.depth() or 0),float(normalized.depth() or 0))
         return compile_cache[plan.signature]
-    bridge=PilotFeatureBridge(StructuralFeatureExtractor(source),compile_depths,reference_plans)
-    model=TrainOnlyDeltaRidge(checkpoint,bridge,objective=args.objective)
-    model_info={
-        'path':str(args.checkpoint),'sha256':_hash(args.checkpoint),
-        'protocol':checkpoint['protocol'],'arm':args.arm,
-        'training_overlap_filename':training_overlap,
-        'n_train_circuits':len(checkpoint.get('training_circuits',[])),
-        'feature_definition':'historical 23 structural + common materializer logical depth + historical reset-lowering normalized depth',
-        'normalization':'frozen, deterministic one-step valid neighbor pool; pandas mean and std(ddof=0)',
-        'normalization_fingerprint':bridge.normalizer.fingerprint,
-        'reference_pool_size':len(reference_plans),
-        'reference_raw_attempts':refstats.attempted,
-        'warning':'The reference pool/compiler differs from training; pretrained weights are exploratory transfer ONLY',
-    }
+    if checkpoint.get('protocol') == 'materializer25_rawdelta_group_ridge_v1':
+        # The newly trained model consumes RAW plan features, then subtracts
+        # and standardizes deltas using TRAINING-ONLY fixed coefficients.
+        # DO NOT reuse the old per-circuit frozen reference-pool normalizer.
+        from qubit_reuse_repair.features.materializer_raw import MaterializerRawFeatureProvider
+        from qubit_reuse_repair.search.materializer_ridge import MaterializerDeltaRidge
+        provider=MaterializerRawFeatureProvider(
+            source,materializer=materializer,extractor=StructuralFeatureExtractor(source))
+        model=MaterializerDeltaRidge(checkpoint,provider,objective=args.objective)
+        model_info={
+            'path':str(args.checkpoint),'sha256':_hash(args.checkpoint),
+            'protocol':checkpoint['protocol'],'arm':args.arm,
+            'training_overlap_filename':training_overlap,
+            'n_train_circuits':len(checkpoint.get('training_circuits',[])),
+            'n_train_pairs':checkpoint.get('n_training_examples'),
+            'feature_definition':'23 raw structural + common materializer logical_depth and reset-lowered norm_depth',
+            'normalization':'raw plan imputation using TRAIN medians; Candidate - Original raw delta; TRAIN delta mean/sd',
+            'reference_pool_size':len(reference_plans),
+            'reference_raw_attempts':refstats.attempted,
+            'warning':'Feature extraction source parity with friend training dataset not yet independently verified; one-step model used in multi-step beam is distribution shift',
+        }
+    elif checkpoint.get('protocol') == 'fixed_train_family_cv_25delta_ridge_v1':
+        bridge=PilotFeatureBridge(StructuralFeatureExtractor(source),compile_depths,reference_plans)
+        model=TrainOnlyDeltaRidge(checkpoint,bridge,objective=args.objective)
+        model_info={
+            'path':str(args.checkpoint),'sha256':_hash(args.checkpoint),
+            'protocol':checkpoint['protocol'],'arm':args.arm,
+            'training_overlap_filename':training_overlap,
+            'n_train_circuits':len(checkpoint.get('training_circuits',[])),
+            'feature_definition':'historical 23 structural + common materializer logical depth + historical reset-lowering normalized depth',
+            'normalization':'frozen, deterministic one-step valid neighbor pool; pandas mean and std(ddof=0)',
+            'normalization_fingerprint':bridge.normalizer.fingerprint,
+            'reference_pool_size':len(reference_plans),
+            'reference_raw_attempts':refstats.attempted,
+            'warning':'The reference pool/compiler differs from training; pretrained weights are exploratory transfer ONLY',
+        }
+    else:
+        raise ValueError('Unsupported checkpoint protocol: '+str(checkpoint.get('protocol')))
     print('Frozen reference plans:',len(reference_plans),'prepared in',round(time.perf_counter()-t0,2),'s')
     print('Checkpoint:',checkpoint['objective'],checkpoint['arm'],'TRAIN_ONLY; no retraining')
 
@@ -120,7 +144,7 @@ def run(args):
         second=res.physical.original_best_of_two.second_original
         (output/'original_control_second_routed.qasm').write_text(second.circuit.qasm(),encoding='utf-8')
     report={
-        'schema':'exploratory_frozen_ridge_cross_compiler_pilot_v1',
+        'schema':'generator_neutral_materializer_ridge_pilot_v2',
         'generator_label_user_supplied':args.generator,
         'source_qasm':str(qasm),'source_qasm_filename':qasm.name,'source_sha256':_hash(qasm),
         'plan_sha256':_hash(args.plan),'objective':args.objective,
@@ -134,10 +158,10 @@ def run(args):
         'timing':res.to_dict()['timing'],
         'independent_validation':False if training_overlap else 'unseen-name pilot; not independently validated model/feature transfer',
         'cautions':['No routing labels were read during search',
-          'The frozen model was trained for a different compiler/reference-pool distribution',
+          model_info['warning'],
           'One observed routing seed cannot support a generalization or no-harm claim',
           'Generator label is provenance supplied by caller; native generator parsing not yet verified',
-          'Do not compare these physical metrics with old GidNET compiler metrics as if interchangeable']
+          'Do not mix compiler revisions or compare different router settings as matched results']
     }
     (output/'routing_report.json').write_text(json.dumps(report,indent=2,ensure_ascii=False),encoding='utf-8')
     a,b=res.physical.original_route,res.physical.repaired_route
@@ -156,7 +180,7 @@ def build_parser():
     p.add_argument('--plan',required=True,type=Path)
     p.add_argument('--generator',choices=['CaQR','DQCC','GidNET'],required=True)
     p.add_argument('--checkpoint',required=True,type=Path,
-        help='One of 4 ml_ridge_multistep25_v1/*TRAIN_ONLY.json files')
+        help='A MATERIALIZER raw-delta or legacy TRAIN_ONLY Ridge JSON checkpoint')
     p.add_argument('--arm',choices=['one_step','multi_step'],default='one_step')
     p.add_argument('--objective',choices=['swap_count','routed_depth'],required=True)
     p.add_argument('--policy',choices=['random_beam','adaptive_beam'],default='random_beam')

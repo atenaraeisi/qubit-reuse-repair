@@ -1,0 +1,26 @@
+{
+  "feature_protocol": "common_materializer_raw25_v1",
+  "feature_sha256": "c1a04ff399f50cfbc7e63e0eef257491bab6888592e9764ff673be80ef9b5f59",
+  "layout": "sabre",
+  "manifest_sha256": "94ab7490df3cf48e2d0f4c828c8c630b5c01fc73af750335f64658e12a912f7b",
+  "materializer_sha256": "49bfdf47752361bd6885e03fc8a9525833b9e3443d8a35bb8dd4410d38e170fc",
+  "max_neighbors": 12,
+  "mutation_attempts": 150,
+  "optimization_level": 1,
+  "qiskit_version": "0.45.3",
+  "roster_sha256": "277d16e09e46c9e16b13296b3f1588a0f7ace36c56a0039cfbd249a375b93ac8",
+  "router_sha256": "4846b0f81e6d65921342708e0eb14480071a489ad00cf2c5ba5b728622f6809b",
+  "routing": "sabre",
+  "schema": "materializer25_pair_collection_v1",
+  "topology": "heavy_hex7",
+  "train_seeds": [
+    42,
+    43,
+    44
+  ],
+  "validation_seeds": [
+    200,
+    211,
+    223
+  ]
+}

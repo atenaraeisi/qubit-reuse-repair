@@ -1,0 +1,23 @@
+{
+  "circuit": "bv_n10.qasm",
+  "family_heuristic": "bv_n10",
+  "previous_split": "known_train",
+  "training_filename_overlap": false,
+  "reserved_final_test": false,
+  "status": "no_observed_neighbor",
+  "error": "",
+  "qasm_sha256": "eb2f274e47f1a8d583bf854e43c3f74eb718ca272710b172177a79d2d40c21a3",
+  "declared_qubits": 10,
+  "active_qubits": 10,
+  "caqr_elapsed_seconds": 3.349,
+  "active_width": 2,
+  "reuse_edges": 8,
+  "width_reduction_pct": 80.0,
+  "plan_sha256": "94ad76b96571c592ce0f52e25ba1d68c15c914e4b32ecb44a65445a618e1a0ce",
+  "valid_one_step_neighbors": 0,
+  "raw_attempts": 27,
+  "qasm_path": "C:\\Users\\ASUS\\Documents\\Quantum computing\\qubit-reuse-repair\\pilot_cases\\CaQR_162\\bv_n10.qasm",
+  "plan_path": "C:\\Users\\ASUS\\Documents\\Quantum computing\\qubit-reuse-repair\\pilot_cases\\CaQR_162\\bv_n10.plan.json",
+  "native_chain_path": "C:\\Users\\ASUS\\Documents\\Quantum computing\\qubit-reuse-repair\\pilot_cases\\CaQR_162\\bv_n10.native_caqr_chain.txt",
+  "caqr_reused_qasm_path": "C:\\Users\\ASUS\\Documents\\Quantum computing\\qubit-reuse-repair\\pilot_cases\\CaQR_162\\bv_n10.native_caqr_output.qasm"
+}

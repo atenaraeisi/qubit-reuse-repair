@@ -1,0 +1,10 @@
+STDOUT:
+Frozen reference plans: 2 prepared in 0.0 s
+Checkpoint: swap_count one_step TRAIN_ONLY; no retraining
+Policy random_beam original: ((1, 0), (2,), (3,), (4,)) proposed: ((1, 0), (2,), (3,), (4,))
+Scored candidates: 1 predicted gain: (0.0,) actual proposed cost (SWAP,depth): (8, 35)
+Original (SWAP,depth): (8, 35)
+Final source: original_unchanged selected metric gain: 0.0
+Report: C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\alu-v2_33\swap_count\seed_211\routed\routing_report.json
+
+STDERR:

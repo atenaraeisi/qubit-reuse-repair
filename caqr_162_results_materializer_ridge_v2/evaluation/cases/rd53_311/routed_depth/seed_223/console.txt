@@ -1,0 +1,10 @@
+STDOUT:
+Frozen reference plans: 23 prepared in 0.03 s
+Checkpoint: routed_depth one_step TRAIN_ONLY; no retraining
+Policy random_beam original: ((0, 2), (3, 9), (4, 10), (5,), (6, 12), (7,), (8, 1), (11,)) proposed: ((0, 10), (2,), (3, 9), (4, 8, 1), (5,), (6, 12), (7,), (11,))
+Scored candidates: 120 predicted gain: (6.431731490341695,) actual proposed cost (SWAP,depth): (74, 223)
+Original (SWAP,depth): (86, 240)
+Final source: repaired selected metric gain: 7.083333333333333
+Report: C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\rd53_311\routed_depth\seed_223\routed\routing_report.json
+
+STDERR:

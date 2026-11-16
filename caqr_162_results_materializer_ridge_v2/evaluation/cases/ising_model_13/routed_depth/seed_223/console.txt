@@ -1,0 +1,10 @@
+STDOUT:
+Frozen reference plans: 3 prepared in 0.01 s
+Checkpoint: routed_depth one_step TRAIN_ONLY; no retraining
+Policy random_beam original: ((0, 10), (1, 12), (2,), (3,), (4,), (5,), (6,), (7,), (8,), (9,), (11,)) proposed: ((0, 11), (1, 12), (2,), (3,), (4,), (5,), (6,), (7,), (8,), (9,), (10,))
+Scored candidates: 3 predicted gain: (2.046595286163766,) actual proposed cost (SWAP,depth): (18, 137)
+Original (SWAP,depth): (3, 118)
+Final source: original_guarded selected metric gain: 0.0
+Report: C:\Users\ASUS\Documents\Quantum computing\qubit-reuse-repair\caqr_162_results_materializer_ridge_v2\evaluation\cases\ising_model_13\routed_depth\seed_223\routed\routing_report.json
+
+STDERR:

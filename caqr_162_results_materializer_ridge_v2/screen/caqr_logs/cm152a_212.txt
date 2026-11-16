@@ -1,0 +1,4 @@
+STDOUT:
+We reuse 4 qubits, and now a total of 8 logical qubits are used.
+
+STDERR:

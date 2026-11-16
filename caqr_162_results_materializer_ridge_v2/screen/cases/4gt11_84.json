@@ -1,0 +1,23 @@
+{
+  "circuit": "4gt11_84.qasm",
+  "family_heuristic": "four_gt",
+  "previous_split": "known_validation",
+  "training_filename_overlap": false,
+  "reserved_final_test": false,
+  "status": "ready",
+  "error": "",
+  "qasm_sha256": "911406a191a15d9ae3b5b1730a421461d4e0ace2356c1905d53d5d8fc0d33561",
+  "declared_qubits": 16,
+  "active_qubits": 4,
+  "caqr_elapsed_seconds": 2.349,
+  "active_width": 3,
+  "reuse_edges": 1,
+  "width_reduction_pct": 25.0,
+  "plan_sha256": "e77d8c1bbc505007edc56e301557d4a73ec58368395bda23c7638aba405de586",
+  "valid_one_step_neighbors": 1,
+  "raw_attempts": 13,
+  "qasm_path": "C:\\Users\\ASUS\\Documents\\Quantum computing\\qubit-reuse-repair\\pilot_cases\\CaQR_162\\4gt11_84.qasm",
+  "plan_path": "C:\\Users\\ASUS\\Documents\\Quantum computing\\qubit-reuse-repair\\pilot_cases\\CaQR_162\\4gt11_84.plan.json",
+  "native_chain_path": "C:\\Users\\ASUS\\Documents\\Quantum computing\\qubit-reuse-repair\\pilot_cases\\CaQR_162\\4gt11_84.native_caqr_chain.txt",
+  "caqr_reused_qasm_path": "C:\\Users\\ASUS\\Documents\\Quantum computing\\qubit-reuse-repair\\pilot_cases\\CaQR_162\\4gt11_84.native_caqr_output.qasm"
+}

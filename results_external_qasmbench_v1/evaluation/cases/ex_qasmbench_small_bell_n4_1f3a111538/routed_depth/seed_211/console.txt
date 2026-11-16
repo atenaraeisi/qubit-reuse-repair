@@ -1,0 +1,10 @@
+STDOUT:
+Frozen reference plans: 3 prepared in 0.01 s
+Checkpoint: routed_depth one_step TRAIN_ONLY; no retraining
+Policy random_beam original: ((0, 3), (1,), (2,)) proposed: ((0,), (2, 1), (3,))
+Scored candidates: 3 predicted gain: (0.15925551851499115,) actual proposed cost (SWAP,depth): (0, 18)
+Original (SWAP,depth): (0, 17)
+Final source: original_guarded selected metric gain: 0.0
+Report: results_external_qasmbench_v1\evaluation\cases\ex_qasmbench_small_bell_n4_1f3a111538\routed_depth\seed_211\routed\routing_report.json
+
+STDERR:

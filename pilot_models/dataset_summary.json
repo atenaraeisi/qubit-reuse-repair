@@ -1,0 +1,10 @@
+{
+  "file": "learning_combined_final_v1/pairs.jsonl",
+  "n_cases": 42,
+  "n_pairs": 212,
+  "statuses": {
+    "failed": 2,
+    "no_neighbor": 5,
+    "ok": 35
+  }
+}

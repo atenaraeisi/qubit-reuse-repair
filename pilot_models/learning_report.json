@@ -1,0 +1,145 @@
+{
+  "excluded_overlapping_families": [],
+  "feature_protocol": "common_materializer_raw25_v1",
+  "final_test_used": false,
+  "hyperparameter_grid": [
+    0.1,
+    1.0,
+    10.0,
+    100.0
+  ],
+  "model_selection": "grouped CV on TRAIN only; validation never selects alpha",
+  "n_train_pairs": 199,
+  "n_validation_pairs": 13,
+  "protocol": "materializer25_train_only_v1",
+  "routed_depth": {
+    "alpha": 100.0,
+    "checkpoint": "learned_models_final_v1/routed_depth_one_step_MATERIALIZER.json",
+    "cv": {
+      "0.1": {
+        "family_cv_circuit_macro_mae": 5.127193500853443,
+        "mean_gain_pct": 2.492858839277043,
+        "n_harmed": 7,
+        "n_originals": 27,
+        "n_positive": 18
+      },
+      "1.0": {
+        "family_cv_circuit_macro_mae": 4.803615779773239,
+        "mean_gain_pct": 2.5773081093940657,
+        "n_harmed": 7,
+        "n_originals": 27,
+        "n_positive": 18
+      },
+      "10.0": {
+        "family_cv_circuit_macro_mae": 4.1564472139256035,
+        "mean_gain_pct": 2.0670408746984803,
+        "n_harmed": 8,
+        "n_originals": 27,
+        "n_positive": 16
+      },
+      "100.0": {
+        "family_cv_circuit_macro_mae": 3.9101745941520796,
+        "mean_gain_pct": 1.9586998710672374,
+        "n_harmed": 7,
+        "n_originals": 27,
+        "n_positive": 13
+      }
+    },
+    "n_constant_features": 0,
+    "n_train_eligible": 199,
+    "n_validation_eligible": 13,
+    "validation_prediction_only": {
+      "mean_gain_pct": 3.442304701538928,
+      "n_harmed": 2,
+      "n_originals": 8,
+      "n_positive": 2
+    }
+  },
+  "source": "learning_combined_final_v1/pairs.jsonl",
+  "source_sha256": "a693d60c7e5eadad3df6d70c56843357188a15eea14c6e5e5e6a7ca4c9a0be67",
+  "swap_count": {
+    "alpha": 0.1,
+    "checkpoint": "learned_models_final_v1/swap_count_one_step_MATERIALIZER.json",
+    "cv": {
+      "0.1": {
+        "family_cv_circuit_macro_mae": 11.99623795631803,
+        "mean_gain_pct": 3.137629728217547,
+        "n_harmed": 10,
+        "n_originals": 27,
+        "n_positive": 11
+      },
+      "1.0": {
+        "family_cv_circuit_macro_mae": 12.417157418248108,
+        "mean_gain_pct": 3.0578769177978575,
+        "n_harmed": 10,
+        "n_originals": 27,
+        "n_positive": 10
+      },
+      "10.0": {
+        "family_cv_circuit_macro_mae": 13.721412320213634,
+        "mean_gain_pct": -0.7762291940057109,
+        "n_harmed": 10,
+        "n_originals": 27,
+        "n_positive": 10
+      },
+      "100.0": {
+        "family_cv_circuit_macro_mae": 13.176223542383152,
+        "mean_gain_pct": -0.9870044111293913,
+        "n_harmed": 10,
+        "n_originals": 27,
+        "n_positive": 9
+      }
+    },
+    "n_constant_features": 0,
+    "n_train_eligible": 199,
+    "n_validation_eligible": 13,
+    "validation_prediction_only": {
+      "mean_gain_pct": 4.643945993031359,
+      "n_harmed": 2,
+      "n_originals": 8,
+      "n_positive": 3
+    }
+  },
+  "train_circuits": [
+    "alu-v0_27.qasm",
+    "cm152a_212.qasm",
+    "cm42a_207.qasm",
+    "cnt3-5_180.qasm",
+    "graycode6_47.qasm",
+    "mini_alu_305.qasm",
+    "multiply_n13.qasm",
+    "rd53_311.qasm",
+    "rd73_140.qasm",
+    "rd84_142.qasm",
+    "sym6_316.qasm",
+    "sym9_146.qasm",
+    "sys6-v0_111.qasm",
+    "system9.qasm"
+  ],
+  "train_families": [
+    "alu",
+    "cm",
+    "cnt3_5",
+    "graycode6",
+    "multiplication_related",
+    "rd",
+    "symmetry",
+    "system"
+  ],
+  "validation_circuits": [
+    "4gt11_84.qasm",
+    "4mod5-v0_20.qasm",
+    "ising_model_16.qasm",
+    "mod5mils_65.qasm"
+  ],
+  "validation_families": [
+    "four_gt",
+    "ising_model",
+    "modular_arithmetic"
+  ],
+  "warnings": [
+    "one-step model applied to multi-step search is distribution shift",
+    "Results on validation families are descriptive, not independent final-test results",
+    "Proposed physical gain is not Final Guard gain"
+  ]
+}

@@ -1,0 +1,7 @@
+[
+  {
+    "generator": "DQCC",
+    "qasm": "pilot_cases/DQCC/REPLACE_WITH_SOURCE.qasm",
+    "plan": "pilot_cases/DQCC/REPLACE_WITH_REAL_DQCC_PLAN.plan.json"
+  }
+]
